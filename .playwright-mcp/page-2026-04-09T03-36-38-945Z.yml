@@ -1,0 +1,46 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to Main Content" [ref=e3] [cursor=pointer]:
+      - /url: javascript:void(0);
+    - main [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e12]:
+          - generic [ref=e13]:
+            - heading "Error" [level=4] [ref=e14]
+            - generic [ref=e16]:
+              - img
+            - heading "This page is outside of the Universe" [level=4] [ref=e17]
+            - paragraph [ref=e18]:
+              - text: The page you are trying to access does not exist or has been moved.
+              - text: Try going back to our homepage.
+            - link "Go to homepage" [ref=e19] [cursor=pointer]:
+              - /url: https://support.freepik.com
+          - paragraph [ref=e20]:
+            - text: If you think this is an error, contact our support team at
+            - link "support@freepik.com" [ref=e21] [cursor=pointer]:
+              - /url: mailto:support@freepik.com
+        - generic [ref=e27]:
+          - generic [ref=e28]:
+            - img [ref=e30]
+            - generic [ref=e32]: Copyright © 2010-2026 Freepik Company S.L.U. All rights reserved.
+          - generic [ref=e33]:
+            - generic [ref=e34]:
+              - link "Terms of use" [ref=e35] [cursor=pointer]:
+                - /url: https://www.freepik.com/legal/terms-of-use#nav-freepik
+              - text: "|"
+            - generic [ref=e36]:
+              - link "Privacy Policy" [ref=e37] [cursor=pointer]:
+                - /url: https://www.freepik.com/legal/privacy
+              - text: "|"
+            - generic [ref=e38]:
+              - link "All rights reserved" [ref=e39] [cursor=pointer]:
+                - /url: https://www.freepik.com/legal/copyright
+              - text: "|"
+            - generic [ref=e40]:
+              - link "Cookies policy" [ref=e41] [cursor=pointer]:
+                - /url: https://www.freepik.com/legal/cookies
+              - text: "|"
+    - contentinfo
+  - generic:
+    - status
+  - generic [ref=e43]: Error

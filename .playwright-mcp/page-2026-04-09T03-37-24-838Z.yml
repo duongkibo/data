@@ -1,0 +1,532 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - navigation "Sidebar" [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e10]:
+            - generic [ref=e11]:
+              - button "P" [ref=e13] [cursor=pointer]:
+                - generic [ref=e15]: P
+              - button "openSearch" [ref=e16] [cursor=pointer]:
+                - img [ref=e18]
+              - link "Home" [ref=e20] [cursor=pointer]:
+                - /url: https://www.freepik.com/
+                - img [ref=e22]
+              - link "Stock" [ref=e24] [cursor=pointer]:
+                - /url: https://www.freepik.com/stock#from_element=mainmenu
+                - img [ref=e27]
+              - generic [ref=e30]:
+                - link "Stock" [ref=e32] [cursor=pointer]:
+                  - /url: https://www.freepik.com/stock#from_element=mainmenu
+                  - heading "Stock" [level=3] [ref=e34]
+                - generic [ref=e35]:
+                  - generic:
+                    - heading "Image" [level=4] [ref=e39]
+                    - generic:
+                      - link "All images" [ref=e40] [cursor=pointer]:
+                        - /url: https://www.freepik.com/images#from_element=mainmenu
+                        - generic [ref=e41]: All images
+                      - link "Vectors" [ref=e42] [cursor=pointer]:
+                        - /url: https://www.freepik.com/vectors#from_element=mainmenu
+                        - generic [ref=e43]: Vectors
+                      - link "Photos" [ref=e44] [cursor=pointer]:
+                        - /url: https://www.freepik.com/photos#from_element=mainmenu
+                        - generic [ref=e45]: Photos
+                      - link "Illustrations" [ref=e46] [cursor=pointer]:
+                        - /url: https://www.freepik.com/illustrations#from_element=mainmenu
+                        - generic [ref=e47]: Illustrations
+                      - link "Icons" [ref=e48] [cursor=pointer]:
+                        - /url: https://www.freepik.com/icons#from_element=mainmenu
+                        - generic [ref=e49]: Icons
+                      - link "3D" [ref=e50] [cursor=pointer]:
+                        - /url: https://www.freepik.com/3d-models#from_element=mainmenu
+                        - generic [ref=e51]: 3D
+                  - generic:
+                    - heading "Video" [level=4] [ref=e53]
+                    - generic:
+                      - link "Videos" [ref=e54] [cursor=pointer]:
+                        - /url: https://www.freepik.com/videos#from_element=mainmenu
+                        - generic [ref=e55]: Videos
+                      - link "Video templates" [ref=e56] [cursor=pointer]:
+                        - /url: https://www.freepik.com/video-templates#from_element=mainmenu
+                        - generic [ref=e57]: Video templates
+                      - link "Motion graphics" [ref=e58] [cursor=pointer]:
+                        - /url: https://www.freepik.com/motion-graphics#from_element=mainmenu
+                        - generic [ref=e59]: Motion graphics
+                  - generic:
+                    - heading "Audio" [level=4] [ref=e61]
+                    - generic:
+                      - link "Sound Effects" [ref=e62] [cursor=pointer]:
+                        - /url: https://www.freepik.com/audio/sound-effects#from_element=mainmenu
+                        - generic [ref=e63]: Sound Effects
+                      - link "Music" [ref=e64] [cursor=pointer]:
+                        - /url: https://www.freepik.com/audio/music#from_element=mainmenu
+                        - generic [ref=e65]: Music
+                  - generic:
+                    - heading "Design" [level=4] [ref=e68]
+                    - generic:
+                      - link "Templates" [ref=e69] [cursor=pointer]:
+                        - /url: https://www.freepik.com/templates#from_element=mainmenu
+                        - generic [ref=e70]: Templates
+                      - link "Mockups" [ref=e71] [cursor=pointer]:
+                        - /url: https://www.freepik.com/mockups#from_element=mainmenu
+                        - generic [ref=e72]: Mockups
+                      - link "Fonts" [ref=e73] [cursor=pointer]:
+                        - /url: https://www.freepik.com/fonts#from_element=mainmenu
+                        - generic [ref=e74]: Fonts
+                      - link "PSD" [ref=e75] [cursor=pointer]:
+                        - /url: https://www.freepik.com/psd#from_element=mainmenu
+                        - generic [ref=e76]: PSD
+                - generic [ref=e77]:
+                  - link "My Collections" [ref=e78] [cursor=pointer]:
+                    - /url: https://www.freepik.com/user/collections#from_element=mainmenu
+                    - generic [ref=e79]:
+                      - img [ref=e80]
+                      - text: My Collections
+                  - link "Downloads" [ref=e83] [cursor=pointer]:
+                    - /url: https://www.freepik.com/user/downloads#from_element=mainmenu
+                    - generic [ref=e84]:
+                      - img [ref=e85]
+                      - text: Downloads
+              - link "Community" [ref=e88] [cursor=pointer]:
+                - /url: /pikaso/community#from_element=mainmenu
+                - img [ref=e90]
+            - generic [ref=e93]:
+              - link [ref=e95] [cursor=pointer]:
+                - /url: /pikaso/spaces#from_element=mainmenu&from_view=pinned_tool
+                - img [ref=e97]
+              - link [ref=e101] [cursor=pointer]:
+                - /url: /pikaso/ai-image-generator#from_element=mainmenu&from_view=pinned_tool
+                - img [ref=e103]
+              - link [ref=e108] [cursor=pointer]:
+                - /url: /pikaso/ai-video-generator#from_element=mainmenu&from_view=pinned_tool
+                - img [ref=e110]
+              - link [ref=e113] [cursor=pointer]:
+                - /url: /pikaso/voiceover#from_element=mainmenu&from_view=pinned_tool
+                - img [ref=e115]
+              - link [ref=e120] [cursor=pointer]:
+                - /url: /pikaso/assistant#from_element=mainmenu&from_view=pinned_tool
+                - img [ref=e122]
+              - button "All tools" [ref=e125] [cursor=pointer]:
+                - img [ref=e127]
+              - generic [ref=e130]:
+                - heading "All tools" [level=3] [ref=e131]
+                - generic [ref=e132]:
+                  - generic:
+                    - heading "Image" [level=4] [ref=e136]
+                    - generic:
+                      - generic:
+                        - link "Image Generator" [ref=e137] [cursor=pointer]:
+                          - /url: /pikaso/ai-image-generator#from_element=mainmenu
+                          - generic [ref=e138]: Image Generator
+                        - button [ref=e139] [cursor=pointer]:
+                          - img [ref=e140]
+                      - generic:
+                        - link "Image Editor" [ref=e142] [cursor=pointer]:
+                          - /url: /pikaso/image-editor#from_element=mainmenu
+                          - generic [ref=e143]: Image Editor
+                        - button [ref=e144] [cursor=pointer]:
+                          - img [ref=e145]
+                      - generic:
+                        - link "Image Upscaler" [ref=e147] [cursor=pointer]:
+                          - /url: /pikaso/image-editor?tool=upscale#from_element=mainmenu
+                          - generic [ref=e148]: Image Upscaler
+                        - button [ref=e149] [cursor=pointer]:
+                          - img [ref=e150]
+                      - generic:
+                        - link "Image Extender" [ref=e152] [cursor=pointer]:
+                          - /url: /pikaso/image-editor?tool=expand#from_element=mainmenu
+                          - generic [ref=e153]: Image Extender
+                        - button [ref=e154] [cursor=pointer]:
+                          - img [ref=e155]
+                      - generic:
+                        - link "Variations" [ref=e157] [cursor=pointer]:
+                          - /url: /pikaso/tools/variations#from_element=mainmenu
+                          - generic [ref=e158]: Variations
+                        - button [ref=e159] [cursor=pointer]:
+                          - img [ref=e160]
+                      - generic:
+                        - link "Cinematic Shot New" [ref=e162] [cursor=pointer]:
+                          - /url: /pikaso/tools/cinematic-shot#from_element=mainmenu
+                          - generic [ref=e163]:
+                            - text: Cinematic Shot
+                            - generic [ref=e164]: New
+                        - button [ref=e165] [cursor=pointer]:
+                          - img [ref=e166]
+                      - generic:
+                        - link "Assistant" [ref=e168] [cursor=pointer]:
+                          - /url: /pikaso/assistant#from_element=mainmenu
+                          - generic [ref=e169]: Assistant
+                        - button [ref=e170] [cursor=pointer]:
+                          - img [ref=e171]
+                  - generic:
+                    - heading "Video" [level=4] [ref=e174]
+                    - generic:
+                      - generic:
+                        - link "Video Generator" [ref=e175] [cursor=pointer]:
+                          - /url: /pikaso/ai-video-generator#from_element=mainmenu
+                          - generic [ref=e176]: Video Generator
+                        - button [ref=e177] [cursor=pointer]:
+                          - img [ref=e178]
+                      - generic:
+                        - link "Video Project Editor" [ref=e180] [cursor=pointer]:
+                          - /url: /pikaso/video-editor#from_element=mainmenu
+                          - generic [ref=e181]: Video Project Editor
+                        - button [ref=e182] [cursor=pointer]:
+                          - img [ref=e183]
+                      - generic:
+                        - link "Clip Editor" [ref=e185] [cursor=pointer]:
+                          - /url: /pikaso/video-clip-editor#from_element=mainmenu
+                          - generic [ref=e186]: Clip Editor
+                        - button [ref=e187] [cursor=pointer]:
+                          - img [ref=e188]
+                      - generic:
+                        - link "Video Upscaler" [ref=e190] [cursor=pointer]:
+                          - /url: /pikaso/tools/video-upscaler#from_element=mainmenu
+                          - generic [ref=e191]: Video Upscaler
+                        - button [ref=e192] [cursor=pointer]:
+                          - img [ref=e193]
+                      - generic:
+                        - link "Lip Sync" [ref=e195] [cursor=pointer]:
+                          - /url: /pikaso/tools/speak#from_element=mainmenu
+                          - generic [ref=e196]: Lip Sync
+                        - button [ref=e197] [cursor=pointer]:
+                          - img [ref=e198]
+                  - generic:
+                    - heading "Audio" [level=4] [ref=e201]
+                    - generic:
+                      - generic:
+                        - link "Voice Generator" [ref=e202] [cursor=pointer]:
+                          - /url: /pikaso/voiceover#from_element=mainmenu
+                          - generic [ref=e203]: Voice Generator
+                        - button [ref=e204] [cursor=pointer]:
+                          - img [ref=e205]
+                      - generic:
+                        - link "Voice Cloning" [ref=e207] [cursor=pointer]:
+                          - /url: /pikaso/voiceover-generator?openVoiceCloning=true#from_element=mainmenu
+                          - generic [ref=e208]: Voice Cloning
+                        - button [ref=e209] [cursor=pointer]:
+                          - img [ref=e210]
+                      - generic:
+                        - link "Sound Effects Generator" [ref=e212] [cursor=pointer]:
+                          - /url: /pikaso/soundfx-generator#from_element=mainmenu
+                          - generic [ref=e213]: Sound Effects Generator
+                        - button [ref=e214] [cursor=pointer]:
+                          - img [ref=e215]
+                      - generic:
+                        - link "Music Generator" [ref=e217] [cursor=pointer]:
+                          - /url: /pikaso/music#from_element=mainmenu
+                          - generic [ref=e218]: Music Generator
+                        - button [ref=e219] [cursor=pointer]:
+                          - img [ref=e220]
+                  - generic:
+                    - heading "Others" [level=4] [ref=e224]
+                    - generic:
+                      - generic:
+                        - link "Spaces" [ref=e225] [cursor=pointer]:
+                          - /url: /pikaso/spaces#from_element=mainmenu
+                          - generic [ref=e226]: Spaces
+                        - button [ref=e227] [cursor=pointer]:
+                          - img [ref=e228]
+                      - generic:
+                        - link "Design Editor" [ref=e230] [cursor=pointer]:
+                          - /url: /designer/edit#from_element=mainmenu
+                          - generic [ref=e231]: Design Editor
+                        - button [ref=e232] [cursor=pointer]:
+                          - img [ref=e233]
+                      - generic:
+                        - link "Mockup Generator" [ref=e235] [cursor=pointer]:
+                          - /url: /pikaso/mockup#from_element=mainmenu
+                          - generic [ref=e236]: Mockup Generator
+                        - button [ref=e237] [cursor=pointer]:
+                          - img [ref=e238]
+                      - generic:
+                        - link "Icon Generator" [ref=e240] [cursor=pointer]:
+                          - /url: /ai/icon-generator/tool#from_element=mainmenu
+                          - generic [ref=e241]: Icon Generator
+                        - button [ref=e242] [cursor=pointer]:
+                          - img [ref=e243]
+                      - generic:
+                        - link "Background Remover" [ref=e245] [cursor=pointer]:
+                          - /url: /pikaso/image-editor?tool=background#from_element=mainmenu
+                          - generic [ref=e246]: Background Remover
+                        - button [ref=e247] [cursor=pointer]:
+                          - img [ref=e248]
+                      - generic:
+                        - link "Skin Enhancer" [ref=e250] [cursor=pointer]:
+                          - /url: /pikaso/upscaler?tool=skin-enhancer#from_element=mainmenu
+                          - generic [ref=e251]: Skin Enhancer
+                        - button [ref=e252] [cursor=pointer]:
+                          - img [ref=e253]
+                      - generic:
+                        - link "Change Camera New" [ref=e255] [cursor=pointer]:
+                          - /url: /pikaso/tools/change-camera#from_element=mainmenu
+                          - generic [ref=e256]:
+                            - text: Change Camera
+                            - generic [ref=e257]: New
+                        - button [ref=e258] [cursor=pointer]:
+                          - img [ref=e259]
+                      - generic:
+                        - link "Sketch to Image" [ref=e261] [cursor=pointer]:
+                          - /url: /pikaso/sketch#from_element=mainmenu
+                          - generic [ref=e262]: Sketch to Image
+                        - button [ref=e263] [cursor=pointer]:
+                          - img [ref=e264]
+            - link "View project" [ref=e267] [cursor=pointer]:
+              - /url: https://www.freepik.com/pikaso/projects/home#from_element=mainmenu
+              - img [ref=e269]
+            - link "History" [ref=e271] [cursor=pointer]:
+              - /url: https://www.freepik.com/pikaso/projects/history#from_element=mainmenu
+              - img [ref=e273]
+          - generic [ref=e277]:
+            - button "Notifications" [ref=e278] [cursor=pointer]:
+              - generic [ref=e279]: Notifications
+              - img [ref=e281]
+            - button [ref=e283] [cursor=pointer]:
+              - img [ref=e284]
+            - generic [ref=e287]:
+              - generic [ref=e288]:
+                - generic [ref=e289]:
+                  - paragraph [ref=e290]: Company
+                  - generic [ref=e291]:
+                    - link "Pricing" [ref=e292] [cursor=pointer]:
+                      - /url: /pricing
+                    - link "Enterprise" [ref=e293] [cursor=pointer]:
+                      - /url: /enterprise
+                    - link "About us" [ref=e294] [cursor=pointer]:
+                      - /url: /company/about-us
+                    - link "AI Partners Program" [ref=e295] [cursor=pointer]:
+                      - /url: /ai/partners
+                    - link "Affiliates" [ref=e296] [cursor=pointer]:
+                      - /url: /affiliates
+                - generic [ref=e297]:
+                  - paragraph [ref=e298]: Help Center
+                  - generic [ref=e299]:
+                    - link "Academy" [ref=e300] [cursor=pointer]:
+                      - /url: /academy
+                    - link "Documentation" [ref=e301] [cursor=pointer]:
+                      - /url: /ai/docs
+                    - link "Support" [ref=e302] [cursor=pointer]:
+                      - /url: /ai/support
+                    - link "API documentation" [ref=e303] [cursor=pointer]:
+                      - /url: https://www.freepik.com/api#from_element=mainmenu
+                - generic [ref=e304]:
+                  - paragraph [ref=e305]: More
+                  - generic [ref=e306]:
+                    - link "Blog" [ref=e307] [cursor=pointer]:
+                      - /url: https://www.freepik.com/blog/
+                    - link "Events" [ref=e308] [cursor=pointer]:
+                      - /url: /events
+                    - link "Sell content" [ref=e309] [cursor=pointer]:
+                      - /url: https://contributor.freepik.com
+                    - link "iOS App" [ref=e310] [cursor=pointer]:
+                      - /url: https://apps.apple.com/us/app/freepik-design-edit-with-ai/id1664092086?l=en
+                    - link "Android App" [ref=e311] [cursor=pointer]:
+                      - /url: https://play.google.com/store/apps/details?id=com.freepikcompany.freepik
+                - generic [ref=e312]:
+                  - paragraph [ref=e313]: Legal
+                  - generic [ref=e314]:
+                    - link "Terms of use" [ref=e315] [cursor=pointer]:
+                      - /url: /legal/terms-of-use
+                    - link "Privacy policy" [ref=e316] [cursor=pointer]:
+                      - /url: /legal/privacy
+                    - link "Cookies policy" [ref=e317] [cursor=pointer]:
+                      - /url: /legal/cookies
+                    - button "Cookies Settings" [ref=e318] [cursor=pointer]
+              - generic [ref=e319]:
+                - generic [ref=e320]:
+                  - button "Toggle theme" [ref=e321] [cursor=pointer]:
+                    - img [ref=e322]
+                  - button [ref=e324] [cursor=pointer]:
+                    - img [ref=e325]
+                - generic [ref=e327]:
+                  - link "X" [ref=e328] [cursor=pointer]:
+                    - /url: https://x.com/freepik
+                    - img [ref=e329]
+                  - link "Instagram" [ref=e331] [cursor=pointer]:
+                    - /url: https://www.instagram.com/freepik
+                    - img [ref=e332]
+                  - link "Youtube" [ref=e334] [cursor=pointer]:
+                    - /url: https://www.youtube.com/channel/UC9wPXN2TIWoUamqONb7v8Pw
+                    - img [ref=e335]
+                  - link "Reddit" [ref=e337] [cursor=pointer]:
+                    - /url: https://www.reddit.com/r/Freepik_AI/
+                    - img [ref=e338]
+                  - link "Discord" [ref=e340] [cursor=pointer]:
+                    - /url: https://discord.gg/freepik
+                    - img [ref=e341]
+      - main [ref=e343]:
+        - generic [ref=e344]:
+          - link "Freepik" [ref=e347] [cursor=pointer]:
+            - /url: https://www.freepik.com
+            - generic [ref=e348]: Freepik
+            - img "Freepik" [ref=e349]
+          - generic [ref=e361]:
+            - button "Open autocomplete" [ref=e362] [cursor=pointer]:
+              - img [ref=e363]
+            - textbox "Search, navigate, or create anything" [active] [ref=e366]
+            - generic [ref=e367]:
+              - button "Search by voice" [ref=e368] [cursor=pointer]:
+                - img [ref=e369]
+                - generic [ref=e372]: Search by voice
+              - button "Search by image" [ref=e373] [cursor=pointer]:
+                - img [ref=e374]
+                - generic [ref=e376]: Search by image
+              - button "Search" [ref=e377] [cursor=pointer]:
+                - img [ref=e378]
+                - generic [ref=e380]: Search
+          - generic [ref=e381]:
+            - link "Pricing" [ref=e382] [cursor=pointer]:
+              - /url: /pricing?origin=freepik_web
+            - button "avatar" [ref=e384] [cursor=pointer]:
+              - generic [ref=e385]:
+                - img [ref=e386]
+                - img "avatar" [ref=e390]
+        - generic [ref=e391]:
+          - generic [ref=e392]:
+            - heading "Error" [level=4] [ref=e393]
+            - generic [ref=e394]:
+              - img "Space Man" [ref=e396]
+              - generic [ref=e397]: "404"
+              - img "Space Woman" [ref=e400]
+            - heading "This page is outside of the universe" [level=4] [ref=e401]
+            - paragraph [ref=e402]: The page you are trying to access doesn’t exist or has been moved.
+            - paragraph [ref=e403]: Try going back to our homepage.
+            - link "Go to homepage" [ref=e404] [cursor=pointer]:
+              - /url: /
+          - paragraph [ref=e405]:
+            - text: If you think this is an error, contact our support team at
+            - link "support@freepik.com" [ref=e406] [cursor=pointer]:
+              - /url: mailto:support@freepik.com?subject=Error%20404
+        - generic [ref=e409]:
+          - link "Freepik Company" [ref=e411] [cursor=pointer]:
+            - /url: https://www.freepik.com
+            - img [ref=e412]
+          - generic [ref=e421]:
+            - generic [ref=e422]:
+              - button "Products" [expanded] [ref=e423]
+              - list [ref=e424]:
+                - listitem [ref=e425]:
+                  - link "Spaces" [ref=e426] [cursor=pointer]:
+                    - /url: /pikaso/spaces
+                - listitem [ref=e427]:
+                  - link "AI Assistant" [ref=e428] [cursor=pointer]:
+                    - /url: /pikaso/assistant
+                - listitem [ref=e429]:
+                  - link "AI Image Generator" [ref=e430] [cursor=pointer]:
+                    - /url: /ai/image-generator
+                - listitem [ref=e431]:
+                  - link "AI Video Generator" [ref=e432] [cursor=pointer]:
+                    - /url: /ai/video-generator
+                - listitem [ref=e433]:
+                  - link "AI Voice Generator" [ref=e434] [cursor=pointer]:
+                    - /url: /ai/voice-generator
+                - listitem [ref=e435]:
+                  - link "Stock content" [ref=e436] [cursor=pointer]:
+                    - /url: /stock
+                - listitem [ref=e437]:
+                  - link "API" [ref=e438] [cursor=pointer]:
+                    - /url: /api
+                - listitem [ref=e439]:
+                  - link "iOS App" [ref=e440] [cursor=pointer]:
+                    - /url: https://apps.apple.com/us/app/freepik-ai-video-generator/id1664092086
+                - listitem [ref=e441]:
+                  - link "Android App" [ref=e442] [cursor=pointer]:
+                    - /url: https://play.google.com/store/apps/details?id=com.freepikcompany.freepik
+                - listitem [ref=e443]:
+                  - link "All Freepik tools" [ref=e444] [cursor=pointer]:
+                    - /url: /ai
+            - generic [ref=e445]:
+              - button "Get started" [expanded] [ref=e446]
+              - list [ref=e447]:
+                - listitem [ref=e448]:
+                  - link "Academy" [ref=e449] [cursor=pointer]:
+                    - /url: /academy
+                - listitem [ref=e450]:
+                  - link "Documentation" [ref=e451] [cursor=pointer]:
+                    - /url: /ai/docs
+                - listitem [ref=e452]:
+                  - link "Support" [ref=e453] [cursor=pointer]:
+                    - /url: /ai/support
+                - listitem [ref=e454]:
+                  - link "Terms of use" [ref=e455] [cursor=pointer]:
+                    - /url: /legal/terms-of-use#nav-freepik
+                - listitem [ref=e456]:
+                  - link "Privacy policy" [ref=e457] [cursor=pointer]:
+                    - /url: /legal/privacy
+                - listitem [ref=e458]:
+                  - link "Cookies policy" [ref=e459] [cursor=pointer]:
+                    - /url: /legal/cookies
+                - listitem [ref=e460]:
+                  - button "Cookies Settings" [ref=e461] [cursor=pointer]
+                - listitem [ref=e462]:
+                  - link "Trust center" [ref=e463] [cursor=pointer]:
+                    - /url: https://trust.freepik.com/
+                - listitem [ref=e464]:
+                  - link "Affiliates" [ref=e465] [cursor=pointer]:
+                    - /url: /affiliates
+                - listitem [ref=e466]:
+                  - link "Enterprise" [ref=e467] [cursor=pointer]:
+                    - /url: /enterprise
+            - generic [ref=e468]:
+              - button "Company" [expanded] [ref=e469]
+              - list [ref=e470]:
+                - listitem [ref=e471]:
+                  - link "Pricing" [ref=e472] [cursor=pointer]:
+                    - /url: /pricing?origin=freepik_web
+                - listitem [ref=e473]:
+                  - link "About us" [ref=e474] [cursor=pointer]:
+                    - /url: /company/about-us
+                - listitem [ref=e475]:
+                  - link "Careers" [ref=e476] [cursor=pointer]:
+                    - /url: https://freepik-company.factorialhr.com/
+                - listitem [ref=e477]:
+                  - link "Search trends" [ref=e478] [cursor=pointer]:
+                    - /url: /tags
+                - listitem [ref=e479]:
+                  - link "Blog" [ref=e480] [cursor=pointer]:
+                    - /url: https://www.freepik.com/blog/
+                - listitem [ref=e481]:
+                  - link "Events" [ref=e482] [cursor=pointer]:
+                    - /url: /events
+                - listitem [ref=e483]:
+                  - link "Magnific" [ref=e484] [cursor=pointer]:
+                    - /url: https://magnific.ai/
+                - listitem [ref=e485]:
+                  - link "Slidesgo" [ref=e486] [cursor=pointer]:
+                    - /url: https://slidesgo.com/
+            - generic [ref=e487]:
+              - generic [ref=e488]: Get in touch
+              - generic [ref=e489]:
+                - link [ref=e490] [cursor=pointer]:
+                  - /url: https://www.facebook.com/Freepik
+                  - img [ref=e491]
+                - link [ref=e493] [cursor=pointer]:
+                  - /url: https://x.com/freepik
+                  - img [ref=e494]
+                - link [ref=e496] [cursor=pointer]:
+                  - /url: https://www.pinterest.es/freepik/
+                  - img [ref=e497]
+                - link [ref=e499] [cursor=pointer]:
+                  - /url: https://www.instagram.com/freepik
+                  - img [ref=e500]
+                - link [ref=e504] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UC9wPXN2TIWoUamqONb7v8Pw
+                  - img [ref=e505]
+                - link [ref=e507] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/freepik-corp/
+                  - img [ref=e508]
+                - link [ref=e510] [cursor=pointer]:
+                  - /url: https://discord.gg/freepik
+                  - img [ref=e511]
+                - link [ref=e513] [cursor=pointer]:
+                  - /url: https://www.reddit.com/r/Freepik_AI/
+                  - img [ref=e514]
+              - button "English" [ref=e517]:
+                - button "English" [ref=e518] [cursor=pointer]:
+                  - text: English
+                  - img [ref=e519]
+              - paragraph [ref=e522]: Copyright © 2010-2026 Freepik Company S.L.U. All rights reserved.
+    - region "Notifications (F8)":
+      - list
+  - alert [ref=e523]

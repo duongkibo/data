@@ -1,0 +1,109 @@
+- generic [ref=e85]:
+  - banner [ref=e86]:
+    - generic [ref=e87]:
+      - link "Personal project" [ref=e89] [cursor=pointer]:
+        - /url: /pikaso/projects/c6ab0c4f-d3b0-4b63-85b3-4e1cdb16f4be
+        - generic [ref=e90]: Personal project
+      - generic [ref=e91]: /
+      - link "Spaces" [ref=e93] [cursor=pointer]:
+        - /url: /pikaso/spaces
+      - generic [ref=e480]:
+        - generic [ref=e481]: /
+        - button "Untitled Space" [ref=e496] [cursor=pointer]:
+          - generic [ref=e498]: Untitled Space
+    - generic [ref=e94]:
+      - generic [ref=e98]:
+        - img [ref=e101] [cursor=pointer]
+        - button [ref=e103] [cursor=pointer]:
+          - button [ref=e104]:
+            - img [ref=e106]
+      - button "Share" [ref=e501] [cursor=pointer]:
+        - img
+        - generic [ref=e502]: Share
+  - generic [ref=e506]:
+    - generic [ref=e507]:
+      - generic [ref=e509]:
+        - generic:
+          - img
+      - generic:
+        - generic:
+          - status "Your space is ready":
+            - generic:
+              - generic:
+                - heading "Your space is ready" [level=3]
+            - generic:
+              - paragraph: Choose your first node and start creating
+            - generic:
+              - button "Stock" [ref=e512] [cursor=pointer]:
+                - generic [ref=e513]:
+                  - generic [ref=e514]:
+                    - img
+                  - generic [ref=e515]: Stock
+              - button "Media" [ref=e516] [cursor=pointer]:
+                - generic [ref=e517]:
+                  - generic [ref=e518]:
+                    - img
+                  - generic [ref=e519]: Media
+              - button "Image Generator" [ref=e520] [cursor=pointer]:
+                - generic [ref=e521]:
+                  - generic [ref=e522]:
+                    - img
+                  - generic [ref=e523]: Image Generator
+              - button "Video Generator" [ref=e524] [cursor=pointer]:
+                - generic [ref=e525]:
+                  - generic [ref=e526]:
+                    - img
+                  - generic [ref=e527]: Video Generator
+              - button "Assistant" [ref=e528] [cursor=pointer]:
+                - generic [ref=e529]:
+                  - generic [ref=e530]:
+                    - img
+                  - generic [ref=e531]: Assistant
+      - generic [ref=e532]:
+        - button "Give feedback" [ref=e533] [cursor=pointer]:
+          - img
+          - text: Give feedback
+        - button [disabled] [ref=e536]:
+          - img [ref=e537]
+        - button "100%" [disabled] [ref=e540]:
+          - generic [ref=e541]: 100%
+          - img
+    - button "Page 1" [ref=e544] [cursor=pointer]:
+      - img
+      - generic [ref=e545]: Page 1
+    - generic [ref=e547]:
+      - button [ref=e550] [cursor=pointer]:
+        - img
+      - button [disabled] [ref=e554]:
+        - img
+      - button [disabled] [ref=e557]:
+        - img
+      - generic [ref=e560]:
+        - generic:
+          - img
+        - generic [ref=e561]:
+          - button [disabled] [ref=e563]:
+            - img
+          - button [disabled] [ref=e565]:
+            - img
+      - generic [ref=e567]:
+        - generic:
+          - img
+        - generic [ref=e568]:
+          - button [disabled] [ref=e570]:
+            - img
+          - button [disabled] [ref=e572]:
+            - img
+          - button [disabled] [ref=e574]:
+            - img
+      - button [disabled] [ref=e577]:
+        - img
+      - button [disabled] [ref=e580]:
+        - img
+      - button [disabled] [ref=e583]:
+        - img
+      - button [disabled] [ref=e586]:
+        - img
+      - button [disabled] [ref=e589]:
+        - generic [ref=e590]:
+          - img

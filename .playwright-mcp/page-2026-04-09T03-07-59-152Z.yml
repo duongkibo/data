@@ -1,0 +1,21 @@
+- generic [ref=e77]:
+  - banner [ref=e78]:
+    - generic [ref=e79]:
+      - link "Personal project" [ref=e335] [cursor=pointer]:
+        - /url: /pikaso/projects/c6ab0c4f-d3b0-4b63-85b3-4e1cdb16f4be
+        - generic [ref=e336]: Personal project
+      - generic [ref=e337]: /
+      - link "Spaces" [ref=e81] [cursor=pointer]:
+        - /url: /pikaso/spaces
+      - generic [ref=e481]:
+        - generic [ref=e482]: /
+        - button "Copy of Full-body Clothing Extraction" [ref=e486] [cursor=pointer]:
+          - generic [ref=e488]: Copy of Full-body Clothing Extraction
+    - generic [ref=e342]:
+      - img [ref=e345] [cursor=pointer]
+      - button [ref=e348] [cursor=pointer]:
+        - button [ref=e349]:
+          - img [ref=e351]
+  - generic [ref=e495]:
+    - generic [ref=e496]: Loading...
+    - generic [ref=e497]: Preparing your space…

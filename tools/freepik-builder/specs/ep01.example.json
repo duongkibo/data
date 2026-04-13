@@ -1,0 +1,57 @@
+{
+  "_comment": "Example spec for Karma Ep01. You MUST fill in bindings[] with actual node UUIDs from your Space — get them by running KARMA.listNodes() in DevTools Console.",
+
+  "bindings": {
+    "char-sarah": "REPLACE-WITH-IMAGE-GENERATOR-UUID-FOR-SARAH",
+    "char-daniel": "REPLACE-WITH-IMAGE-GENERATOR-UUID-FOR-DANIEL",
+    "char-rachel": "REPLACE-WITH-IMAGE-GENERATOR-UUID-FOR-RACHEL",
+    "char-james": "REPLACE-WITH-IMAGE-GENERATOR-UUID-FOR-JAMES",
+    "char-patricia": "REPLACE-WITH-IMAGE-GENERATOR-UUID-FOR-PATRICIA",
+
+    "list-scenes-sarah": "REPLACE-WITH-LIST-UUID-FOR-SARAH-SCENES",
+    "gen-scenes-sarah": "REPLACE-WITH-IMAGE-GENERATOR-UUID-DOWNSTREAM-OF-LIST-SARAH",
+
+    "list-scenes-objects": "REPLACE-WITH-LIST-UUID-FOR-OBJECTS",
+    "gen-scenes-objects": "REPLACE-WITH-IMAGE-GENERATOR-UUID-DOWNSTREAM-OF-LIST-OBJECTS"
+  },
+
+  "prompts": {
+    "char-sarah": "Voxel art character of a young woman around 31 years old in cube-based 3D style, brown rounded voxel hair shoulder-length, simple cube head with 2 small dark dot eyes and small line mouth, wearing cream colored voxel cardigan, proportional body NOT raw Minecraft 1:2 ratio, warm cream and brown signature colors with subtle gradient shading, clean white background, Astroneer meets Crossy Road character style, NOT raw Minecraft NOT realistic NOT cartoon, premium voxel art aesthetic, 1024x1024, 2K",
+    "char-daniel": "Voxel art male character cube-style design around 32 years old, short brown voxel hair cap style, simple cube head with 2 dot eyes and neutral mouth line, wearing dark gray voxel work shirt and jeans, charcoal gray and dark brown signature colors, neutral standing pose facing camera, clean white background, Astroneer meets Crossy Road character style, NOT raw Minecraft, premium voxel art aesthetic, 1024x1024, 2K",
+    "char-rachel": "Voxel art female character around 30 years old, blonde voxel hair shoulder-length, navy voxel blazer over cream shirt business attire, navy blue and cream signature colors, clean white background, Astroneer voxel style, NOT raw Minecraft, premium voxel art aesthetic, 1024x1024, 2K",
+    "char-james": "Voxel art male character around 33 years old with friendly design, dark brown voxel hair styled, sage green voxel cardigan over white shirt, sage green and warm cream signature colors, welcoming pose, clean white background, Astroneer voxel style, premium voxel art aesthetic, 1024x1024, 2K",
+    "char-patricia": "Voxel art older female character around 55 years old, gray voxel bob cut, navy voxel business suit with silver accents, authoritative kind pose, clean white background, Astroneer voxel style, premium voxel art aesthetic, 1024x1024, 2K"
+  },
+
+  "listItems": {
+    "list-scenes-sarah": [
+      "Isometric voxel art hospital corridor, the voxel character from reference walking forward naturally, cream and blue voxel nurse scrubs, clipboard, gentle smile, Astroneer style, 2K",
+      "Isometric voxel art kitchen, the character from reference packing lunch into brown paper bag, warm morning light, cream + brown palette, 2K",
+      "Isometric voxel art empty parking lot, the character from reference alone in car gripping wheel, shocked frozen expression, cool blue palette, 2K"
+    ],
+    "list-scenes-objects": [
+      "Cinematic voxel art close-up of delicate gold engagement ring on wooden kitchen table, warm shaft of window light, deep navy + gold palette, Astroneer aesthetic, 2K",
+      "Macro close-up voxel art engagement ring caught on cream knit sweater fabric, diamond loose, warm lamp shadow, deep navy + gold palette, 2K"
+    ]
+  },
+
+  "runs": {
+    "char-sarah": { "downstream": false },
+    "char-daniel": { "downstream": false },
+    "char-rachel": { "downstream": false },
+    "char-james": { "downstream": false },
+    "char-patricia": { "downstream": false },
+    "gen-scenes-sarah": { "downstream": false },
+    "gen-scenes-objects": { "downstream": false }
+  },
+
+  "downloads": {
+    "char-sarah": "ep01/chars/sarah.jpg",
+    "char-daniel": "ep01/chars/daniel.jpg",
+    "char-rachel": "ep01/chars/rachel.jpg",
+    "char-james": "ep01/chars/james.jpg",
+    "char-patricia": "ep01/chars/patricia.jpg",
+    "gen-scenes-sarah": "ep01/scenes/sarah-batch.jpg",
+    "gen-scenes-objects": "ep01/scenes/objects-batch.jpg"
+  }
+}

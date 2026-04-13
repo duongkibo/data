@@ -1,0 +1,104 @@
+- generic [ref=e3]:
+  - generic [ref=e7]:
+    - generic:
+      - button
+    - generic [ref=e10]:
+      - button [ref=e13] [cursor=pointer]
+      - button [ref=e18] [cursor=pointer]:
+        - button [ref=e19]:
+          - img [ref=e20]
+      - link [ref=e22] [cursor=pointer]:
+        - /url: /app#from_element=mainmenu
+        - button [ref=e24]:
+          - button [ref=e25]:
+            - img
+      - link [ref=e28] [cursor=pointer]:
+        - /url: https://www.freepik.com/stock#from_element=mainmenu
+        - button [ref=e30]:
+          - img [ref=e31]
+      - link [ref=e33] [cursor=pointer]:
+        - /url: /pikaso/community#from_element=mainmenu
+        - button [ref=e35]:
+          - button [ref=e36]:
+            - img
+      - generic [ref=e39]:
+        - link [ref=e41] [cursor=pointer]:
+          - /url: /pikaso/spaces#from_element=mainmenu&from_view=pinned_tool
+          - button [ref=e43]:
+            - button [ref=e44]:
+              - img
+        - link [ref=e46] [cursor=pointer]:
+          - /url: /pikaso/ai-image-generator#from_element=mainmenu&from_view=pinned_tool
+          - button [ref=e48]:
+            - button [ref=e49]:
+              - img
+        - link [ref=e51] [cursor=pointer]:
+          - /url: /pikaso/ai-video-generator#from_element=mainmenu&from_view=pinned_tool
+          - button [ref=e53]:
+            - button [ref=e54]:
+              - img
+        - link [ref=e56] [cursor=pointer]:
+          - /url: /pikaso/voiceover-generator#from_element=mainmenu&from_view=pinned_tool
+          - button [ref=e58]:
+            - button [ref=e59]:
+              - img
+        - link [ref=e61] [cursor=pointer]:
+          - /url: /pikaso/assistant#from_element=mainmenu&from_view=pinned_tool
+          - button [ref=e63]:
+            - button [ref=e64]:
+              - img
+        - button [ref=e68] [cursor=pointer]:
+          - img
+    - generic [ref=e72]:
+      - button [ref=e74] [cursor=pointer]:
+        - img
+      - button [ref=e76] [cursor=pointer]:
+        - img
+  - generic [ref=e77]:
+    - banner [ref=e78]:
+      - link "Spaces" [ref=e81] [cursor=pointer]:
+        - /url: /pikaso/spaces
+    - generic [ref=e93]:
+      - generic [ref=e95]:
+        - banner [ref=e96]
+        - generic [ref=e100]:
+          - img
+          - generic [ref=e101]:
+            - generic [ref=e103]: Prompt
+            - paragraph [ref=e106]: Dreamy full-body portrait of a silhouetted figure in motion against a soft, cool blue backdrop—long exposure double-exposure style.
+          - generic [ref=e110]: Image Generator
+          - generic:
+            - generic:
+              - generic: Upscaler
+            - generic:
+              - generic:
+                - generic:
+                  - img
+          - generic:
+            - generic:
+              - generic: Prompt
+          - generic:
+            - generic:
+              - generic: Video Generator
+            - generic:
+              - generic:
+                - generic:
+                  - img
+        - generic:
+          - img:
+            - img
+          - generic:
+            - heading "Start from scratch" [level=3]
+            - paragraph: Create a new space and start collaborating
+            - button "New space" [ref=e116] [cursor=pointer]:
+              - img
+              - generic [ref=e117]: New space
+      - generic [ref=e119]:
+        - button "Templates" [ref=e121] [cursor=pointer]:
+          - generic [ref=e122]:
+            - img [ref=e123]
+            - generic [ref=e125]: Templates
+        - generic [ref=e127]:
+          - generic:
+            - img
+          - textbox "Search spaces..." [ref=e128]

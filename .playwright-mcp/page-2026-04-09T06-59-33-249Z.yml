@@ -1,0 +1,130 @@
+- generic [ref=e85]:
+  - banner [ref=e86]:
+    - generic [ref=e87]:
+      - link "Personal project" [ref=e89] [cursor=pointer]:
+        - /url: /pikaso/projects/c6ab0c4f-d3b0-4b63-85b3-4e1cdb16f4be
+        - generic [ref=e90]: Personal project
+      - generic [ref=e91]: /
+      - link "Spaces" [ref=e93] [cursor=pointer]:
+        - /url: /pikaso/spaces
+      - generic [ref=e503]:
+        - generic [ref=e504]: /
+        - button "Untitled Space" [ref=e508] [cursor=pointer]:
+          - generic [ref=e510]: Untitled Space
+    - generic [ref=e94]:
+      - generic [ref=e98]:
+        - img [ref=e101] [cursor=pointer]
+        - button [ref=e104] [cursor=pointer]:
+          - button [ref=e105]:
+            - img [ref=e107]
+      - button "Share" [ref=e513] [cursor=pointer]:
+        - img
+        - generic [ref=e514]: Share
+  - generic [ref=e518]:
+    - generic [ref=e519]:
+      - generic [ref=e521]:
+        - generic:
+          - img
+          - group [ref=e604]:
+            - generic [ref=e605]:
+              - generic [ref=e607]:
+                - img
+                - generic [ref=e608]: "Image Generator #1"
+              - generic [ref=e613]:
+                - generic [ref=e615]:
+                  - button [ref=e618] [cursor=pointer]:
+                    - img
+                  - textbox [ref=e622]:
+                    - paragraph [ref=e623]: Describe the image you want to generate...
+                - generic [ref=e627]:
+                  - generic [ref=e629]:
+                    - generic [ref=e633]:
+                      - button "Decrease value to 1" [disabled]:
+                        - img
+                      - generic [ref=e634]: x1
+                      - button "Increase value to 2" [ref=e635]:
+                        - img
+                    - generic [ref=e636]:
+                      - button "Auto" [ref=e640]:
+                        - generic [ref=e641]: Auto
+                        - img
+                      - button "1:1" [ref=e646]:
+                        - img
+                        - generic "1:1" [ref=e647]
+                        - img
+                      - button [ref=e650]:
+                        - img
+                  - button [disabled] [ref=e655]:
+                    - img
+              - generic [ref=e656]:
+                - img
+                - generic: Reference
+              - generic [ref=e657]:
+                - img
+                - generic: Text
+              - generic [ref=e658]:
+                - img
+                - generic: Generated image
+      - generic [ref=e544]:
+        - button "Give feedback" [ref=e545] [cursor=pointer]:
+          - img
+          - text: Give feedback
+        - button [ref=e548] [cursor=pointer]:
+          - img [ref=e549]
+        - button "100%" [ref=e552] [cursor=pointer]:
+          - generic [ref=e553]: 100%
+          - img
+    - button "Page 1" [ref=e556] [cursor=pointer]:
+      - img
+      - generic [ref=e557]: Page 1
+    - generic [ref=e559]:
+      - button [ref=e562] [cursor=pointer]:
+        - img
+      - button [ref=e566] [cursor=pointer]:
+        - img
+      - button [ref=e569] [cursor=pointer]:
+        - img
+      - generic [ref=e572]:
+        - generic:
+          - img
+        - generic [ref=e573]:
+          - button [ref=e575] [cursor=pointer]:
+            - img
+          - button [ref=e577] [cursor=pointer]:
+            - img
+      - generic [ref=e579]:
+        - generic:
+          - img
+        - generic [ref=e580]:
+          - button [ref=e582] [cursor=pointer]:
+            - img
+          - button [ref=e584] [cursor=pointer]:
+            - img
+          - button [ref=e586] [cursor=pointer]:
+            - img
+      - button [ref=e589] [cursor=pointer]:
+        - img
+      - button [ref=e592] [cursor=pointer]:
+        - img
+      - button [disabled] [ref=e595]:
+        - img
+      - button [ref=e598] [cursor=pointer]:
+        - img
+      - button [ref=e601] [cursor=pointer]:
+        - generic [ref=e602]:
+          - img
+    - generic [ref=e661]:
+      - generic [ref=e663]:
+        - button "This node only" [ref=e664] [cursor=pointer]:
+          - generic [ref=e665]:
+            - img
+        - button "This node only options" [disabled] [ref=e668]:
+          - generic [ref=e669]:
+            - img
+      - button [ref=e672] [cursor=pointer]:
+        - img
+        - img
+      - button [ref=e675] [cursor=pointer]:
+        - img
+      - button [ref=e677] [cursor=pointer]:
+        - img

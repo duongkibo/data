@@ -1,0 +1,122 @@
+- generic [ref=e3]:
+  - generic [ref=e7]:
+    - generic:
+      - button
+    - generic [ref=e10]:
+      - button "P" [ref=e13] [cursor=pointer]:
+        - generic [ref=e16]: P
+      - button [ref=e18] [cursor=pointer]:
+        - button [ref=e19]:
+          - img [ref=e20]
+      - link [ref=e22] [cursor=pointer]:
+        - /url: /app#from_element=mainmenu
+        - button [ref=e24]:
+          - button [ref=e25]:
+            - img
+      - link [ref=e28] [cursor=pointer]:
+        - /url: https://www.freepik.com/stock#from_element=mainmenu
+        - button [ref=e30]:
+          - img [ref=e31]
+      - link [ref=e33] [cursor=pointer]:
+        - /url: /pikaso/community#from_element=mainmenu
+        - button [ref=e35]:
+          - button [ref=e36]:
+            - img
+      - generic [ref=e39]:
+        - link [ref=e41] [cursor=pointer]:
+          - /url: /pikaso/spaces#from_element=mainmenu&from_view=pinned_tool
+          - button [ref=e43]:
+            - button [ref=e44]:
+              - img
+        - link [ref=e46] [cursor=pointer]:
+          - /url: /pikaso/ai-image-generator#from_element=mainmenu&from_view=pinned_tool
+          - button [ref=e48]:
+            - button [ref=e49]:
+              - img
+        - link [ref=e51] [cursor=pointer]:
+          - /url: /pikaso/ai-video-generator#from_element=mainmenu&from_view=pinned_tool
+          - button [ref=e53]:
+            - button [ref=e54]:
+              - img
+        - link [ref=e56] [cursor=pointer]:
+          - /url: /pikaso/voiceover-generator#from_element=mainmenu&from_view=pinned_tool
+          - button [ref=e58]:
+            - button [ref=e59]:
+              - img
+        - link [ref=e61] [cursor=pointer]:
+          - /url: /pikaso/assistant#from_element=mainmenu&from_view=pinned_tool
+          - button [ref=e63]:
+            - button [ref=e64]:
+              - img
+        - button [ref=e68] [cursor=pointer]:
+          - img
+      - link [ref=e71] [cursor=pointer]:
+        - /url: /pikaso/projects/c6ab0c4f-d3b0-4b63-85b3-4e1cdb16f4be
+        - button [ref=e73]:
+          - button [ref=e74]:
+            - img
+      - link [ref=e75] [cursor=pointer]:
+        - /url: /pikaso/projects/history
+        - button [ref=e77]:
+          - button [ref=e78]:
+            - img
+    - generic [ref=e80]:
+      - button [ref=e82] [cursor=pointer]:
+        - img
+      - button [ref=e84] [cursor=pointer]:
+        - img
+  - generic [ref=e85]:
+    - banner [ref=e86]:
+      - generic [ref=e87]:
+        - link "Personal project" [ref=e89] [cursor=pointer]:
+          - /url: /pikaso/projects/c6ab0c4f-d3b0-4b63-85b3-4e1cdb16f4be
+          - generic [ref=e90]: Personal project
+        - generic [ref=e91]: /
+        - link "Spaces" [ref=e93] [cursor=pointer]:
+          - /url: /pikaso/spaces
+      - generic [ref=e98]:
+        - img [ref=e101] [cursor=pointer]
+        - button [ref=e104] [cursor=pointer]:
+          - button [ref=e105]:
+            - img [ref=e107]
+    - generic [ref=e119]:
+      - generic [ref=e121]:
+        - banner [ref=e122]
+        - generic [ref=e126]:
+          - img
+          - generic [ref=e127]:
+            - generic [ref=e129]: Prompt
+            - paragraph [ref=e132]: Dreamy full-body portrait of a silhouetted figure in motion against a soft, cool blue backdrop—long exposure double-exposure style.
+          - generic [ref=e136]: Image Generator
+          - generic [ref=e144]: Upscaler
+          - generic [ref=e150]:
+            - generic [ref=e152]: Prompt
+            - paragraph [ref=e155]: Slowly and cinematically zoom out of the scene, focusing on the subject and the background
+          - generic [ref=e159]: Video Generator
+        - generic:
+          - img:
+            - img
+          - generic:
+            - heading "Start from scratch" [level=3]
+            - paragraph: Create a new space and start collaborating
+            - button "New space" [ref=e165] [cursor=pointer]:
+              - img
+              - generic [ref=e166]: New space
+      - generic [ref=e168]:
+        - generic [ref=e169]:
+          - button "My spaces" [pressed]:
+            - generic:
+              - img
+              - generic: My spaces
+          - button "Shared" [ref=e170] [cursor=pointer]:
+            - generic [ref=e171]:
+              - img [ref=e172]
+              - generic [ref=e174]: Shared
+          - button "Templates" [ref=e175] [cursor=pointer]:
+            - generic [ref=e176]:
+              - img [ref=e177]
+              - generic [ref=e179]: Templates
+        - generic [ref=e181]:
+          - generic:
+            - img
+          - textbox "Search spaces..." [ref=e182]

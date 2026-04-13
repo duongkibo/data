@@ -1,0 +1,198 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - link "Personal project" [ref=e8] [cursor=pointer]:
+        - /url: /pikaso/projects/c6ab0c4f-d3b0-4b63-85b3-4e1cdb16f4be
+        - generic [ref=e9]: Personal project
+      - generic [ref=e10]: /
+      - link "Spaces" [ref=e12] [cursor=pointer]:
+        - /url: /pikaso/spaces
+      - generic [ref=e13]:
+        - generic [ref=e14]: /
+        - button "Untitled Space" [ref=e18] [cursor=pointer]:
+          - generic [ref=e20]: Untitled Space
+    - generic [ref=e21]:
+      - generic [ref=e25]:
+        - img [ref=e28] [cursor=pointer]
+        - button [ref=e31] [cursor=pointer]:
+          - button [ref=e32]:
+            - img [ref=e34]
+      - button "Share" [ref=e37] [cursor=pointer]:
+        - img
+        - generic [ref=e38]: Share
+  - generic [ref=e52]:
+    - generic [ref=e53]:
+      - generic [ref=e55]:
+        - generic:
+          - img
+          - generic:
+            - group [ref=e56]:
+              - generic [ref=e57]:
+                - generic [ref=e59]:
+                  - img
+                  - generic [ref=e60]: "Image Generator #1"
+                - generic [ref=e65]:
+                  - generic [ref=e66]:
+                    - generic [ref=e67]:
+                      - img "Isometric voxel art kitchen scene, cream and wood tones, soft morning glow, vintage kettle on stove"
+                    - button "2048 × 2048" [ref=e252] [cursor=pointer]
+                  - generic [ref=e71]:
+                    - button "2 02/02" [ref=e72] [cursor=pointer]:
+                      - img
+                      - generic [ref=e73]:
+                        - generic [ref=e74]: "2"
+                        - generic [ref=e75]: 02/02
+                    - generic [ref=e76]:
+                      - button [ref=e77]:
+                        - img
+                      - button [ref=e78]:
+                        - img
+                  - generic [ref=e254]:
+                    - button [ref=e257] [cursor=pointer]:
+                      - img
+                    - textbox [ref=e261]:
+                      - paragraph [ref=e262]: Isometric voxel art kitchen scene, cream and wood colors, morning light, Astroneer style
+                - generic [ref=e79]:
+                  - img
+                  - generic: Reference
+                - generic [ref=e80]:
+                  - img
+                  - generic: Text
+                - generic [ref=e81]:
+                  - img
+                  - generic: Generated image
+            - group [ref=e82]:
+              - generic [ref=e83]:
+                - generic [ref=e86]: "List #1"
+                - generic [ref=e87]:
+                  - generic [ref=e89]:
+                    - generic [ref=e91]:
+                      - generic:
+                        - button:
+                          - img
+                      - generic [ref=e93]:
+                        - generic [ref=e96]: TE
+                        - generic:
+                          - generic [ref=e99] [cursor=pointer]:
+                            - img
+                          - generic [ref=e100]:
+                            - generic [ref=e103] [cursor=pointer]:
+                              - img
+                            - generic [ref=e104]:
+                              - generic [ref=e106] [cursor=pointer]:
+                                - img
+                              - generic [ref=e108] [cursor=pointer]:
+                                - img
+                      - generic [ref=e109]:
+                        - generic [ref=e110]:
+                          - generic [ref=e112] [cursor=pointer]:
+                            - img
+                          - generic [ref=e114] [cursor=pointer]:
+                            - img
+                          - generic [ref=e116] [cursor=pointer]:
+                            - img
+                        - generic [ref=e117]:
+                          - img
+                    - generic [ref=e119]:
+                      - generic:
+                        - button:
+                          - img
+                      - generic [ref=e121]:
+                        - generic [ref=e124]: TEST ITEM 1 Sarah hospital corridor
+                        - generic:
+                          - generic [ref=e127] [cursor=pointer]:
+                            - img
+                          - generic [ref=e128]:
+                            - generic [ref=e131] [cursor=pointer]:
+                              - img
+                            - generic [ref=e132]:
+                              - generic [ref=e134] [cursor=pointer]:
+                                - img
+                              - generic [ref=e136] [cursor=pointer]:
+                                - img
+                      - generic [ref=e137]:
+                        - generic [ref=e138]:
+                          - generic [ref=e140] [cursor=pointer]:
+                            - img
+                          - generic [ref=e142] [cursor=pointer]:
+                            - img
+                          - generic [ref=e144] [cursor=pointer]:
+                            - img
+                        - generic [ref=e145]:
+                          - img
+                  - generic:
+                    - generic [ref=e147]:
+                      - button [ref=e150]:
+                        - img
+                      - button "Keep items" [ref=e153]:
+                        - generic [ref=e154]: Keep items
+                        - img
+                    - button "2 text" [ref=e158] [cursor=pointer]:
+                      - generic [ref=e160]: 2 text
+                      - generic [ref=e161]:
+                        - img
+                        - img
+                - generic [ref=e162]:
+                  - img
+                  - generic: Text
+                - generic [ref=e163]:
+                  - img
+                  - generic: Texts
+            - group [ref=e164]:
+              - generic [ref=e169]: 👍
+            - group [ref=e170]:
+              - generic [ref=e175]:
+                - generic [ref=e177]:
+                  - button [ref=e180] [cursor=pointer]:
+                    - img
+                  - textbox [ref=e184]:
+                    - paragraph [ref=e185]: Write a note...
+                - generic [ref=e186]: trần Dương
+      - generic [ref=e188]:
+        - button "Give feedback" [ref=e189] [cursor=pointer]:
+          - img
+          - text: Give feedback
+        - button [ref=e192] [cursor=pointer]:
+          - img [ref=e193]
+        - button "100%" [ref=e196] [cursor=pointer]:
+          - generic [ref=e197]: 100%
+          - img
+    - button "Page 1" [ref=e200] [cursor=pointer]:
+      - img
+      - generic [ref=e201]: Page 1
+    - generic [ref=e203]:
+      - button [ref=e206] [cursor=pointer]:
+        - img
+      - button [ref=e210] [cursor=pointer]:
+        - img
+      - button [ref=e213] [cursor=pointer]:
+        - img
+      - generic [ref=e216]:
+        - generic:
+          - img
+        - generic [ref=e217]:
+          - button [ref=e219] [cursor=pointer]:
+            - img
+          - button [ref=e221] [cursor=pointer]:
+            - img
+      - generic [ref=e223]:
+        - generic:
+          - img
+        - generic [ref=e224]:
+          - button [ref=e226] [cursor=pointer]:
+            - img
+          - button [ref=e228] [cursor=pointer]:
+            - img
+          - button [ref=e230] [cursor=pointer]:
+            - img
+      - button [ref=e233] [cursor=pointer]:
+        - img
+      - button [disabled] [ref=e236]:
+        - img
+      - button [disabled] [ref=e239]:
+        - img
+      - button [ref=e242] [cursor=pointer]:
+        - img
+      - button [ref=e245] [cursor=pointer]:
+        - generic [ref=e246]:
+          - img

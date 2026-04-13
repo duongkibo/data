@@ -1,0 +1,182 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e7]:
+      - generic:
+        - button
+      - generic [ref=e10]:
+        - button [ref=e12] [cursor=pointer]:
+          - button [ref=e13]:
+            - img [ref=e14]
+        - link [ref=e16] [cursor=pointer]:
+          - /url: /#from_element=mainmenu
+          - button [ref=e18]:
+            - button [ref=e19]:
+              - img
+        - link [ref=e22] [cursor=pointer]:
+          - /url: https://www.freepik.com/stock#from_element=mainmenu
+          - button [ref=e24]:
+            - img [ref=e25]
+        - link [ref=e27] [cursor=pointer]:
+          - /url: /pikaso/community#from_element=mainmenu
+          - button [ref=e29]:
+            - button [ref=e30]:
+              - img
+        - generic [ref=e33]:
+          - link [ref=e35] [cursor=pointer]:
+            - /url: /pikaso/spaces#from_element=mainmenu&from_view=pinned_tool
+            - button [ref=e37]:
+              - button [ref=e38]:
+                - img
+          - link [ref=e40] [cursor=pointer]:
+            - /url: /pikaso/ai-image-generator#from_element=mainmenu&from_view=pinned_tool
+            - button [ref=e42]:
+              - button [ref=e43]:
+                - img
+          - link [ref=e45] [cursor=pointer]:
+            - /url: /pikaso/ai-video-generator#from_element=mainmenu&from_view=pinned_tool
+            - button [ref=e47]:
+              - button [ref=e48]:
+                - img
+          - link [ref=e50] [cursor=pointer]:
+            - /url: /pikaso/voiceover-generator#from_element=mainmenu&from_view=pinned_tool
+            - button [ref=e52]:
+              - button [ref=e53]:
+                - img
+          - link [ref=e55] [cursor=pointer]:
+            - /url: /pikaso/assistant#from_element=mainmenu&from_view=pinned_tool
+            - button [ref=e57]:
+              - button [ref=e58]:
+                - img
+          - button [ref=e62] [cursor=pointer]:
+            - img
+      - button [ref=e66] [cursor=pointer]:
+        - img
+    - generic [ref=e67]:
+      - banner [ref=e68]:
+        - link "Image Generator" [ref=e71] [cursor=pointer]:
+          - /url: /pikaso/ai-image-generator
+        - generic [ref=e73]:
+          - button "Pricing" [ref=e74] [cursor=pointer]
+          - button "Sign in" [ref=e75] [cursor=pointer]
+      - generic [ref=e85]:
+        - complementary [ref=e87]:
+          - generic [ref=e92]:
+            - generic [ref=e93]:
+              - button "Image" [ref=e95] [cursor=pointer]
+              - button "Video" [ref=e96] [cursor=pointer]
+              - button "Audio" [ref=e97] [cursor=pointer]
+              - button "3D" [ref=e98] [cursor=pointer]
+            - generic [ref=e101]:
+              - button "Tools Image Generator Templates" [ref=e103] [cursor=pointer]:
+                - generic [ref=e105]:
+                  - generic [ref=e106]:
+                    - paragraph [ref=e107]:
+                      - img
+                      - text: Tools
+                    - paragraph [ref=e109]: Image Generator
+                  - button "Templates" [ref=e112]:
+                    - img
+                    - generic [ref=e113]: Templates
+              - generic [ref=e114]:
+                - generic [ref=e115]:
+                  - generic [ref=e117]:
+                    - generic [ref=e118]: Model
+                    - button "Auto" [ref=e121] [cursor=pointer]:
+                      - generic [ref=e122]:
+                        - img
+                        - generic [ref=e123]: Auto
+                      - generic [ref=e124]:
+                        - img
+                  - generic [ref=e126]:
+                    - generic [ref=e127]:
+                      - generic [ref=e128]: References
+                      - paragraph [ref=e130]: 0/8
+                    - generic [ref=e131]:
+                      - generic [ref=e134] [cursor=pointer]:
+                        - img
+                        - generic [ref=e135]: Style
+                      - generic [ref=e139] [cursor=pointer]:
+                        - img
+                        - generic [ref=e140]: Character
+                      - generic [ref=e144] [cursor=pointer]:
+                        - img
+                        - generic [ref=e145]: Add
+                  - generic [ref=e148]:
+                    - generic [ref=e150]: Prompt
+                    - generic [ref=e154]:
+                      - generic [ref=e156]:
+                        - generic: Describe your image—try @ to add references
+                      - generic [ref=e158]:
+                        - button "AI prompt" [ref=e161] [cursor=pointer]:
+                          - button "AI prompt" [ref=e162]:
+                            - generic [ref=e165]: AI prompt
+                        - generic [ref=e166]:
+                          - button
+                          - button [ref=e169] [cursor=pointer]:
+                            - img
+                          - button [ref=e171] [cursor=pointer]:
+                            - img
+                          - button [ref=e173] [cursor=pointer]:
+                            - img
+                          - button [disabled] [ref=e175]:
+                            - img
+                  - generic [ref=e177]:
+                    - generic [ref=e178]:
+                      - button [ref=e179] [cursor=pointer]:
+                        - img
+                      - generic [ref=e180]: "4"
+                      - button [disabled]:
+                        - img
+                    - button "1:1" [ref=e184] [cursor=pointer]:
+                      - generic [ref=e185]:
+                        - img
+                        - generic [ref=e186]: 1:1
+                - button "Generate" [disabled] [ref=e190]:
+                  - generic [ref=e192]:
+                    - generic [ref=e193]: Generate
+                    - generic:
+                      - img
+        - generic [ref=e194]:
+          - generic [ref=e195]:
+            - generic [ref=e196]:
+              - generic [ref=e197]:
+                - generic [ref=e198]:
+                  - img
+                - heading "Image Generator" [level=2] [ref=e199]
+              - paragraph [ref=e200]: Create AI images from a text prompt or an image reference
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - heading "Write your prompt" [level=3]
+                      - paragraph: Describe your scene and use @ to call a reference.
+                - generic [ref=e205] [cursor=pointer]:
+                  - heading "Fine-tune output" [level=3] [ref=e206]
+                  - paragraph [ref=e207]: Choose the number of generations, aspect ratio, and resolution.
+                - generic [ref=e212] [cursor=pointer]:
+                  - heading "Pick a model" [level=3] [ref=e213]
+                  - paragraph [ref=e214]: Choose the model that best fits your creative goal and style.
+                - generic [ref=e219] [cursor=pointer]:
+                  - heading "Set references" [level=3] [ref=e220]
+                  - paragraph [ref=e221]: Select a style and upload a character to keep visuals consistent.
+            - generic [ref=e222]:
+              - generic [ref=e223]:
+                - button [ref=e224] [cursor=pointer]:
+                  - img
+                - generic [ref=e225]: 1 / 4
+                - button [ref=e226] [cursor=pointer]:
+                  - img
+              - button "Full tutorial" [ref=e227] [cursor=pointer]:
+                - img
+                - text: Full tutorial
+          - generic [ref=e229]:
+            - heading "Start creating" [level=3] [ref=e230]
+            - paragraph [ref=e231]: Use ready-to-go templates, explore community creations, or get inspired by our library
+  - region "Cookie banner" [ref=e233]:
+    - dialog "Privacy" [ref=e234]:
+      - generic [ref=e236]:
+        - generic [ref=e239]: By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts.
+        - generic [ref=e241]:
+          - button "Cookies Settings" [ref=e242] [cursor=pointer]
+          - button "Accept All Cookies" [ref=e243] [cursor=pointer]

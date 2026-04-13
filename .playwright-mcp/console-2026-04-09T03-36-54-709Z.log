@@ -1,0 +1,57 @@
+[    1859ms] Uncaught Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rh (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:41262)
+    at <anonymous> (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:101773)
+    at oI (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:107284)
+    at oD (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:100232)
+    at <anonymous> (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:100039)
+    at oO (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:100046)
+    at ox (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:95085)
+    at x (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:138659)
+    at T (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:139189)
+[    1859ms] Uncaught Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at lg (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:47558)
+    at i (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:122205)
+    at oD (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:100172)
+    at <anonymous> (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:100039)
+    at oO (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:100046)
+    at ox (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:95085)
+    at x (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:138659)
+    at T (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:139189)
+[    1859ms] Uncaught Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at lg (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:47558)
+    at i (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:122205)
+    at oD (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:100172)
+    at <anonymous> (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:100039)
+    at oO (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:100046)
+    at ox (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:95085)
+    at x (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:138659)
+    at T (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:139189)
+[    1859ms] Uncaught Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at lg (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:47558)
+    at i (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:122205)
+    at oD (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:100172)
+    at <anonymous> (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:100039)
+    at oO (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:100046)
+    at ox (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:95085)
+    at x (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:138659)
+    at T (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:139189)
+[    1860ms] Uncaught Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at i (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:121874)
+    at oD (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:100172)
+    at <anonymous> (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:100039)
+    at oO (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:100046)
+    at oE (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:96798)
+    at ox (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:95353)
+    at x (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:138659)
+    at T (https://static.cdnpk.net/_next/static/chunks/framework-3e498ad5ce5f265b.js:0:139189)
+[    3001ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2 @ https://www.youtube.com/embed/WmdkABEq3cs?showinfo=0&rel=0&modestbranding=1&controls=1:0
+[    3001ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2 @ https://www.youtube.com/embed/WmdkABEq3cs?showinfo=0&rel=0&modestbranding=1&controls=1:0
+[    3039ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2 @ https://www.youtube.com/embed/h1E2OwlytBQ?showinfo=0&rel=0&modestbranding=1&controls=1:0
+[    3541ms] [ERROR] Permissions policy violation: picture-in-picture is not allowed in this document. @ https://www.youtube.com/s/player/2430d1b0/player_embed_es6.vflset/vi_VN/base.js:4670
+[    3554ms] [ERROR] Permissions policy violation: picture-in-picture is not allowed in this document. @ https://www.youtube.com/s/player/2430d1b0/player_embed_es6.vflset/vi_VN/base.js:3954
+[    3633ms] [ERROR] Permissions policy violation: picture-in-picture is not allowed in this document. @ https://www.youtube.com/s/player/cd78997d/player_embed_es6.vflset/vi_VN/base.js:4666
+[    3644ms] [ERROR] Permissions policy violation: picture-in-picture is not allowed in this document. @ https://www.youtube.com/s/player/cd78997d/player_embed_es6.vflset/vi_VN/base.js:3961
+[    3994ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3KUBHMdazTgWw.woff2 @ https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.BI7FS6r5ziY.2021.O/am=AAAABQ/d=1/exm=base,root/ed=1/br=1/rs=AGKMywFq90qrMMOgCvSt7dLi1Yl8btUa3Q/m=r78Drb:819
+[    3994ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3OUBHMdazTgWw.woff2 @ https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.BI7FS6r5ziY.2021.O/am=AAAABQ/d=1/exm=base,root/ed=1/br=1/rs=AGKMywFq90qrMMOgCvSt7dLi1Yl8btUa3Q/m=r78Drb:819
+[    4012ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3KUBHMdazTgWw.woff2 @ https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.BI7FS6r5ziY.2021.O/am=AAAABQ/d=1/exm=base,root/ed=1/br=1/rs=AGKMywFq90qrMMOgCvSt7dLi1Yl8btUa3Q/m=r78Drb:819
+[    4013ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3OUBHMdazTgWw.woff2 @ https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.BI7FS6r5ziY.2021.O/am=AAAABQ/d=1/exm=base,root/ed=1/br=1/rs=AGKMywFq90qrMMOgCvSt7dLi1Yl8btUa3Q/m=r78Drb:819

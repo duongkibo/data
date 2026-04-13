@@ -1,0 +1,828 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - link "Personal project" [ref=e8] [cursor=pointer]:
+        - /url: /pikaso/projects/c6ab0c4f-d3b0-4b63-85b3-4e1cdb16f4be
+        - generic [ref=e9]: Personal project
+      - generic [ref=e10]: /
+      - link "Spaces" [ref=e12] [cursor=pointer]:
+        - /url: /pikaso/spaces
+      - generic [ref=e13]:
+        - generic [ref=e14]: /
+        - button "Copy of Full-body Clothing Extraction" [ref=e18] [cursor=pointer]:
+          - generic [ref=e20]: Copy of Full-body Clothing Extraction
+    - generic [ref=e22]:
+      - generic [ref=e26]:
+        - img [ref=e29] [cursor=pointer]
+        - button [ref=e32] [cursor=pointer]:
+          - button [ref=e33]:
+            - img [ref=e35]
+      - generic [ref=e54]:
+        - button "trần Dương" [disabled] [ref=e57]:
+          - img "trần Dương" [ref=e59]
+        - button "Share" [ref=e61] [cursor=pointer]:
+          - img
+          - generic [ref=e62]: Share
+  - generic [ref=e66]:
+    - generic [ref=e67]:
+      - generic [ref=e69]:
+        - generic:
+          - img
+          - img:
+            - group "Edge from 2d12fc80-95bb-4735-83d7-f43f73deb226 to 17f0fc15-391f-4656-a642-b18bd0fc1a6c" [ref=e70] [cursor=pointer]
+          - img:
+            - group "Edge from 996680ac-3105-4074-846f-ec7799cb6a1c to 17f0fc15-391f-4656-a642-b18bd0fc1a6c" [ref=e71] [cursor=pointer]
+          - img:
+            - group "Edge from fd07d81d-e44c-4302-a6b2-3b7114bf19e1 to acdaaa69-07a8-4560-80d9-50d1d81034a6" [ref=e72] [cursor=pointer]
+          - img:
+            - group "Edge from fd07d81d-e44c-4302-a6b2-3b7114bf19e1 to 1ce7d9e7-4620-44c6-9bcd-805b0a1c2f4e" [ref=e73] [cursor=pointer]
+          - img:
+            - group "Edge from acdaaa69-07a8-4560-80d9-50d1d81034a6 to 8144e60d-9c74-4812-a32d-ce4e1616f01f" [ref=e74] [cursor=pointer]
+          - img:
+            - group "Edge from 8144e60d-9c74-4812-a32d-ce4e1616f01f to 1ce7d9e7-4620-44c6-9bcd-805b0a1c2f4e" [ref=e75] [cursor=pointer]
+          - img:
+            - group "Edge from 1ce7d9e7-4620-44c6-9bcd-805b0a1c2f4e to d50d7b10-dcad-4acc-85a4-4dfe5c873d41" [ref=e76] [cursor=pointer]
+          - img:
+            - group "Edge from 168fef6b-94a9-48e6-8fb4-79cd508845a6 to daea125f-4c45-423e-9228-7113b24c364c" [ref=e77] [cursor=pointer]
+          - img:
+            - group "Edge from 271b8609-4b43-420a-be28-ffe56387c6d2 to 7dfaeb30-46d4-4ff5-b9f6-1bd846274c96" [ref=e78] [cursor=pointer]
+          - img:
+            - group "Edge from 1b0108a9-430c-45f3-b756-aa901aab7bf7 to 7dfaeb30-46d4-4ff5-b9f6-1bd846274c96" [ref=e79] [cursor=pointer]
+          - img:
+            - group "Edge from 7672d4a8-91b8-41d9-b060-0d4360cfbb69 to 1b0108a9-430c-45f3-b756-aa901aab7bf7" [ref=e80] [cursor=pointer]
+          - img:
+            - group "Edge from 6d8e63fb-1337-47af-8fdc-b03f4e083764 to 1b0108a9-430c-45f3-b756-aa901aab7bf7" [ref=e81] [cursor=pointer]
+          - img:
+            - group "Edge from 7dfaeb30-46d4-4ff5-b9f6-1bd846274c96 to 796df4e7-9d95-4831-ad5e-2c265725ebdd" [ref=e82] [cursor=pointer]
+          - img:
+            - group "Edge from 7dfaeb30-46d4-4ff5-b9f6-1bd846274c96 to 47f50621-71e7-45ed-ad12-1c4cd86610e1" [ref=e83] [cursor=pointer]
+          - img:
+            - group "Edge from 47f50621-71e7-45ed-ad12-1c4cd86610e1 to 8c2618e6-4d50-469e-9343-c300f93ac5ff" [ref=e84] [cursor=pointer]
+          - img:
+            - group "Edge from feb4236e-ef59-4aae-ac60-ebfa5528d20c to d4e11733-6e2e-4f83-bec0-979545039c3c" [ref=e85] [cursor=pointer]
+          - img:
+            - group "Edge from b95309b8-742c-457c-8431-8fc8cda08ca1 to feb4236e-ef59-4aae-ac60-ebfa5528d20c" [ref=e86] [cursor=pointer]
+          - img:
+            - group "Edge from d199476f-2e46-4739-bf47-5f11d430f72a to b95309b8-742c-457c-8431-8fc8cda08ca1" [ref=e87] [cursor=pointer]
+          - img:
+            - group "Edge from b34b4589-9fa2-42bf-b80b-2b862666e32e to feb4236e-ef59-4aae-ac60-ebfa5528d20c" [ref=e88] [cursor=pointer]
+          - img:
+            - group "Edge from b34b4589-9fa2-42bf-b80b-2b862666e32e to d199476f-2e46-4739-bf47-5f11d430f72a" [ref=e89] [cursor=pointer]
+          - img:
+            - group "Edge from d3d4379f-cef0-4ce7-b60d-26aec041eea8 to 606b0bc5-97a8-419f-9bd8-bb3f51c3bd5e" [ref=e90] [cursor=pointer]
+          - img:
+            - group "Edge from be36afb7-308c-43ad-893a-025863bf1bee to d3d4379f-cef0-4ce7-b60d-26aec041eea8" [ref=e91] [cursor=pointer]
+          - img:
+            - group "Edge from 5cd475f0-469b-4866-9253-e7b5abd6926d to be36afb7-308c-43ad-893a-025863bf1bee" [ref=e92] [cursor=pointer]
+          - img:
+            - group "Edge from 92771269-b785-47de-8afc-b4162adfbbfc to d3d4379f-cef0-4ce7-b60d-26aec041eea8" [ref=e93] [cursor=pointer]
+          - img:
+            - group "Edge from 92771269-b785-47de-8afc-b4162adfbbfc to 5cd475f0-469b-4866-9253-e7b5abd6926d" [ref=e94] [cursor=pointer]
+          - img:
+            - group "Edge from 7e0bbd0d-3400-443c-8ed8-4b7cbb345e56 to 47f50621-71e7-45ed-ad12-1c4cd86610e1" [ref=e95] [cursor=pointer]
+          - img:
+            - group "Edge from 796df4e7-9d95-4831-ad5e-2c265725ebdd to 7e0bbd0d-3400-443c-8ed8-4b7cbb345e56" [ref=e96] [cursor=pointer]
+          - generic:
+            - group [ref=e97]:
+              - img "creation thumbnail" [ref=e101]
+            - group [ref=e102]:
+              - img "image-generator thumbnail" [ref=e106]
+            - group [ref=e107]:
+              - img "creation thumbnail" [ref=e111]
+            - group [ref=e112]:
+              - img "creation thumbnail" [ref=e116]
+            - group [ref=e117]:
+              - generic [ref=e121]:
+                - img
+            - group [ref=e122]:
+              - img "image-generator thumbnail" [ref=e126]
+            - group [ref=e127]:
+              - generic [ref=e131] [cursor=pointer]: New group
+            - group [ref=e134]:
+              - generic [ref=e138]:
+                - img
+            - group [ref=e139]:
+              - img "creation thumbnail" [ref=e143]
+            - group [ref=e144]:
+              - generic [ref=e148] [cursor=pointer]: Character
+            - group [ref=e151]:
+              - img "creation thumbnail" [ref=e155]
+            - group [ref=e156]:
+              - img "creation thumbnail" [ref=e160]
+            - group [ref=e161]:
+              - img "creation thumbnail" [ref=e165]
+            - group [ref=e166]:
+              - img "creation thumbnail" [ref=e170]
+            - group [ref=e171]:
+              - img "creation thumbnail" [ref=e175]
+            - group [ref=e176]:
+              - img "creation thumbnail" [ref=e180]
+            - group [ref=e181]:
+              - img "creation thumbnail" [ref=e185]
+            - group [ref=e186]:
+              - generic [ref=e190]:
+                - img
+            - group [ref=e191]:
+              - img "image-generator thumbnail" [ref=e195]
+            - group [ref=e196]:
+              - img "creation thumbnail" [ref=e200]
+            - group [ref=e201]:
+              - generic [ref=e202]:
+                - generic [ref=e205]: "List #7"
+                - generic [ref=e206]:
+                  - generic [ref=e208]:
+                    - generic [ref=e210]:
+                      - generic:
+                        - button:
+                          - img
+                      - generic [ref=e212]:
+                        - generic [ref=e215]: Chân dung chính diện, eye-level, giữ nguyên khuôn mặt, nền đường nhựa vạch qua đường, ánh nắng chiều, Fujifilm Classic Chrome, 35mm, f/2.8, DOF vừa, màu trung tính chân thực
+                        - generic:
+                          - generic [ref=e218] [cursor=pointer]:
+                            - img
+                          - generic [ref=e219]:
+                            - generic [ref=e222] [cursor=pointer]:
+                              - img
+                            - generic [ref=e223]:
+                              - generic [ref=e225] [cursor=pointer]:
+                                - img
+                              - generic [ref=e227] [cursor=pointer]:
+                                - img
+                      - generic [ref=e228]:
+                        - generic [ref=e229]:
+                          - generic [ref=e231] [cursor=pointer]:
+                            - img
+                          - generic [ref=e233] [cursor=pointer]:
+                            - img
+                          - generic [ref=e235] [cursor=pointer]:
+                            - img
+                        - generic [ref=e236]:
+                          - img
+                    - generic [ref=e238]:
+                      - generic:
+                        - button:
+                          - img
+                      - generic [ref=e240]:
+                        - generic [ref=e243]: Chân dung 3/4 trái, eye-level, nhân vật nhìn vào camera, nền đường nhựa và vạch trắng, ánh sáng mềm, Fujifilm Provia/Standard, 50mm, f/2, bokeh nhẹ, da tự nhiên
+                        - generic:
+                          - generic [ref=e246] [cursor=pointer]:
+                            - img
+                          - generic [ref=e247]:
+                            - generic [ref=e250] [cursor=pointer]:
+                              - img
+                            - generic [ref=e251]:
+                              - generic [ref=e253] [cursor=pointer]:
+                                - img
+                              - generic [ref=e255] [cursor=pointer]:
+                                - img
+                      - generic [ref=e256]:
+                        - generic [ref=e257]:
+                          - generic [ref=e259] [cursor=pointer]:
+                            - img
+                          - generic [ref=e261] [cursor=pointer]:
+                            - img
+                          - generic [ref=e263] [cursor=pointer]:
+                            - img
+                        - generic [ref=e264]:
+                          - img
+                    - generic [ref=e266]:
+                      - generic:
+                        - button:
+                          - img
+                      - generic [ref=e268]:
+                        - generic [ref=e271]: Chân dung 3/4 phải, eye-level, giữ nguyên khuôn mặt, nền đường nhựa, hậu cảnh phố mờ nhẹ, Fujifilm Astia/Soft, 56mm, f/1.8, tông ấm nhẹ chân thực
+                        - generic:
+                          - generic [ref=e274] [cursor=pointer]:
+                            - img
+                          - generic [ref=e275]:
+                            - generic [ref=e278] [cursor=pointer]:
+                              - img
+                            - generic [ref=e279]:
+                              - generic [ref=e281] [cursor=pointer]:
+                                - img
+                              - generic [ref=e283] [cursor=pointer]:
+                                - img
+                      - generic [ref=e284]:
+                        - generic [ref=e285]:
+                          - generic [ref=e287] [cursor=pointer]:
+                            - img
+                          - generic [ref=e289] [cursor=pointer]:
+                            - img
+                          - generic [ref=e291] [cursor=pointer]:
+                            - img
+                        - generic [ref=e292]:
+                          - img
+                    - generic [ref=e294]:
+                      - generic:
+                        - button:
+                          - img
+                      - generic [ref=e296]:
+                        - generic [ref=e299]: Góc thấp nhẹ (low angle nhẹ), nhân vật đứng trên vạch qua đường, mặt rõ nét, nền đường nhựa, Fujifilm Classic Chrome, 23mm, f/4, phối cảnh rộng nhưng không méo mặt
+                        - generic:
+                          - generic [ref=e302] [cursor=pointer]:
+                            - img
+                          - generic [ref=e303]:
+                            - generic [ref=e306] [cursor=pointer]:
+                              - img
+                            - generic [ref=e307]:
+                              - generic [ref=e309] [cursor=pointer]:
+                                - img
+                              - generic [ref=e311] [cursor=pointer]:
+                                - img
+                      - generic [ref=e312]:
+                        - generic [ref=e313]:
+                          - generic [ref=e315] [cursor=pointer]:
+                            - img
+                          - generic [ref=e317] [cursor=pointer]:
+                            - img
+                          - generic [ref=e319] [cursor=pointer]:
+                            - img
+                        - generic [ref=e320]:
+                          - img
+                    - generic [ref=e322]:
+                      - generic:
+                        - button:
+                          - img
+                      - generic [ref=e324]:
+                        - generic [ref=e327]: Góc cao nhẹ (high angle nhẹ), nhìn xuống vừa phải để giữ mặt, vạch qua đường dẫn hướng, nền đường nhựa, Fujifilm Provia, 35mm, f/2.8, tương phản tự nhiên
+                        - generic:
+                          - generic [ref=e330] [cursor=pointer]:
+                            - img
+                          - generic [ref=e331]:
+                            - generic [ref=e334] [cursor=pointer]:
+                              - img
+                            - generic [ref=e335]:
+                              - generic [ref=e337] [cursor=pointer]:
+                                - img
+                              - generic [ref=e339] [cursor=pointer]:
+                                - img
+                      - generic [ref=e340]:
+                        - generic [ref=e341]:
+                          - generic [ref=e343] [cursor=pointer]:
+                            - img
+                          - generic [ref=e345] [cursor=pointer]:
+                            - img
+                          - generic [ref=e347] [cursor=pointer]:
+                            - img
+                        - generic [ref=e348]:
+                          - img
+                    - generic [ref=e350]:
+                      - generic:
+                        - button:
+                          - img
+                      - generic [ref=e352]:
+                        - generic [ref=e355]: Cận mặt (close-up) từ ngực trở lên, chính diện, nền đường nhựa mờ, Fujifilm Eterna/Cinema, 50mm, f/2, màu dịu, highlight mềm
+                        - generic:
+                          - generic [ref=e358] [cursor=pointer]:
+                            - img
+                          - generic [ref=e359]:
+                            - generic [ref=e362] [cursor=pointer]:
+                              - img
+                            - generic [ref=e363]:
+                              - generic [ref=e365] [cursor=pointer]:
+                                - img
+                              - generic [ref=e367] [cursor=pointer]:
+                                - img
+                      - generic [ref=e368]:
+                        - generic [ref=e369]:
+                          - generic [ref=e371] [cursor=pointer]:
+                            - img
+                          - generic [ref=e373] [cursor=pointer]:
+                            - img
+                          - generic [ref=e375] [cursor=pointer]:
+                            - img
+                        - generic [ref=e376]:
+                          - img
+                    - generic [ref=e378]:
+                      - generic:
+                        - button:
+                          - img
+                      - generic [ref=e380]:
+                        - generic [ref=e383]: Chân dung nửa người, nhân vật bước nhẹ trên vạch, mặt nhìn thẳng, nền đường nhựa, Fujifilm Classic Neg, 35mm, f/2.5, film look nhẹ nhưng vẫn thật
+                        - generic:
+                          - generic [ref=e386] [cursor=pointer]:
+                            - img
+                          - generic [ref=e387]:
+                            - generic [ref=e390] [cursor=pointer]:
+                              - img
+                            - generic [ref=e391]:
+                              - generic [ref=e393] [cursor=pointer]:
+                                - img
+                              - generic [ref=e395] [cursor=pointer]:
+                                - img
+                      - generic [ref=e396]:
+                        - generic [ref=e397]:
+                          - generic [ref=e399] [cursor=pointer]:
+                            - img
+                          - generic [ref=e401] [cursor=pointer]:
+                            - img
+                          - generic [ref=e403] [cursor=pointer]:
+                            - img
+                        - generic [ref=e404]:
+                          - img
+                    - generic [ref=e406]:
+                      - generic:
+                        - button:
+                          - img
+                      - generic [ref=e408]:
+                        - generic [ref=e411]: Chân dung toàn thân, đứng giữa vạch qua đường, mặt rõ, nền đường nhựa chiếm khung, Fujifilm Provia, 28mm, f/5.6, chi tiết sắc nét cảnh thật
+                        - generic:
+                          - generic [ref=e414] [cursor=pointer]:
+                            - img
+                          - generic [ref=e415]:
+                            - generic [ref=e418] [cursor=pointer]:
+                              - img
+                            - generic [ref=e419]:
+                              - generic [ref=e421] [cursor=pointer]:
+                                - img
+                              - generic [ref=e423] [cursor=pointer]:
+                                - img
+                      - generic [ref=e424]:
+                        - generic [ref=e425]:
+                          - generic [ref=e427] [cursor=pointer]:
+                            - img
+                          - generic [ref=e429] [cursor=pointer]:
+                            - img
+                          - generic [ref=e431] [cursor=pointer]:
+                            - img
+                        - generic [ref=e432]:
+                          - img
+                    - generic [ref=e434]:
+                      - generic:
+                        - button:
+                          - img
+                      - generic [ref=e436]:
+                        - generic [ref=e439]: Góc nghiêng profile nhẹ nhưng mắt quay về camera, giữ nhận diện mặt, nền đường nhựa, Fujifilm Astia, 50mm, f/2.2, da mịn tự nhiên
+                        - generic:
+                          - generic [ref=e442] [cursor=pointer]:
+                            - img
+                          - generic [ref=e443]:
+                            - generic [ref=e446] [cursor=pointer]:
+                              - img
+                            - generic [ref=e447]:
+                              - generic [ref=e449] [cursor=pointer]:
+                                - img
+                              - generic [ref=e451] [cursor=pointer]:
+                                - img
+                      - generic [ref=e452]:
+                        - generic [ref=e453]:
+                          - generic [ref=e455] [cursor=pointer]:
+                            - img
+                          - generic [ref=e457] [cursor=pointer]:
+                            - img
+                          - generic [ref=e459] [cursor=pointer]:
+                            - img
+                        - generic [ref=e460]:
+                          - img
+                    - generic [ref=e462]:
+                      - generic:
+                        - button:
+                          - img
+                      - generic [ref=e464]:
+                        - generic [ref=e467]: Over-the-shoulder nhẹ (quay lại nhìn camera), mặt vẫn rõ, nền đường nhựa và vạch trắng, Fujifilm Classic Chrome, 35mm, f/2.8, tông ấm chiều
+                        - generic:
+                          - generic [ref=e470] [cursor=pointer]:
+                            - img
+                          - generic [ref=e471]:
+                            - generic [ref=e474] [cursor=pointer]:
+                              - img
+                            - generic [ref=e475]:
+                              - generic [ref=e477] [cursor=pointer]:
+                                - img
+                              - generic [ref=e479] [cursor=pointer]:
+                                - img
+                      - generic [ref=e480]:
+                        - generic [ref=e481]:
+                          - generic [ref=e483] [cursor=pointer]:
+                            - img
+                          - generic [ref=e485] [cursor=pointer]:
+                            - img
+                          - generic [ref=e487] [cursor=pointer]:
+                            - img
+                        - generic [ref=e488]:
+                          - img
+                    - generic [ref=e490]:
+                      - generic:
+                        - button:
+                          - img
+                      - generic [ref=e492]:
+                        - generic [ref=e495]: Chụp dọc, bố cục trung tâm, mặt đúng tiêu điểm, nền đường nhựa tối và vạch trắng sáng, Fujifilm Provia, 35mm, f/2, tương phản vừa
+                        - generic:
+                          - generic [ref=e498] [cursor=pointer]:
+                            - img
+                          - generic [ref=e499]:
+                            - generic [ref=e502] [cursor=pointer]:
+                              - img
+                            - generic [ref=e503]:
+                              - generic [ref=e505] [cursor=pointer]:
+                                - img
+                              - generic [ref=e507] [cursor=pointer]:
+                                - img
+                      - generic [ref=e508]:
+                        - generic [ref=e509]:
+                          - generic [ref=e511] [cursor=pointer]:
+                            - img
+                          - generic [ref=e513] [cursor=pointer]:
+                            - img
+                          - generic [ref=e515] [cursor=pointer]:
+                            - img
+                        - generic [ref=e516]:
+                          - img
+                    - generic [ref=e518]:
+                      - generic:
+                        - button:
+                          - img
+                      - generic [ref=e520]:
+                        - generic [ref=e523]: Chụp ngang, nhân vật lệch 1/3, mặt rõ, nền đường nhựa và giao lộ, Fujifilm Classic Neg, 35mm, f/2.8, màu đời thường
+                        - generic:
+                          - generic [ref=e526] [cursor=pointer]:
+                            - img
+                          - generic [ref=e527]:
+                            - generic [ref=e530] [cursor=pointer]:
+                              - img
+                            - generic [ref=e531]:
+                              - generic [ref=e533] [cursor=pointer]:
+                                - img
+                              - generic [ref=e535] [cursor=pointer]:
+                                - img
+                      - generic [ref=e536]:
+                        - generic [ref=e537]:
+                          - generic [ref=e539] [cursor=pointer]:
+                            - img
+                          - generic [ref=e541] [cursor=pointer]:
+                            - img
+                          - generic [ref=e543] [cursor=pointer]:
+                            - img
+                        - generic [ref=e544]:
+                          - img
+                    - generic [ref=e546]:
+                      - generic:
+                        - button:
+                          - img
+                      - generic [ref=e548]:
+                        - generic [ref=e551]: Góc eye-level với tiêu cự dài hơn để nén cảnh, mặt nổi bật, nền đường nhựa mờ, Fujifilm Provia, 85mm, f/2.2, bokeh mịn
+                        - generic:
+                          - generic [ref=e554] [cursor=pointer]:
+                            - img
+                          - generic [ref=e555]:
+                            - generic [ref=e558] [cursor=pointer]:
+                              - img
+                            - generic [ref=e559]:
+                              - generic [ref=e561] [cursor=pointer]:
+                                - img
+                              - generic [ref=e563] [cursor=pointer]:
+                                - img
+                      - generic [ref=e564]:
+                        - generic [ref=e565]:
+                          - generic [ref=e567] [cursor=pointer]:
+                            - img
+                          - generic [ref=e569] [cursor=pointer]:
+                            - img
+                          - generic [ref=e571] [cursor=pointer]:
+                            - img
+                        - generic [ref=e572]:
+                          - img
+                    - generic [ref=e574]:
+                      - generic:
+                        - button:
+                          - img
+                      - generic [ref=e576]:
+                        - generic [ref=e579]: Góc low angle rất nhẹ + leading lines vạch qua đường hướng vào mặt, nền đường nhựa, Fujifilm Classic Chrome, 23mm, f/4.5, giữ thẳng đường chân trời
+                        - generic:
+                          - generic [ref=e582] [cursor=pointer]:
+                            - img
+                          - generic [ref=e583]:
+                            - generic [ref=e586] [cursor=pointer]:
+                              - img
+                            - generic [ref=e587]:
+                              - generic [ref=e589] [cursor=pointer]:
+                                - img
+                              - generic [ref=e591] [cursor=pointer]:
+                                - img
+                      - generic [ref=e592]:
+                        - generic [ref=e593]:
+                          - generic [ref=e595] [cursor=pointer]:
+                            - img
+                          - generic [ref=e597] [cursor=pointer]:
+                            - img
+                          - generic [ref=e599] [cursor=pointer]:
+                            - img
+                        - generic [ref=e600]:
+                          - img
+                    - generic [ref=e602]:
+                      - generic:
+                        - button:
+                          - img
+                      - generic [ref=e604]:
+                        - generic [ref=e607]: Chụp tại chỗ, tay chạm tai nghe như ảnh mẫu, chính diện, nền đường nhựa, Fujifilm Astia, 56mm, f/2, màu da tự nhiên
+                        - generic:
+                          - generic [ref=e610] [cursor=pointer]:
+                            - img
+                          - generic [ref=e611]:
+                            - generic [ref=e614] [cursor=pointer]:
+                              - img
+                            - generic [ref=e615]:
+                              - generic [ref=e617] [cursor=pointer]:
+                                - img
+                              - generic [ref=e619] [cursor=pointer]:
+                                - img
+                      - generic [ref=e620]:
+                        - generic [ref=e621]:
+                          - generic [ref=e623] [cursor=pointer]:
+                            - img
+                          - generic [ref=e625] [cursor=pointer]:
+                            - img
+                          - generic [ref=e627] [cursor=pointer]:
+                            - img
+                        - generic [ref=e628]:
+                          - img
+                    - generic [ref=e630]:
+                      - generic:
+                        - button:
+                          - img
+                      - generic [ref=e632]:
+                        - generic [ref=e635]: Chân dung 3/4 với ánh sáng ngược nhẹ (rim light), mặt vẫn sáng, nền đường nhựa, Fujifilm Eterna, 35mm, f/2.8, highlight kiểm soát
+                        - generic:
+                          - generic [ref=e638] [cursor=pointer]:
+                            - img
+                          - generic [ref=e639]:
+                            - generic [ref=e642] [cursor=pointer]:
+                              - img
+                            - generic [ref=e643]:
+                              - generic [ref=e645] [cursor=pointer]:
+                                - img
+                              - generic [ref=e647] [cursor=pointer]:
+                                - img
+                      - generic [ref=e648]:
+                        - generic [ref=e649]:
+                          - generic [ref=e651] [cursor=pointer]:
+                            - img
+                          - generic [ref=e653] [cursor=pointer]:
+                            - img
+                          - generic [ref=e655] [cursor=pointer]:
+                            - img
+                        - generic [ref=e656]:
+                          - img
+                    - generic [ref=e658]:
+                      - generic:
+                        - button:
+                          - img
+                      - generic [ref=e660]:
+                        - generic [ref=e663]: Chụp dưới bóng râm nhẹ (shade) để da đều, mặt rõ, nền đường nhựa, Fujifilm Provia, 50mm, f/2, màu cân bằng trắng tự nhiên
+                        - generic:
+                          - generic [ref=e666] [cursor=pointer]:
+                            - img
+                          - generic [ref=e667]:
+                            - generic [ref=e670] [cursor=pointer]:
+                              - img
+                            - generic [ref=e671]:
+                              - generic [ref=e673] [cursor=pointer]:
+                                - img
+                              - generic [ref=e675] [cursor=pointer]:
+                                - img
+                      - generic [ref=e676]:
+                        - generic [ref=e677]:
+                          - generic [ref=e679] [cursor=pointer]:
+                            - img
+                          - generic [ref=e681] [cursor=pointer]:
+                            - img
+                          - generic [ref=e683] [cursor=pointer]:
+                            - img
+                        - generic [ref=e684]:
+                          - img
+                    - generic [ref=e686]:
+                      - generic:
+                        - button:
+                          - img
+                      - generic [ref=e688]:
+                        - generic [ref=e691]: Chụp chuyển động nhẹ (walking), tốc độ vừa để mặt nét, nền đường nhựa, Fujifilm Classic Chrome, 35mm, f/2.8, motion rất nhẹ ở chân
+                        - generic:
+                          - generic [ref=e694] [cursor=pointer]:
+                            - img
+                          - generic [ref=e695]:
+                            - generic [ref=e698] [cursor=pointer]:
+                              - img
+                            - generic [ref=e699]:
+                              - generic [ref=e701] [cursor=pointer]:
+                                - img
+                              - generic [ref=e703] [cursor=pointer]:
+                                - img
+                      - generic [ref=e704]:
+                        - generic [ref=e705]:
+                          - generic [ref=e707] [cursor=pointer]:
+                            - img
+                          - generic [ref=e709] [cursor=pointer]:
+                            - img
+                          - generic [ref=e711] [cursor=pointer]:
+                            - img
+                        - generic [ref=e712]:
+                          - img
+                    - generic [ref=e714]:
+                      - generic:
+                        - button:
+                          - img
+                      - generic [ref=e716]:
+                        - generic [ref=e719]: Chụp cận 3/4 mặt, mắt là điểm nét, nền đường nhựa mờ, Fujifilm Classic Neg, 50mm, f/1.8, film tone nhẹ chân thực
+                        - generic:
+                          - generic [ref=e722] [cursor=pointer]:
+                            - img
+                          - generic [ref=e723]:
+                            - generic [ref=e726] [cursor=pointer]:
+                              - img
+                            - generic [ref=e727]:
+                              - generic [ref=e729] [cursor=pointer]:
+                                - img
+                              - generic [ref=e731] [cursor=pointer]:
+                                - img
+                      - generic [ref=e732]:
+                        - generic [ref=e733]:
+                          - generic [ref=e735] [cursor=pointer]:
+                            - img
+                          - generic [ref=e737] [cursor=pointer]:
+                            - img
+                          - generic [ref=e739] [cursor=pointer]:
+                            - img
+                        - generic [ref=e740]:
+                          - img
+                    - generic [ref=e742]:
+                      - generic:
+                        - button:
+                          - img
+                      - generic [ref=e744]:
+                        - generic [ref=e747]: Chụp toàn thân từ xa hơn, giữ mặt rõ bằng tiêu cự 70mm, nền đường nhựa và vạch trắng rõ, Fujifilm Provia, 70mm, f/4, cảnh phố thật
+                        - generic:
+                          - generic [ref=e750] [cursor=pointer]:
+                            - img
+                          - generic [ref=e751]:
+                            - generic [ref=e754] [cursor=pointer]:
+                              - img
+                            - generic [ref=e755]:
+                              - generic [ref=e757] [cursor=pointer]:
+                                - img
+                              - generic [ref=e759] [cursor=pointer]:
+                                - img
+                      - generic [ref=e760]:
+                        - generic [ref=e761]:
+                          - generic [ref=e763] [cursor=pointer]:
+                            - img
+                          - generic [ref=e765] [cursor=pointer]:
+                            - img
+                          - generic [ref=e767] [cursor=pointer]:
+                            - img
+                        - generic [ref=e768]:
+                          - img
+                  - generic:
+                    - generic [ref=e770]:
+                      - button [ref=e773]:
+                        - img
+                      - button "Replace items" [ref=e776]:
+                        - generic [ref=e777]: Replace items
+                        - img
+                    - button "20 text" [ref=e781] [cursor=pointer]:
+                      - generic [ref=e783]: 20 text
+                      - generic [ref=e784]:
+                        - img
+                        - img
+                - generic [ref=e785]:
+                  - img
+                  - generic: Text
+                - generic [ref=e786]:
+                  - img
+                  - generic: Texts
+            - group [ref=e787]:
+              - generic [ref=e792]:
+                - img
+            - group [ref=e793]:
+              - img "creation thumbnail" [ref=e797]
+            - group [ref=e798]:
+              - img "creation thumbnail" [ref=e802]
+            - group [ref=e803]:
+              - img "image-generator thumbnail" [ref=e807]
+            - group [ref=e808]:
+              - img "creation thumbnail" [ref=e812]
+            - group [ref=e813]:
+              - img "image-upscaler thumbnail" [ref=e817]
+            - group [ref=e818]:
+              - img "image-generator thumbnail" [ref=e822]
+            - group [ref=e823]:
+              - img "creation thumbnail" [ref=e827]
+            - group [ref=e828]:
+              - generic [ref=e832]:
+                - img
+            - group [ref=e833]:
+              - img "image-generator thumbnail" [ref=e837]
+            - group [ref=e838]:
+              - generic [ref=e843]:
+                - img
+            - group [ref=e844]:
+              - generic [ref=e848] [cursor=pointer]: New group
+            - group [ref=e851]:
+              - img "image-generator thumbnail" [ref=e855]
+            - group [ref=e856]:
+              - img "image-generator thumbnail" [ref=e860]
+            - group [ref=e861]:
+              - img "image-generator thumbnail" [ref=e865]
+            - group [ref=e866]:
+              - img "image-generator thumbnail" [ref=e870]
+            - group [ref=e871]:
+              - img "image-generator thumbnail" [ref=e875]
+            - group [ref=e876]:
+              - generic [ref=e880] [cursor=pointer]: Chara
+            - group [ref=e883]:
+              - generic [ref=e888]:
+                - img
+            - group [ref=e889]:
+              - generic [ref=e892]:
+                - img "video-generator thumbnail" [ref=e893]
+                - generic [ref=e895]:
+                  - img
+            - group [ref=e896]:
+              - generic [ref=e901]:
+                - img
+            - group [ref=e902]:
+              - generic [ref=e906]:
+                - img
+            - group [ref=e907]:
+              - img "creation thumbnail" [ref=e911]
+            - group [ref=e912]:
+              - img "creation thumbnail" [ref=e916]
+            - group [ref=e917]:
+              - img "creation thumbnail" [ref=e921]
+            - group [ref=e922]:
+              - generic [ref=e927]:
+                - img
+            - group [ref=e928]:
+              - generic [ref=e933]:
+                - img
+            - group [ref=e934]:
+              - generic [ref=e938]:
+                - img
+            - group [ref=e939]:
+              - img "image-generator thumbnail" [ref=e943]
+            - group [ref=e944]:
+              - generic [ref=e949]:
+                - img
+            - group [ref=e950]:
+              - generic [ref=e954]:
+                - img
+            - group [ref=e955]:
+              - img "creation thumbnail" [ref=e959]
+            - group [ref=e960]:
+              - generic [ref=e965]:
+                - img
+            - group [ref=e966]:
+              - img "image-generator thumbnail" [ref=e970]
+            - group [ref=e971]:
+              - generic [ref=e975]:
+                - img
+            - group [ref=e976]:
+              - generic [ref=e980]:
+                - img
+      - generic [ref=e981]:
+        - button "Give feedback" [ref=e982] [cursor=pointer]:
+          - img
+          - text: Give feedback
+        - button [ref=e985] [cursor=pointer]:
+          - img [ref=e986]
+        - button "7%" [ref=e989] [cursor=pointer]:
+          - generic [ref=e990]: 7%
+          - img
+    - button "Page 1" [ref=e993] [cursor=pointer]:
+      - img
+      - generic [ref=e994]: Page 1
+    - generic [ref=e996]:
+      - button [ref=e999] [cursor=pointer]:
+        - img
+      - button [ref=e1003] [cursor=pointer]:
+        - img
+      - button [ref=e1006] [cursor=pointer]:
+        - img
+      - generic [ref=e1009]:
+        - generic:
+          - img
+        - generic [ref=e1010]:
+          - button [ref=e1012] [cursor=pointer]:
+            - img
+          - button [ref=e1014] [cursor=pointer]:
+            - img
+      - generic [ref=e1016]:
+        - generic:
+          - img
+        - generic [ref=e1017]:
+          - button [ref=e1019] [cursor=pointer]:
+            - img
+          - button [ref=e1021] [cursor=pointer]:
+            - img
+          - button [ref=e1023] [cursor=pointer]:
+            - img
+      - button [ref=e1026] [cursor=pointer]:
+        - img
+      - button [disabled] [ref=e1029]:
+        - img
+      - button [disabled] [ref=e1032]:
+        - img
+      - button [ref=e1035] [cursor=pointer]:
+        - img
+      - button [ref=e1038] [cursor=pointer]:
+        - generic [ref=e1039]:
+          - img

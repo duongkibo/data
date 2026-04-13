@@ -1,0 +1,926 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - region "Notifications (F8)":
+      - list
+    - generic [ref=e3]:
+      - navigation "Sidebar" [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e10]:
+            - generic [ref=e11]:
+              - button "P" [ref=e13] [cursor=pointer]:
+                - generic [ref=e15]: P
+              - button "openSearch" [ref=e16] [cursor=pointer]:
+                - img [ref=e18]
+              - link "Home" [ref=e20] [cursor=pointer]:
+                - /url: /
+                - img [ref=e22]
+              - link "Stock" [ref=e24] [cursor=pointer]:
+                - /url: /stock#from_element=mainmenu
+                - img [ref=e27]
+              - generic [ref=e30]:
+                - link "Stock" [ref=e32] [cursor=pointer]:
+                  - /url: /stock#from_element=mainmenu
+                  - heading "Stock" [level=3] [ref=e34]
+                - generic [ref=e35]:
+                  - generic:
+                    - heading "Image" [level=4] [ref=e39]
+                    - generic:
+                      - link "All images" [ref=e40] [cursor=pointer]:
+                        - /url: /images#from_element=mainmenu
+                        - generic [ref=e41]: All images
+                      - link "Vectors" [ref=e42] [cursor=pointer]:
+                        - /url: /vectors#from_element=mainmenu
+                        - generic [ref=e43]: Vectors
+                      - link "Photos" [ref=e44] [cursor=pointer]:
+                        - /url: /photos#from_element=mainmenu
+                        - generic [ref=e45]: Photos
+                      - link "Illustrations" [ref=e46] [cursor=pointer]:
+                        - /url: /illustrations#from_element=mainmenu
+                        - generic [ref=e47]: Illustrations
+                      - link "Icons" [ref=e48] [cursor=pointer]:
+                        - /url: /icons#from_element=mainmenu
+                        - generic [ref=e49]: Icons
+                      - link "3D" [ref=e50] [cursor=pointer]:
+                        - /url: /3d-models#from_element=mainmenu
+                        - generic [ref=e51]: 3D
+                  - generic:
+                    - heading "Video" [level=4] [ref=e53]
+                    - generic:
+                      - link "Videos" [ref=e54] [cursor=pointer]:
+                        - /url: /videos#from_element=mainmenu
+                        - generic [ref=e55]: Videos
+                      - link "Video templates" [ref=e56] [cursor=pointer]:
+                        - /url: /video-templates#from_element=mainmenu
+                        - generic [ref=e57]: Video templates
+                      - link "Motion graphics" [ref=e58] [cursor=pointer]:
+                        - /url: /motion-graphics#from_element=mainmenu
+                        - generic [ref=e59]: Motion graphics
+                  - generic:
+                    - heading "Audio" [level=4] [ref=e61]
+                    - generic:
+                      - link "Sound Effects" [ref=e62] [cursor=pointer]:
+                        - /url: https://www.freepik.com/audio/sound-effects#from_element=mainmenu
+                        - generic [ref=e63]: Sound Effects
+                      - link "Music" [ref=e64] [cursor=pointer]:
+                        - /url: https://www.freepik.com/audio/music#from_element=mainmenu
+                        - generic [ref=e65]: Music
+                  - generic:
+                    - heading "Design" [level=4] [ref=e68]
+                    - generic:
+                      - link "Templates" [ref=e69] [cursor=pointer]:
+                        - /url: /templates#from_element=mainmenu
+                        - generic [ref=e70]: Templates
+                      - link "Mockups" [ref=e71] [cursor=pointer]:
+                        - /url: /mockups#from_element=mainmenu
+                        - generic [ref=e72]: Mockups
+                      - link "Fonts" [ref=e73] [cursor=pointer]:
+                        - /url: /fonts#from_element=mainmenu
+                        - generic [ref=e74]: Fonts
+                      - link "PSD" [ref=e75] [cursor=pointer]:
+                        - /url: /psd#from_element=mainmenu
+                        - generic [ref=e76]: PSD
+                - generic [ref=e77]:
+                  - link "My Collections" [ref=e78] [cursor=pointer]:
+                    - /url: /user/collections#from_element=mainmenu
+                    - generic [ref=e79]:
+                      - img [ref=e80]
+                      - text: My Collections
+                  - link "Downloads" [ref=e83] [cursor=pointer]:
+                    - /url: /user/downloads#from_element=mainmenu
+                    - generic [ref=e84]:
+                      - img [ref=e85]
+                      - text: Downloads
+              - link "Community" [ref=e88] [cursor=pointer]:
+                - /url: /pikaso/community#from_element=mainmenu
+                - img [ref=e90]
+            - generic [ref=e93]:
+              - link [ref=e95] [cursor=pointer]:
+                - /url: /pikaso/spaces#from_element=mainmenu&from_view=pinned_tool
+                - img [ref=e97]
+              - link [ref=e101] [cursor=pointer]:
+                - /url: /pikaso/ai-image-generator#from_element=mainmenu&from_view=pinned_tool
+                - img [ref=e103]
+              - link [ref=e108] [cursor=pointer]:
+                - /url: /pikaso/ai-video-generator#from_element=mainmenu&from_view=pinned_tool
+                - img [ref=e110]
+              - link [ref=e113] [cursor=pointer]:
+                - /url: /pikaso/voiceover#from_element=mainmenu&from_view=pinned_tool
+                - img [ref=e115]
+              - link [ref=e120] [cursor=pointer]:
+                - /url: /pikaso/assistant#from_element=mainmenu&from_view=pinned_tool
+                - img [ref=e122]
+              - button "All tools" [ref=e125] [cursor=pointer]:
+                - img [ref=e127]
+              - generic [ref=e130]:
+                - heading "All tools" [level=3] [ref=e131]
+                - generic [ref=e132]:
+                  - generic:
+                    - heading "Image" [level=4] [ref=e136]
+                    - generic:
+                      - generic:
+                        - link "Image Generator" [ref=e137] [cursor=pointer]:
+                          - /url: /pikaso/ai-image-generator#from_element=mainmenu
+                          - generic [ref=e138]: Image Generator
+                        - button [ref=e139] [cursor=pointer]:
+                          - img [ref=e140]
+                      - generic:
+                        - link "Image Editor" [ref=e142] [cursor=pointer]:
+                          - /url: /pikaso/image-editor#from_element=mainmenu
+                          - generic [ref=e143]: Image Editor
+                        - button [ref=e144] [cursor=pointer]:
+                          - img [ref=e145]
+                      - generic:
+                        - link "Image Upscaler" [ref=e147] [cursor=pointer]:
+                          - /url: /pikaso/image-editor?tool=upscale#from_element=mainmenu
+                          - generic [ref=e148]: Image Upscaler
+                        - button [ref=e149] [cursor=pointer]:
+                          - img [ref=e150]
+                      - generic:
+                        - link "Image Extender" [ref=e152] [cursor=pointer]:
+                          - /url: /pikaso/image-editor?tool=expand#from_element=mainmenu
+                          - generic [ref=e153]: Image Extender
+                        - button [ref=e154] [cursor=pointer]:
+                          - img [ref=e155]
+                      - generic:
+                        - link "Variations" [ref=e157] [cursor=pointer]:
+                          - /url: /pikaso/tools/variations#from_element=mainmenu
+                          - generic [ref=e158]: Variations
+                        - button [ref=e159] [cursor=pointer]:
+                          - img [ref=e160]
+                      - generic:
+                        - link "Cinematic Shot New" [ref=e162] [cursor=pointer]:
+                          - /url: /pikaso/tools/cinematic-shot#from_element=mainmenu
+                          - generic [ref=e163]:
+                            - text: Cinematic Shot
+                            - generic [ref=e164]: New
+                        - button [ref=e165] [cursor=pointer]:
+                          - img [ref=e166]
+                      - generic:
+                        - link "Assistant" [ref=e168] [cursor=pointer]:
+                          - /url: /pikaso/assistant#from_element=mainmenu
+                          - generic [ref=e169]: Assistant
+                        - button [ref=e170] [cursor=pointer]:
+                          - img [ref=e171]
+                  - generic:
+                    - heading "Video" [level=4] [ref=e174]
+                    - generic:
+                      - generic:
+                        - link "Video Generator" [ref=e175] [cursor=pointer]:
+                          - /url: /pikaso/ai-video-generator#from_element=mainmenu
+                          - generic [ref=e176]: Video Generator
+                        - button [ref=e177] [cursor=pointer]:
+                          - img [ref=e178]
+                      - generic:
+                        - link "Video Project Editor" [ref=e180] [cursor=pointer]:
+                          - /url: /pikaso/video-editor#from_element=mainmenu
+                          - generic [ref=e181]: Video Project Editor
+                        - button [ref=e182] [cursor=pointer]:
+                          - img [ref=e183]
+                      - generic:
+                        - link "Clip Editor" [ref=e185] [cursor=pointer]:
+                          - /url: /pikaso/video-clip-editor#from_element=mainmenu
+                          - generic [ref=e186]: Clip Editor
+                        - button [ref=e187] [cursor=pointer]:
+                          - img [ref=e188]
+                      - generic:
+                        - link "Video Upscaler" [ref=e190] [cursor=pointer]:
+                          - /url: /pikaso/tools/video-upscaler#from_element=mainmenu
+                          - generic [ref=e191]: Video Upscaler
+                        - button [ref=e192] [cursor=pointer]:
+                          - img [ref=e193]
+                      - generic:
+                        - link "Lip Sync" [ref=e195] [cursor=pointer]:
+                          - /url: /pikaso/tools/speak#from_element=mainmenu
+                          - generic [ref=e196]: Lip Sync
+                        - button [ref=e197] [cursor=pointer]:
+                          - img [ref=e198]
+                  - generic:
+                    - heading "Audio" [level=4] [ref=e201]
+                    - generic:
+                      - generic:
+                        - link "Voice Generator" [ref=e202] [cursor=pointer]:
+                          - /url: /pikaso/voiceover#from_element=mainmenu
+                          - generic [ref=e203]: Voice Generator
+                        - button [ref=e204] [cursor=pointer]:
+                          - img [ref=e205]
+                      - generic:
+                        - link "Voice Cloning" [ref=e207] [cursor=pointer]:
+                          - /url: /pikaso/voiceover-generator?openVoiceCloning=true#from_element=mainmenu
+                          - generic [ref=e208]: Voice Cloning
+                        - button [ref=e209] [cursor=pointer]:
+                          - img [ref=e210]
+                      - generic:
+                        - link "Sound Effects Generator" [ref=e212] [cursor=pointer]:
+                          - /url: /pikaso/soundfx-generator#from_element=mainmenu
+                          - generic [ref=e213]: Sound Effects Generator
+                        - button [ref=e214] [cursor=pointer]:
+                          - img [ref=e215]
+                      - generic:
+                        - link "Music Generator" [ref=e217] [cursor=pointer]:
+                          - /url: /pikaso/music#from_element=mainmenu
+                          - generic [ref=e218]: Music Generator
+                        - button [ref=e219] [cursor=pointer]:
+                          - img [ref=e220]
+                  - generic:
+                    - heading "Others" [level=4] [ref=e224]
+                    - generic:
+                      - generic:
+                        - link "Spaces" [ref=e225] [cursor=pointer]:
+                          - /url: /pikaso/spaces#from_element=mainmenu
+                          - generic [ref=e226]: Spaces
+                        - button [ref=e227] [cursor=pointer]:
+                          - img [ref=e228]
+                      - generic:
+                        - link "Design Editor" [ref=e230] [cursor=pointer]:
+                          - /url: /designer/edit#from_element=mainmenu
+                          - generic [ref=e231]: Design Editor
+                        - button [ref=e232] [cursor=pointer]:
+                          - img [ref=e233]
+                      - generic:
+                        - link "Mockup Generator" [ref=e235] [cursor=pointer]:
+                          - /url: /pikaso/mockup#from_element=mainmenu
+                          - generic [ref=e236]: Mockup Generator
+                        - button [ref=e237] [cursor=pointer]:
+                          - img [ref=e238]
+                      - generic:
+                        - link "Icon Generator" [ref=e240] [cursor=pointer]:
+                          - /url: /ai/icon-generator/tool#from_element=mainmenu
+                          - generic [ref=e241]: Icon Generator
+                        - button [ref=e242] [cursor=pointer]:
+                          - img [ref=e243]
+                      - generic:
+                        - link "Background Remover" [ref=e245] [cursor=pointer]:
+                          - /url: /pikaso/image-editor?tool=background#from_element=mainmenu
+                          - generic [ref=e246]: Background Remover
+                        - button [ref=e247] [cursor=pointer]:
+                          - img [ref=e248]
+                      - generic:
+                        - link "Skin Enhancer" [ref=e250] [cursor=pointer]:
+                          - /url: /pikaso/upscaler?tool=skin-enhancer#from_element=mainmenu
+                          - generic [ref=e251]: Skin Enhancer
+                        - button [ref=e252] [cursor=pointer]:
+                          - img [ref=e253]
+                      - generic:
+                        - link "Change Camera New" [ref=e255] [cursor=pointer]:
+                          - /url: /pikaso/tools/change-camera#from_element=mainmenu
+                          - generic [ref=e256]:
+                            - text: Change Camera
+                            - generic [ref=e257]: New
+                        - button [ref=e258] [cursor=pointer]:
+                          - img [ref=e259]
+                      - generic:
+                        - link "Sketch to Image" [ref=e261] [cursor=pointer]:
+                          - /url: /pikaso/sketch#from_element=mainmenu
+                          - generic [ref=e262]: Sketch to Image
+                        - button [ref=e263] [cursor=pointer]:
+                          - img [ref=e264]
+            - link "View project" [ref=e267] [cursor=pointer]:
+              - /url: /pikaso/projects/home#from_element=mainmenu
+              - img [ref=e269]
+            - link "History" [ref=e271] [cursor=pointer]:
+              - /url: /pikaso/projects/history#from_element=mainmenu
+              - img [ref=e273]
+          - generic [ref=e277]:
+            - button "Notifications" [ref=e278] [cursor=pointer]:
+              - generic [ref=e279]: Notifications
+              - img [ref=e281]
+            - button [ref=e283] [cursor=pointer]:
+              - img [ref=e284]
+            - generic [ref=e287]:
+              - generic [ref=e288]:
+                - generic [ref=e289]:
+                  - paragraph [ref=e290]: Company
+                  - generic [ref=e291]:
+                    - link "Pricing" [ref=e292] [cursor=pointer]:
+                      - /url: /pricing
+                    - link "Enterprise" [ref=e293] [cursor=pointer]:
+                      - /url: /enterprise
+                    - link "About us" [ref=e294] [cursor=pointer]:
+                      - /url: /company/about-us
+                    - link "AI Partners Program" [ref=e295] [cursor=pointer]:
+                      - /url: /ai/partners
+                    - link "Affiliates" [ref=e296] [cursor=pointer]:
+                      - /url: /affiliates
+                - generic [ref=e297]:
+                  - paragraph [ref=e298]: Help Center
+                  - generic [ref=e299]:
+                    - link "Academy" [ref=e300] [cursor=pointer]:
+                      - /url: /academy
+                    - link "Documentation" [ref=e301] [cursor=pointer]:
+                      - /url: /ai/docs
+                    - link "Support" [ref=e302] [cursor=pointer]:
+                      - /url: /ai/support
+                    - link "API documentation" [ref=e303] [cursor=pointer]:
+                      - /url: https://www.freepik.com/api#from_element=mainmenu
+                - generic [ref=e304]:
+                  - paragraph [ref=e305]: More
+                  - generic [ref=e306]:
+                    - link "Blog" [ref=e307] [cursor=pointer]:
+                      - /url: https://www.freepik.com/blog/
+                    - link "Events" [ref=e308] [cursor=pointer]:
+                      - /url: /events
+                    - link "Sell content" [ref=e309] [cursor=pointer]:
+                      - /url: https://contributor.freepik.com
+                    - link "iOS App" [ref=e310] [cursor=pointer]:
+                      - /url: https://apps.apple.com/us/app/freepik-design-edit-with-ai/id1664092086?l=en
+                    - link "Android App" [ref=e311] [cursor=pointer]:
+                      - /url: https://play.google.com/store/apps/details?id=com.freepikcompany.freepik
+                - generic [ref=e312]:
+                  - paragraph [ref=e313]: Legal
+                  - generic [ref=e314]:
+                    - link "Terms of use" [ref=e315] [cursor=pointer]:
+                      - /url: /legal/terms-of-use
+                    - link "Privacy policy" [ref=e316] [cursor=pointer]:
+                      - /url: /legal/privacy
+                    - link "Cookies policy" [ref=e317] [cursor=pointer]:
+                      - /url: /legal/cookies
+                    - button "Cookie settings" [ref=e318] [cursor=pointer]
+              - generic [ref=e319]:
+                - generic [ref=e320]:
+                  - button "Toggle theme" [ref=e321] [cursor=pointer]:
+                    - img [ref=e322]
+                  - button [ref=e324] [cursor=pointer]:
+                    - img [ref=e325]
+                - generic [ref=e327]:
+                  - link "X" [ref=e328] [cursor=pointer]:
+                    - /url: https://x.com/freepik
+                    - img [ref=e329]
+                  - link "Instagram" [ref=e331] [cursor=pointer]:
+                    - /url: https://www.instagram.com/freepik
+                    - img [ref=e332]
+                  - link "Youtube" [ref=e334] [cursor=pointer]:
+                    - /url: https://www.youtube.com/channel/UC9wPXN2TIWoUamqONb7v8Pw
+                    - img [ref=e335]
+                  - link "Reddit" [ref=e337] [cursor=pointer]:
+                    - /url: https://www.reddit.com/r/Freepik_AI/
+                    - img [ref=e338]
+                  - link "Discord" [ref=e340] [cursor=pointer]:
+                    - /url: https://discord.gg/freepik
+                    - img [ref=e341]
+      - main [ref=e343]:
+        - generic [ref=e344]:
+          - generic [ref=e346]:
+            - generic [ref=e347]:
+              - link "Freepik" [ref=e349] [cursor=pointer]:
+                - /url: https://www.freepik.com/
+                - generic [ref=e350]: Freepik
+                - img "Freepik" [ref=e351]
+              - navigation "Breadcrumb" [ref=e361]:
+                - list [ref=e362]:
+                  - listitem [ref=e363]:
+                    - link "Help Center" [ref=e364] [cursor=pointer]:
+                      - /url: https://www.freepik.com/ai/docs
+                    - text: /
+                  - listitem [ref=e365]: Spaces /
+                  - listitem [ref=e366]: Spaces overview
+            - button "Search..." [ref=e369] [cursor=pointer]:
+              - img [ref=e370]
+              - generic [ref=e372]: Search...
+            - button "avatar" [ref=e375] [cursor=pointer]:
+              - generic [ref=e376]:
+                - img [ref=e377]
+                - img "avatar" [ref=e381]
+          - main [ref=e383]:
+            - generic [ref=e384]:
+              - complementary [ref=e385]:
+                - navigation [ref=e386]:
+                  - link "Contact support" [ref=e387] [cursor=pointer]:
+                    - /url: https://www.freepik.com/ai/support?form=true
+                    - generic [ref=e388]:
+                      - img [ref=e389]
+                      - generic [ref=e391]: Contact support
+                  - generic [ref=e392]:
+                    - link "Academy" [ref=e393] [cursor=pointer]:
+                      - /url: /academy
+                      - generic [ref=e394]:
+                        - img [ref=e395]
+                        - generic [ref=e397]: Academy
+                    - group [ref=e398]:
+                      - generic "Courses" [ref=e399] [cursor=pointer]:
+                        - link "Courses" [ref=e400]:
+                          - /url: https://www.freepik.com/academy/courses
+                          - img [ref=e401]
+                          - generic [ref=e403]: Courses
+                        - button [ref=e404]:
+                          - img [ref=e405]
+                    - link "Tutorials" [ref=e407] [cursor=pointer]:
+                      - /url: /academy/tutorials
+                      - generic [ref=e408]:
+                        - img [ref=e409]
+                        - generic [ref=e411]: Tutorials
+                  - generic [ref=e412]:
+                    - heading "Help" [level=3] [ref=e413]
+                    - group [ref=e414]:
+                      - generic "FAQ" [ref=e415] [cursor=pointer]:
+                        - generic [ref=e416]:
+                          - img [ref=e417]
+                          - generic [ref=e419]: FAQ
+                        - button [ref=e420]:
+                          - img [ref=e421]
+                    - group [ref=e423]:
+                      - generic "Documentation" [ref=e424] [cursor=pointer]:
+                        - link "Documentation" [ref=e425]:
+                          - /url: https://www.freepik.com/ai/docs
+                          - img [ref=e426]
+                          - generic [ref=e428]: Documentation
+                        - button [ref=e429]:
+                          - img [ref=e430]
+                      - list [ref=e432]:
+                        - listitem [ref=e433]:
+                          - group [ref=e434]:
+                            - generic "Getting started" [ref=e435] [cursor=pointer]:
+                              - generic [ref=e437]: Getting started
+                              - button [ref=e438]:
+                                - img [ref=e439]
+                        - listitem [ref=e441]:
+                          - group [ref=e442]:
+                            - generic "Creative tools" [ref=e443] [cursor=pointer]:
+                              - generic [ref=e445]: Creative tools
+                              - button [ref=e446]:
+                                - img [ref=e447]
+                        - listitem [ref=e449]:
+                          - group [ref=e450]:
+                            - generic "Spaces" [ref=e451] [cursor=pointer]:
+                              - generic [ref=e453]: Spaces
+                              - button [ref=e454]:
+                                - img [ref=e455]
+                            - list [ref=e457]:
+                              - listitem [ref=e458]:
+                                - link "Spaces overview" [ref=e459] [cursor=pointer]:
+                                  - /url: https://www.freepik.com/ai/docs/spaces-overview
+                                  - generic [ref=e460]: Spaces overview
+                              - listitem [ref=e461]:
+                                - link "Getting started with Spaces" [ref=e462] [cursor=pointer]:
+                                  - /url: https://www.freepik.com/ai/docs/getting-started-with-spaces
+                                  - generic [ref=e463]: Getting started with Spaces
+                              - listitem [ref=e464]:
+                                - link "Nodes and connections" [ref=e465] [cursor=pointer]:
+                                  - /url: https://www.freepik.com/ai/docs/nodes-and-connections
+                                  - generic [ref=e466]: Nodes and connections
+                              - listitem [ref=e467]:
+                                - link "Collaboration and sharing" [ref=e468] [cursor=pointer]:
+                                  - /url: https://www.freepik.com/ai/docs/collaboration-and-sharing
+                                  - generic [ref=e469]: Collaboration and sharing
+                              - listitem [ref=e470]:
+                                - link "Media nodes" [ref=e471] [cursor=pointer]:
+                                  - /url: https://www.freepik.com/ai/docs/media-nodes
+                                  - generic [ref=e472]: Media nodes
+                              - listitem [ref=e473]:
+                                - link "Text nodes" [ref=e474] [cursor=pointer]:
+                                  - /url: https://www.freepik.com/ai/docs/text-nodes
+                                  - generic [ref=e475]: Text nodes
+                              - listitem [ref=e476]:
+                                - link "Image nodes" [ref=e477] [cursor=pointer]:
+                                  - /url: https://www.freepik.com/ai/docs/image-nodes
+                                  - generic [ref=e478]: Image nodes
+                              - listitem [ref=e479]:
+                                - link "Image models and modes" [ref=e480] [cursor=pointer]:
+                                  - /url: https://www.freepik.com/ai/docs/image-models-and-modes
+                                  - generic [ref=e481]: Image models and modes
+                              - listitem [ref=e482]:
+                                - link "Video nodes" [ref=e483] [cursor=pointer]:
+                                  - /url: https://www.freepik.com/ai/docs/video-nodes
+                                  - generic [ref=e484]: Video nodes
+                              - listitem [ref=e485]:
+                                - link "Audio nodes" [ref=e486] [cursor=pointer]:
+                                  - /url: https://www.freepik.com/ai/docs/audio-nodes
+                                  - generic [ref=e487]: Audio nodes
+                              - listitem [ref=e488]:
+                                - link "Utility nodes" [ref=e489] [cursor=pointer]:
+                                  - /url: https://www.freepik.com/ai/docs/utility-nodes
+                                  - generic [ref=e490]: Utility nodes
+                              - listitem [ref=e491]:
+                                - link "Designer node" [ref=e492] [cursor=pointer]:
+                                  - /url: https://www.freepik.com/ai/docs/designer-node
+                                  - generic [ref=e493]: Designer node
+                              - listitem [ref=e494]:
+                                - link "Keyboard shortcuts" [ref=e495] [cursor=pointer]:
+                                  - /url: https://www.freepik.com/ai/docs/keyboard-shortcuts
+                                  - generic [ref=e496]: Keyboard shortcuts
+                        - listitem [ref=e497]:
+                          - group [ref=e498]:
+                            - generic "Projects & collaboration" [ref=e499] [cursor=pointer]:
+                              - link "Projects & collaboration" [ref=e500]:
+                                - /url: https://www.freepik.com/ai/docs/projects-collaboration
+                                - generic [ref=e501]: Projects & collaboration
+                              - button [ref=e502]:
+                                - img [ref=e503]
+                        - listitem [ref=e505]:
+                          - group [ref=e506]:
+                            - generic "Other tools" [ref=e507] [cursor=pointer]:
+                              - generic [ref=e509]: Other tools
+                              - button [ref=e510]:
+                                - img [ref=e511]
+                        - listitem [ref=e513]:
+                          - group [ref=e514]:
+                            - generic "AI models" [ref=e515] [cursor=pointer]:
+                              - generic [ref=e517]: AI models
+                              - button [ref=e518]:
+                                - img [ref=e519]
+                        - listitem [ref=e521]:
+                          - group [ref=e522]:
+                            - generic "API" [ref=e523] [cursor=pointer]:
+                              - generic [ref=e525]: API
+                              - button [ref=e526]:
+                                - img [ref=e527]
+                        - listitem [ref=e529]:
+                          - group [ref=e530]:
+                            - generic "Stock" [ref=e531] [cursor=pointer]:
+                              - link "Stock" [ref=e532]:
+                                - /url: https://www.freepik.com/ai/docs/stock
+                                - generic [ref=e533]: Stock
+                              - button [ref=e534]:
+                                - img [ref=e535]
+                        - listitem [ref=e537]:
+                          - group [ref=e538]:
+                            - generic "Billing, credits & payments" [ref=e539] [cursor=pointer]:
+                              - link "Billing, credits & payments" [ref=e540]:
+                                - /url: https://www.freepik.com/ai/docs/billing-credits-payments
+                                - generic [ref=e541]: Billing, credits & payments
+                              - button [ref=e542]:
+                                - img [ref=e543]
+                        - listitem [ref=e545]:
+                          - group [ref=e546]:
+                            - generic "Business and Enterprise" [ref=e547] [cursor=pointer]:
+                              - link "Business and Enterprise" [ref=e548]:
+                                - /url: https://www.freepik.com/ai/docs/business-and-enterprise
+                                - generic [ref=e549]: Business and Enterprise
+                              - button [ref=e550]:
+                                - img [ref=e551]
+                        - listitem [ref=e553]:
+                          - group [ref=e554]:
+                            - generic "Account & troubleshooting" [ref=e555] [cursor=pointer]:
+                              - generic [ref=e557]: Account & troubleshooting
+                              - button [ref=e558]:
+                                - img [ref=e559]
+                        - listitem [ref=e561]:
+                          - group [ref=e562]:
+                            - generic "Copyright, licenses & legal" [ref=e563] [cursor=pointer]:
+                              - generic [ref=e565]: Copyright, licenses & legal
+                              - button [ref=e566]:
+                                - img [ref=e567]
+                        - listitem [ref=e569]:
+                          - group [ref=e570]:
+                            - generic "Other" [ref=e571] [cursor=pointer]:
+                              - generic [ref=e573]: Other
+                              - button [ref=e574]:
+                                - img [ref=e575]
+              - article [ref=e579]:
+                - generic [ref=e581]:
+                  - heading "Spaces" [level=1] [ref=e582]
+                  - paragraph [ref=e583]: Build visual AI workflows, automate creative processes, and collaborate in real time — all on an infinite canvas.
+                - paragraph [ref=e584]:
+                  - link "Spaces" [ref=e585] [cursor=pointer]:
+                    - /url: https://www.freepik.com/pikaso/spaces
+                  - text: is a canvas-based environment where you connect AI tools visually to build, automate, and share creative workflows. Instead of switching between tools for each step, you wire everything together in one place — generation, editing, audio, and collaboration — and run it as many times as you need.
+                  - text: Think of it as a creative playground where AI tools work together, and you're the director.
+                - iframe [ref=e587]:
+                  - generic [active] [ref=f104e1]:
+                    - generic "Trình phát video YouTube" [ref=f104e3]
+                    - generic [ref=f104e5]:
+                      - generic:
+                        - generic:
+                          - button "Phát video" [ref=f104e10] [cursor=pointer]:
+                            - generic [ref=f104e13]:
+                              - img
+                          - button "Ẩn các nút điều khiển trình phát" [ref=f104e14] [cursor=pointer]
+                          - generic [ref=f104e16]:
+                            - generic [ref=f104e21]:
+                              - generic [ref=f104e22]:
+                                - 'link "Freepik Spaces: The infinite canvas for creative workflows" [ref=f104e23] [cursor=pointer]':
+                                  - /url: https://www.youtube.com/watch?v=h1E2OwlytBQ
+                                - link "Freepik" [ref=f104e24] [cursor=pointer]:
+                                  - /url: /channel/UC9wPXN2TIWoUamqONb7v8Pw
+                                  - generic [ref=f104e25]: Freepik
+                              - generic [ref=f104e26]:
+                                - button "thumbnail-image" [ref=f104e27] [cursor=pointer]:
+                                  - img "thumbnail-image" [ref=f104e28]
+                                - generic [ref=f104e29]:
+                                  - generic [ref=f104e30]:
+                                    - generic: Freepik
+                                    - generic: 153 N người đăng ký
+                                  - generic [ref=f104e38]:
+                                    - generic [ref=f104e39]:
+                                      - generic:
+                                        - generic:
+                                          - img
+                                      - button "Đăng ký" [ref=f104e42] [cursor=pointer]:
+                                        - generic [ref=f104e43]: Đăng ký
+                                    - generic:
+                                      - generic:
+                                        - img
+                            - generic [ref=f104e47]:
+                              - generic [ref=f104e48]:
+                                - button "Chia sẻ" [ref=f104e50] [cursor=pointer]:
+                                  - generic [ref=f104e54]:
+                                    - img
+                                - button "Xem sau" [ref=f104e59] [cursor=pointer]:
+                                  - generic [ref=f104e63]:
+                                    - img
+                              - link "Xem trên YouTube" [ref=f104e70] [cursor=pointer]:
+                                - /url: https://www.youtube.com/watch?v=h1E2OwlytBQ
+                                - generic [ref=f104e73]:
+                                  - text: Xem trên
+                                  - img [ref=f104e75]:
+                                    - generic [ref=f104e77]:
+                                      - img
+                - heading "In this article" [level=2] [ref=e588]
+                - list [ref=e589]:
+                  - listitem [ref=e590]:
+                    - link "What is Spaces" [ref=e591] [cursor=pointer]:
+                      - /url: https://www.freepik.com/ai/docs/spaces-overview#what-is-spaces
+                  - listitem [ref=e592]:
+                    - link "Core concepts" [ref=e593] [cursor=pointer]:
+                      - /url: https://www.freepik.com/ai/docs/spaces-overview#core-concepts
+                  - listitem [ref=e594]:
+                    - link "Data types" [ref=e595] [cursor=pointer]:
+                      - /url: https://www.freepik.com/ai/docs/spaces-overview#data-types
+                  - listitem [ref=e596]:
+                    - link "Node categories" [ref=e597] [cursor=pointer]:
+                      - /url: https://www.freepik.com/ai/docs/spaces-overview#node-categories
+                  - listitem [ref=e598]:
+                    - link "What you can build" [ref=e599] [cursor=pointer]:
+                      - /url: https://www.freepik.com/ai/docs/spaces-overview#what-you-can-build
+                  - listitem [ref=e600]:
+                    - link "Create your first space" [ref=e601] [cursor=pointer]:
+                      - /url: https://www.freepik.com/ai/docs/spaces-overview#create-your-first-space
+                  - listitem [ref=e602]:
+                    - link "Templates" [ref=e603] [cursor=pointer]:
+                      - /url: https://www.freepik.com/ai/docs/spaces-overview#templates
+                  - listitem [ref=e604]:
+                    - link "Collaboration" [ref=e605] [cursor=pointer]:
+                      - /url: https://www.freepik.com/ai/docs/spaces-overview#collaboration
+                - heading "What is Spaces" [level=2] [ref=e606]
+                - paragraph [ref=e607]: Spaces is an infinite canvas where you design and run multi-step creative workflows using AI tools. Each step in your workflow is a node — a block that does one specific thing, like generating an image, writing a prompt, creating a voiceover, or upscaling a video. You connect nodes to define how data moves from one step to the next.
+                - paragraph [ref=e608]: The result is a workflow you can see, reuse, and share. Instead of recreating the same process from scratch each time, you build it once and run it again whenever you need it — adjusting only what changes.
+                - paragraph [ref=e609]: Spaces is built for two types of users. Power creators — designers, art directors, brand teams — who want precise control, repeatability, and collaboration across complex workflows. And anyone who wants fast results through ready-made templates, with no setup required.
+                - iframe [ref=e611]:
+                  - generic [active] [ref=f105e1]:
+                    - generic "Trình phát video YouTube" [ref=f105e3]
+                    - generic [ref=f105e5]:
+                      - generic:
+                        - generic:
+                          - button "Phát video" [ref=f105e10] [cursor=pointer]
+                          - button "Ẩn các nút điều khiển trình phát" [ref=f105e12] [cursor=pointer]
+                          - generic [ref=f105e14]:
+                            - generic [ref=f105e19]:
+                              - generic [ref=f105e20]:
+                                - link "Getting started with Spaces | Freepik Academy" [ref=f105e21] [cursor=pointer]:
+                                  - /url: https://www.youtube.com/watch?v=WmdkABEq3cs
+                                - link "Freepik" [ref=f105e22] [cursor=pointer]:
+                                  - /url: /channel/UC9wPXN2TIWoUamqONb7v8Pw
+                                  - generic [ref=f105e23]: Freepik
+                              - generic [ref=f105e24]:
+                                - button [ref=f105e25] [cursor=pointer]
+                                - generic [ref=f105e26]:
+                                  - generic [ref=f105e27]:
+                                    - generic: Freepik
+                                    - generic: 153 N người đăng ký
+                                  - generic [ref=f105e35]:
+                                    - generic [ref=f105e36]:
+                                      - generic:
+                                        - generic:
+                                          - img
+                                      - button "Đăng ký" [ref=f105e39] [cursor=pointer]:
+                                        - generic [ref=f105e40]: Đăng ký
+                                    - generic:
+                                      - generic:
+                                        - img
+                            - generic [ref=f105e44]:
+                              - generic [ref=f105e45]:
+                                - button "Chia sẻ" [ref=f105e47] [cursor=pointer]:
+                                  - generic [ref=f105e51]:
+                                    - img
+                                - button "Xem sau" [ref=f105e56] [cursor=pointer]:
+                                  - generic [ref=f105e60]:
+                                    - img
+                              - link "Xem trên YouTube" [ref=f105e67] [cursor=pointer]:
+                                - /url: https://www.youtube.com/watch?v=WmdkABEq3cs
+                                - generic [ref=f105e70]:
+                                  - text: Xem trên
+                                  - img [ref=f105e72]:
+                                    - generic [ref=f105e74]:
+                                      - img
+                - heading "Core concepts" [level=2] [ref=e612]
+                - paragraph [ref=e613]: "These are the building blocks you work with inside Spaces:"
+                - table [ref=e615]:
+                  - rowgroup [ref=e616]:
+                    - row "Concept What it is" [ref=e617]:
+                      - columnheader "Concept" [ref=e618]
+                      - columnheader "What it is" [ref=e619]
+                  - rowgroup [ref=e620]:
+                    - row "Canvas Your infinite workspace. Pan, zoom, and scroll freely in any direction — no page boundaries or artboard limits. Place nodes wherever makes sense to you." [ref=e621]:
+                      - cell "Canvas" [ref=e622]
+                      - cell "Your infinite workspace. Pan, zoom, and scroll freely in any direction — no page boundaries or artboard limits. Place nodes wherever makes sense to you." [ref=e623]
+                    - 'row "Node A single building block that does one thing: generate an image, write text, add a voiceover, upscale a video, and more. You add nodes to the canvas and configure them individually." [ref=e624]':
+                      - cell "Node" [ref=e625]
+                      - 'cell "A single building block that does one thing: generate an image, write text, add a voiceover, upscale a video, and more. You add nodes to the canvas and configure them individually." [ref=e626]'
+                    - row "Connection The line between two nodes. Connections carry data — images, text, video, audio — from one node's output to another node's input. They define the flow of your workflow." [ref=e627]:
+                      - cell "Connection" [ref=e628]
+                      - cell "The line between two nodes. Connections carry data — images, text, video, audio — from one node's output to another node's input. They define the flow of your workflow." [ref=e629]
+                    - row "Port The small circle on the edge of a node where connections attach. Every node has input ports (data coming in) and output ports (data going out). Ports are typed — Spaces shows you which connections are valid as you drag." [ref=e630]:
+                      - cell "Port" [ref=e631]
+                      - cell "The small circle on the edge of a node where connections attach. Every node has input ports (data coming in) and output ports (data going out). Ports are typed — Spaces shows you which connections are valid as you drag." [ref=e632]
+                    - row "Workflow A chain of connected nodes that execute together. When you run a workflow, data flows from the first node through every connection until it reaches the end." [ref=e633]:
+                      - cell "Workflow" [ref=e634]
+                      - cell "A chain of connected nodes that execute together. When you run a workflow, data flows from the first node through every connection until it reaches the end." [ref=e635]
+                    - row "Spotlight The fastest way to add nodes. Press Space bar or / anywhere on the canvas and a search panel appears. Type what you need — the matching nodes show up instantly." [ref=e636]:
+                      - cell "Spotlight" [ref=e637]
+                      - cell "The fastest way to add nodes. Press Space bar or / anywhere on the canvas and a search panel appears. Type what you need — the matching nodes show up instantly." [ref=e638]
+                - heading "Data types" [level=2] [ref=e639]
+                - paragraph [ref=e640]: Data flows between nodes in specific types. Connections are type-safe — you can only connect compatible ports. This keeps your workflows clean and prevents errors before they happen.
+                - table [ref=e642]:
+                  - rowgroup [ref=e643]:
+                    - row "Type What it carries" [ref=e644]:
+                      - columnheader "Type" [ref=e645]
+                      - columnheader "What it carries" [ref=e646]
+                  - rowgroup [ref=e647]:
+                    - row "Image Photos, illustrations, AI-generated images" [ref=e648]:
+                      - cell "Image" [ref=e649]
+                      - cell "Photos, illustrations, AI-generated images" [ref=e650]
+                    - row "Text Prompts, captions, AI-written copy" [ref=e651]:
+                      - cell "Text" [ref=e652]
+                      - cell "Prompts, captions, AI-written copy" [ref=e653]
+                    - row "Video Generated clips, uploaded footage" [ref=e654]:
+                      - cell "Video" [ref=e655]
+                      - cell "Generated clips, uploaded footage" [ref=e656]
+                    - row "Audio Voiceovers, sound effects, music" [ref=e657]:
+                      - cell "Audio" [ref=e658]
+                      - cell "Voiceovers, sound effects, music" [ref=e659]
+                    - row "SVG Vector graphics (experimental — limited node support)" [ref=e660]:
+                      - cell "SVG" [ref=e661]
+                      - cell "Vector graphics (experimental — limited node support)" [ref=e662]
+                - heading "Node categories" [level=2] [ref=e663]
+                - paragraph [ref=e664]: Spaces organizes its nodes into seven categories so you can find what you need quickly.
+                - table [ref=e666]:
+                  - rowgroup [ref=e667]:
+                    - row "Category What is inside" [ref=e668]:
+                      - columnheader "Category" [ref=e669]
+                      - columnheader "What is inside" [ref=e670]
+                  - rowgroup [ref=e671]:
+                    - row "Media Upload files, access your assets library, find stock content" [ref=e672]:
+                      - cell "Media" [ref=e673]
+                      - cell "Upload files, access your assets library, find stock content" [ref=e674]
+                    - row "Text Write prompts, use AI assistants to generate or refine text" [ref=e675]:
+                      - cell "Text" [ref=e676]
+                      - cell "Write prompts, use AI assistants to generate or refine text" [ref=e677]
+                    - row "Image Generate, upscale, edit, and create variations of images" [ref=e678]:
+                      - cell "Image" [ref=e679]
+                      - cell "Generate, upscale, edit, and create variations of images" [ref=e680]
+                    - row "Video Generate, combine, and upscale videos" [ref=e681]:
+                      - cell "Video" [ref=e682]
+                      - cell "Generate, combine, and upscale videos" [ref=e683]
+                    - row "Audio Create voiceovers, sound effects, and music" [ref=e684]:
+                      - cell "Audio" [ref=e685]
+                      - cell "Create voiceovers, sound effects, and music" [ref=e686]
+                    - row "Utilities Lists, sticky notes, stickers, and groups for organization" [ref=e687]:
+                      - cell "Utilities" [ref=e688]
+                      - cell "Lists, sticky notes, stickers, and groups for organization" [ref=e689]
+                    - row "Designer Full graphic design editor embedded in Spaces" [ref=e690]:
+                      - cell "Designer" [ref=e691]
+                      - cell "Full graphic design editor embedded in Spaces" [ref=e692]
+                - paragraph [ref=e693]:
+                  - text: You can also use Spotlight to search across all categories at once — press
+                  - strong [ref=e694]: Space
+                  - text: or
+                  - strong [ref=e695]: /
+                  - text: and type what you need.
+                - heading "What you can build" [level=2] [ref=e696]
+                - paragraph [ref=e697]: "Spaces is flexible enough to handle simple one-step tasks and intricate multi-branch pipelines. Here are some ideas to get you started:"
+                - heading "Text-to-image pipeline with upscaling" [level=3] [ref=e698]
+                - paragraph [ref=e699]: Write a prompt, generate an image with AI, then automatically upscale the result to print-ready resolution — all in three connected nodes.
+                - heading "Video generation with voiceover and music" [level=3] [ref=e700]
+                - paragraph [ref=e701]: Generate a video from a text description, pipe it into a voiceover node to add narration, then layer in background music. Export a complete video without leaving the canvas.
+                - heading "Batch processing with lists" [level=3] [ref=e702]
+                - paragraph [ref=e703]: Need 20 variations of the same concept? Use a List node to feed multiple prompts into a single image generation node. Spaces processes each one and collects the results, no manual repetition.
+                - heading "Multi-page designs with Designer" [level=3] [ref=e704]
+                - paragraph [ref=e705]: Open the Designer node — a full graphic design editor embedded right inside Spaces. Create multi-page layouts, then feed individual pages into other nodes for further processing, animation, or export.
+                - heading "Custom reusable workflow apps" [level=3] [ref=e706]
+                - paragraph [ref=e707]: Once you have built a workflow you love, save it as a Workflow App. It becomes a single, reusable block with its own inputs and outputs — like building your own custom AI tool that you or your team can use again and again.
+                - heading "Create your first space" [level=2] [ref=e708]
+                - paragraph [ref=e709]:
+                  - text: To open Spaces, go to the
+                  - link "Freepik homepage" [ref=e710] [cursor=pointer]:
+                    - /url: https://www.freepik.com/
+                  - text: ", open the"
+                  - strong [ref=e711]: AI Suite
+                  - text: from the left-hand menu, and select
+                  - strong [ref=e712]: Spaces
+                  - text: under the
+                  - strong [ref=e713]: All tools
+                  - text: tab.
+                  - text: On the Spaces home screen, you’ll see your
+                  - strong [ref=e714]: recent Spaces
+                  - text: and a selection of
+                  - strong [ref=e715]: templates
+                  - text: to help you get started or explore new ideas.
+                - heading "Start from scratch" [level=3] [ref=e716]
+                - generic [ref=e717]:
+                  - generic [ref=e718]:
+                    - generic [ref=e721]: "1"
+                    - generic [ref=e723]:
+                      - paragraph [ref=e724]: Open Spaces
+                      - paragraph [ref=e725]:
+                        - text: Go to
+                        - strong [ref=e726]: freepik.com/pikaso/spaces
+                        - text: or click
+                        - strong [ref=e727]: Spaces
+                        - text: in the top navigation.
+                  - generic [ref=e728]:
+                    - generic [ref=e731]: "2"
+                    - generic [ref=e733]:
+                      - paragraph [ref=e734]: Create a new space
+                      - paragraph [ref=e735]:
+                        - text: Click
+                        - strong [ref=e736]: + New space
+                        - text: to open a blank canvas.
+                  - generic [ref=e737]:
+                    - generic [ref=e740]: "3"
+                    - generic [ref=e742]:
+                      - paragraph [ref=e743]: Add your first node
+                      - paragraph [ref=e744]:
+                        - text: Click
+                        - strong [ref=e745]: +
+                        - text: on the canvas, use the left sidebar, or press
+                        - strong [ref=e746]: Space
+                        - text: or
+                        - strong [ref=e747]: /
+                        - text: to open Spotlight and search for the node you need.
+                  - generic [ref=e748]:
+                    - generic [ref=e751]: "4"
+                    - generic [ref=e753]:
+                      - paragraph [ref=e754]: Configure the node
+                      - paragraph [ref=e755]: Set your inputs — write a prompt, upload an image, or adjust settings depending on the node type.
+                  - generic [ref=e756]:
+                    - generic [ref=e759]: "5"
+                    - generic [ref=e761]:
+                      - paragraph [ref=e762]: Connect nodes
+                      - paragraph [ref=e763]: Drag from the output handle of one node to the input handle of another to create a connector. The output of the first node becomes the input of the second.
+                  - generic [ref=e764]:
+                    - generic [ref=e767]: "6"
+                    - generic [ref=e768]:
+                      - paragraph [ref=e769]: Run it
+                      - paragraph [ref=e770]:
+                        - text: Click
+                        - strong [ref=e771]: Run
+                        - text: on the node or use the
+                        - strong [ref=e772]: Run
+                        - text: button in the toolbar to execute the workflow.
+                - figure [ref=e773]
+                - heading "Start from a template" [level=3] [ref=e775]
+                - generic [ref=e776]:
+                  - generic [ref=e777]:
+                    - generic [ref=e780]: "1"
+                    - generic [ref=e782]:
+                      - paragraph [ref=e783]: Browse templates
+                      - paragraph [ref=e784]: On the Spaces home screen, go to the Templates tab.
+                  - generic [ref=e785]:
+                    - generic [ref=e788]: "2"
+                    - generic [ref=e790]:
+                      - paragraph [ref=e791]: Pick a template
+                      - paragraph [ref=e792]: Choose a workflow that matches what you want to build.
+                  - generic [ref=e793]:
+                    - generic [ref=e796]: "3"
+                    - generic [ref=e797]:
+                      - paragraph [ref=e798]: Open and customize
+                      - paragraph [ref=e799]: The template opens as a new space. Edit any node, change inputs, or add new steps to make it yours.
+                - figure [ref=e800]
+                - heading "Templates" [level=2] [ref=e802]
+                - paragraph [ref=e803]: Templates are pre-built workflows that compress multi-step creative processes into a few clicks. They cover common use cases — product visuals, social content, character animation, and more — and are ready to run or customize.
+                - paragraph [ref=e804]: You can browse templates from the Spaces home screen. Each template can be opened, edited, and saved as your own space. Templates are also a good way to learn how nodes and connections work together in practice.
+                - generic [ref=e805]:
+                  - img [ref=e806]
+                  - generic [ref=e809]:
+                    - generic [ref=e810]: Tip
+                    - generic [ref=e811]: If you're not sure where to start, pick any template and explore how it's built before editing it. Templates are a fast way to understand how nodes and connectors work together in practice.
+                - heading "Collaboration" [level=2] [ref=e812]
+                - paragraph [ref=e813]: Spaces is built for teams. Every canvas supports real-time collaboration.
+                - list [ref=e814]:
+                  - listitem [ref=e815]:
+                    - strong [ref=e816]: Live cursors
+                    - text: — See where your teammates are working, in real time.
+                  - listitem [ref=e817]:
+                    - strong [ref=e818]: Shared editing
+                    - text: — Multiple people can add, move, and configure nodes simultaneously.
+                  - listitem [ref=e819]:
+                    - strong [ref=e820]: Comments
+                    - text: — Leave feedback directly on the canvas, attached to specific nodes or areas.
+                  - listitem [ref=e821]:
+                    - strong [ref=e822]: Viewer and Editor roles
+                    - text: — Control who can make changes and who can only observe.
+                - paragraph [ref=e823]: For details on sharing, permissions, and working with your team, see the full Collaboration guide.
+                - navigation [ref=e824]:
+                  - link "Relight" [ref=e825] [cursor=pointer]:
+                    - /url: https://www.freepik.com/ai/docs/relight
+                    - img [ref=e826]
+                    - generic [ref=e828]: Relight
+                  - link "Getting started with Spaces" [ref=e829] [cursor=pointer]:
+                    - /url: https://www.freepik.com/ai/docs/getting-started-with-spaces
+                    - generic [ref=e830]: Getting started with Spaces
+                    - img [ref=e831]
+                - generic [ref=e834]:
+                  - paragraph [ref=e835]: Can't find an answer to your question?
+                  - paragraph [ref=e836]: Our support team is here to help you with any questions or issues.
+                  - link "Submit a request" [ref=e837] [cursor=pointer]:
+                    - /url: https://www.freepik.com/ai/support
+  - alert [ref=e838]
