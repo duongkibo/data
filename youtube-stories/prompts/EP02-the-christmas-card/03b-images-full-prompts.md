@@ -1,4 +1,4 @@
-# 03b — Images Full Prompts · Part 1: F01–F17 (51 prompts)
+# 03b — Images Full Prompts · 102 start frames + 15 Ken Burns stills = 117 total
 
 > **Characters EP02**
 > - **Nina**, 34, graphic designer — cube-bodied voxel, cream cardigan, warm brown hair
@@ -777,8 +777,6 @@ clean premium voxel aesthetic NOT cartoon NOT realistic, Ideogram text render, t
 1920x1080 cinematic ECU, 2K
 ```
 
-<!-- CONTINUES IN PART 2: F18-F34 + Ken Burns S01-S15 -->
-
 ---
 
 ## Characters (inline reference)
@@ -806,7 +804,7 @@ clean premium voxel aesthetic NOT cartoon NOT realistic, Ideogram text render, t
 
 **Beat 7 — Karma | NEUTRAL COOL | Ideogram 3**
 
-### F18A
+**F18A**
 ```
 [Ideogram 3] Isometric voxel art. Wide shot of professional law office / courtroom-adjacent room.
 Cream document lying flat center of voxel wood table. Cold steel-blue professional overhead light.
@@ -817,7 +815,7 @@ Color palette: cold steel blue-gray professional tones, cream document center.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 ```
 
-### F18B
+**F18B**
 ```
 [Ideogram 3] Cinematic voxel art. Court document angled 30° on table surface.
 "$92,000" text block clearly visible in bold voxel font on document face.
@@ -827,7 +825,7 @@ Color palette: neutral cool — document cream against gray table, cool light ov
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 ```
 
-### F18C ⭐ Ideogram 3 — Text hero shot
+**F18C** ⭐ Ideogram 3 — Text hero shot
 ```
 [Ideogram 3] Extreme close-up on court document surface. Premium voxel art paper texture.
 Readable legal text centered in frame:
@@ -844,7 +842,7 @@ Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 
 **Beat 7 | COLD | Ideogram 3**
 
-### F19A
+**F19A**
 ```
 [Ideogram 3] Isometric voxel art. Voxel smartphone lying flat on cold table surface.
 Banking app interface visible on screen — blue-white UI. Cold ambient light in room.
@@ -853,7 +851,7 @@ Color palette: cold blue screen light, dark table, neutral cool ambient.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 ```
 
-### F19B
+**F19B**
 ```
 [Ideogram 3] Cinematic voxel art. Voxel smartphone held at reading angle.
 Banking app screen angled toward viewer. Account balance visible. Transaction list rows visible below.
@@ -863,7 +861,7 @@ Color palette: cold blue screen glow, neutral dark background.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 ```
 
-### F19C ⭐ Ideogram 3 — Text hero shot
+**F19C** ⭐ Ideogram 3 — Text hero shot
 ```
 [Ideogram 3] Extreme close-up on smartphone banking app screen. Premium voxel UI rendering.
 Screen shows:
@@ -880,7 +878,7 @@ Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 
 **Beat 7 | COLD GRAY | Flux 2 Pro**
 
-### F20A
+**F20A**
 ```
 [Flux 2 Pro] Isometric voxel art. Wide exterior shot of family home — tan voxel facade, 
 classic red front door, snow-covered front lawn.
@@ -891,7 +889,7 @@ Color palette: cold gray winter — muted tan house, white snow, cold sky.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 ```
 
-### F20B
+**F20B**
 ```
 [Flux 2 Pro] Cinematic voxel art. Medium shot on family home facade.
 FOR SALE sign prominent in foreground-right of frame, house behind it.
@@ -901,7 +899,7 @@ Color palette: cold gray winter light, house muted warm under cold sky.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 ```
 
-### F20C
+**F20C**
 ```
 [Flux 2 Pro] Extreme close-up on FOR SALE sign in snowy front yard.
 Sign fills frame — white voxel sign board, red FOR SALE text, post buried in snow below.
@@ -917,7 +915,7 @@ Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 
 **Beat 7 | COLD | NanoBanana 2 + Daniel ref**
 
-### F21A
+**F21A**
 ```
 [NanoBanana 2 + daniel ref] Isometric voxel art. Wide corporate office hallway, floor-to-ceiling 
 glass partition walls, cold fluorescent overhead light — blue-gray institutional tone.
@@ -928,7 +926,7 @@ Color palette: cold corporate blue-gray fluorescent, charcoal on Daniel.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 ```
 
-### F21B
+**F21B**
 ```
 [NanoBanana 2 + daniel ref] Cinematic voxel art. Medium shot — Daniel, charcoal blazer, 
 dark hair, squared jaw — walking along the corporate hallway, cardboard box under one arm.
@@ -938,7 +936,7 @@ Color palette: cold institutional blue-gray, Daniel charcoal.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 ```
 
-### F21C
+**F21C**
 ```
 [NanoBanana 2 + daniel ref] Extreme close-up on Daniel's voxel face. 
 Charcoal tones, short dark hair, squared jaw — the architecture of pride that has run out of room.
@@ -954,7 +952,7 @@ Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 
 **Beat 7 | COLD GRAY | Ideogram 3**
 
-### F22A
+**F22A**
 ```
 [Ideogram 3] Isometric voxel art. Wide shot of completely empty office desk — 
 everything stripped. Desk surface bare except one document placed precisely center.
@@ -964,7 +962,7 @@ Color palette: cold steel blue fluorescent, bare desk surface, document cream ce
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 ```
 
-### F22B
+**F22B**
 ```
 [Ideogram 3] Cinematic voxel art. Termination letter at reading angle on desk surface.
 Text blocks clearly visible — company letterhead at top, body text paragraph blocks, 
@@ -973,7 +971,7 @@ Color palette: cold steel-blue ambient, document cream, dark ink text.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 ```
 
-### F22C ⭐ Ideogram 3 — Text hero shot
+**F22C** ⭐ Ideogram 3 — Text hero shot
 ```
 [Ideogram 3] Extreme close-up on termination letter. Premium voxel document texture.
 Body text readable in frame:
@@ -991,7 +989,7 @@ Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 
 **Beat 8 | COLD GRAY | NanoBanana 2 + Daniel ref**
 
-### F23A
+**F23A**
 ```
 [NanoBanana 2 + daniel ref] Isometric voxel art. Vast furniture showroom interior — 
 enormous fluorescent-lit space, display sofas and tables arranged across the floor.
@@ -1002,7 +1000,7 @@ Color palette: cold institutional fluorescent, Daniel small and muted, navy unif
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 ```
 
-### F23B
+**F23B**
 ```
 [NanoBanana 2 + daniel ref] Cinematic voxel art. Medium shot — Daniel, navy retail uniform, 
 name tag, dark hair — standing in the furniture showroom empty aisle.
@@ -1012,7 +1010,7 @@ Color palette: cold fluorescent, navy uniform, gray showroom.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 ```
 
-### F23C
+**F23C**
 ```
 [NanoBanana 2 + daniel ref] Extreme close-up on Daniel's voxel face in the furniture store.
 Navy retail uniform collar visible at bottom of frame, name tag edge visible.
@@ -1028,7 +1026,7 @@ Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 
 **Beat 8 | WARMING | NanoBanana 2 + Amber ref**
 
-### F24A
+**F24A**
 ```
 [NanoBanana 2 + amber ref] Isometric voxel art. Warm small apartment living area — 
 cream walls, a sage green plant on the windowsill, afternoon light through window.
@@ -1039,7 +1037,7 @@ Color palette: warm cream, sage green, amber lamp. No cold tones. WARMING palett
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 ```
 
-### F24B
+**F24B**
 ```
 [NanoBanana 2 + amber ref] Cinematic voxel art. Medium shot — Amber, navy top, auburn hair — 
 and Lucas (sage green, 6yo) in their warm apartment. Warm lamp light between them.
@@ -1049,7 +1047,7 @@ Color palette: warm cream-amber apartment, sage green on Lucas.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 ```
 
-### F24C
+**F24C**
 ```
 [NanoBanana 2 + amber ref] Extreme close-up on Amber's voxel face.
 Navy top, auburn hair — her expression: calm, rebuilding, a woman who has made her choice.
@@ -1065,7 +1063,7 @@ Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 
 **Beat 8 | WARM | Flux 2 Pro**
 
-### F25A
+**F25A**
 ```
 [Flux 2 Pro] Isometric voxel art. Wide park scene — green voxel grass, voxel trees with 
 autumn gold-and-orange leaves, warm afternoon light.
@@ -1076,7 +1074,7 @@ Color palette: warm afternoon gold, green and amber park tones, cream and sage o
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 ```
 
-### F25B
+**F25B**
 ```
 [Flux 2 Pro] Cinematic voxel art. Medium shot on Sophie and Lucas on the park bench.
 Sophie (cream top, dark hair, 8yo) and Lucas (sage green shirt, 6yo) — awkward but something 
@@ -1086,7 +1084,7 @@ Color palette: warm gold on both children. Cream and sage green.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 ```
 
-### F25C
+**F25C**
 ```
 [Flux 2 Pro] Extreme close-up on both children's faces — Sophie (dark hair, cream) and 
 Lucas (sage green) — side by side, both mid-laugh at the same moment.
@@ -1102,7 +1100,7 @@ Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 
 **Epilogue | FULL WARM | NanoBanana 2 + Nina ref**
 
-### F26A
+**F26A**
 ```
 [NanoBanana 2 + nina ref] Isometric voxel art. Nina's graphic design studio — 
 cream walls, design work pinned to boards, warm afternoon light through windows.
@@ -1113,7 +1111,7 @@ Color palette: FULL WARM — cream walls, honey gold, sage green accent, warm af
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 ```
 
-### F26B
+**F26B**
 ```
 [NanoBanana 2 + nina ref] Cinematic voxel art. Medium shot — Nina, cream cardigan, 
 warm brown hair — standing in her design studio. The framed award mounted on cream wall behind her.
@@ -1123,7 +1121,7 @@ Color palette: FULL WARM — cream, honey gold, warm afternoon light on Nina's t
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 ```
 
-### F26C
+**F26C**
 ```
 [NanoBanana 2 + nina ref] Extreme close-up — award plaque on the cream wall, 
 Nina's face visible to the right of the plaque, in warm afternoon light.
@@ -1139,7 +1137,7 @@ Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 
 **Epilogue | FULL WARM | NanoBanana 2 + Nina ref**
 
-### F27A
+**F27A**
 ```
 [NanoBanana 2 + nina ref] Isometric voxel art. Creative conference hall interior — 
 warm amber evening event lighting, voxel crowd of professional figures mingling.
@@ -1150,7 +1148,7 @@ Color palette: FULL WARM — amber event lighting, cream on Nina, warm brown on 
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 ```
 
-### F27B
+**F27B**
 ```
 [NanoBanana 2 + nina ref] Cinematic voxel art. Medium shot — Nina (cream cardigan, 
 warm brown hair) and the photographer voxel character (warm brown tones, friendly posture) — 
@@ -1160,7 +1158,7 @@ Color palette: FULL WARM — warm amber event light on both figures.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 ```
 
-### F27C
+**F27C**
 ```
 [Flux 2 Pro] Extreme close-up on two voxel coffee cups resting naturally close together 
 on a conference table edge. Warm event light above. Steam visible in warm voxel glow.
@@ -1175,7 +1173,7 @@ Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 
 **Epilogue | FULL WARM | NanoBanana 2 + Nina ref**
 
-### F28A
+**F28A**
 ```
 [NanoBanana 2 + nina ref] Isometric voxel art. Wide shot — Nina's cream apartment, 
 morning. Golden morning light streaming through large windows.
@@ -1187,7 +1185,7 @@ Color palette: PEAK FULL WARM — cream, honey gold #D4A547, morning amber. Zero
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 ```
 
-### F28B
+**F28B**
 ```
 [NanoBanana 2 + nina ref] Cinematic voxel art. Medium shot — Nina (cream cardigan, 
 warm brown hair) and Sophie (cream dress, dark hair, 8yo) together in the morning kitchen.
@@ -1197,7 +1195,7 @@ Color palette: FULL WARM — warm morning gold on cream tones throughout.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 ```
 
-### F28C
+**F28C**
 ```
 [Flux 2 Pro] Extreme close-up on Sophie's collection of small voxel horse figurines 
 on the cream apartment windowsill. Morning gold light streaming from behind — 
@@ -1213,7 +1211,7 @@ Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 
 **Epilogue | FULL WARM | Flux 2 Pro + Ideogram 3 (F29C)**
 
-### F29A
+**F29A**
 ```
 [Flux 2 Pro] Isometric voxel art. Nina's warm kitchen table surface.
 New Christmas card lying open, surrounded by stamped envelopes, a single candle flame, 
@@ -1224,7 +1222,7 @@ Color palette: FULL WARM — honey gold, cream, warm amber candlelight.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 ```
 
-### F29B
+**F29B**
 ```
 [Flux 2 Pro] Cinematic voxel art. Christmas card held open in frame — card interior fully visible.
 Two voxel figures on the card face: Nina (cream, dark hair) and Sophie (small, cream, dark hair).
@@ -1234,7 +1232,7 @@ Color palette: FULL WARM — card cream and gold, warm kitchen ambient.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 ```
 
-### F29C ⭐ Ideogram 3 — Text hero shot
+**F29C** ⭐ Ideogram 3 — Text hero shot
 ```
 [Ideogram 3] Extreme close-up on the Christmas card interior — text area.
 Clean readable voxel-style card font:
@@ -1252,7 +1250,7 @@ Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 
 **Epilogue | FULL WARM | Flux 2 Pro**
 
-### F30A
+**F30A**
 ```
 [Flux 2 Pro] Isometric voxel art. Wide apartment window scene — morning light streaming in.
 Sophie (8yo, cream dress, dark hair) standing at the windowsill, looking at her horse figurine collection.
@@ -1262,7 +1260,7 @@ Color palette: FULL WARM — morning gold, cream, amber soft ambient.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 ```
 
-### F30B
+**F30B**
 ```
 [Flux 2 Pro] Cinematic voxel art. Medium shot — Sophie (cream dress, dark hair, 8yo) 
 at the windowsill, holding one horse figurine in her small voxel hands.
@@ -1272,7 +1270,7 @@ Color palette: FULL WARM — morning gold, cream, warm amber.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 ```
 
-### F30C
+**F30C**
 ```
 [Flux 2 Pro] Extreme close-up on a row of small voxel horse figurines along the cream windowsill.
 Morning gold light streams from behind — each figurine edge catching warm glow.
@@ -1287,7 +1285,7 @@ Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 
 **Epilogue | COLD GRAY | NanoBanana 2 + Daniel ref**
 
-### F31A
+**F31A**
 ```
 [NanoBanana 2 + daniel ref] Isometric voxel art. Bird's eye overhead view of the vast 
 furniture showroom floor. Fluorescent voxel light grid above.
@@ -1298,7 +1296,7 @@ Color palette: COLD GRAY — institutional fluorescent, Daniel tiny and muted be
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 ```
 
-### F31B
+**F31B**
 ```
 [NanoBanana 2 + daniel ref] Cinematic voxel art. Wide floor-level shot — 
 Daniel (navy retail uniform, dark hair) small in the frame, in a far showroom aisle.
@@ -1308,7 +1306,7 @@ Color palette: COLD GRAY — cold fluorescent institutional light, Daniel small 
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 ```
 
-### F31C
+**F31C**
 ```
 [NanoBanana 2 + daniel ref] Extreme close-up on Daniel's face under the harsh fluorescent light.
 Navy retail uniform collar and name tag visible at bottom of frame.
@@ -1324,7 +1322,7 @@ Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 
 **Epilogue | WARMING | NanoBanana 2 + Amber ref**
 
-### F32A
+**F32A**
 ```
 [NanoBanana 2 + amber ref] Isometric voxel art. Amber's warm apartment living room, evening.
 Amber — navy top, auburn hair — relaxed on a voxel couch beside a new partner character 
@@ -1335,7 +1333,7 @@ Color palette: FULL WARM — amber lamp, cream, sage green accent. No cold tones
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 ```
 
-### F32B
+**F32B**
 ```
 [NanoBanana 2 + amber ref] Cinematic voxel art. Medium shot — Amber (navy top, auburn hair) 
 and her new partner (warm brown voxel tones) on the couch together. Easy proximity.
@@ -1345,7 +1343,7 @@ Color palette: FULL WARM — amber lamp on navy and warm brown tones. Cream apar
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 ```
 
-### F32C
+**F32C**
 ```
 [Flux 2 Pro] Extreme close-up on Amber's hand and her partner's hand resting naturally 
 on the couch cushion — close together, not forced, just the natural proximity of two people 
@@ -1361,7 +1359,7 @@ Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 
 **Epilogue | FULL WARM | NanoBanana 2 + Nina ref**
 
-### F33A
+**F33A**
 ```
 [NanoBanana 2 + nina ref] Isometric voxel art. Wide cream kitchen — peak morning warmth.
 Morning gold light flooding from large windows across the kitchen. 
@@ -1373,7 +1371,7 @@ Color arc complete. This is what all 11 minutes built toward.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 ```
 
-### F33B
+**F33B**
 ```
 [NanoBanana 2 + nina ref] Cinematic voxel art. Medium shot — both faces mid-laugh, 
 Sophie (8yo, cream) and Nina (cream cardigan, warm brown hair) facing each other 
@@ -1384,7 +1382,7 @@ Color palette: FULL WARM — morning gold on cream throughout. Zero cold.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 ```
 
-### F33C ⭐ HERO FRAME
+**F33C** ⭐ HERO FRAME
 ```
 [NanoBanana 2 + nina ref] Extreme close-up on Nina's voxel face.
 Cream cardigan, warm brown hair at shoulders. Morning kitchen light — golden, full, warm.
@@ -1402,7 +1400,7 @@ Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 
 **CTA | BRAND | Ideogram 3**
 
-### F34A
+**F34A**
 ```
 [Ideogram 3] Wide end card frame. Full composition:
 Deep navy background — #1B2A4A — dramatic, brand-precise.
@@ -1414,7 +1412,7 @@ Color palette: deep navy #1B2A4A background, gold butterfly #D4A547, gold text.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 ```
 
-### F34B
+**F34B**
 ```
 [Ideogram 3] Medium shot on the gold voxel butterfly — filling upper two-thirds of frame.
 Geometric cube-based wing structure visible — voxel cubes building out each wing segment.
@@ -1425,7 +1423,7 @@ Color palette: gold butterfly on deep navy. Brand precision.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic.
 ```
 
-### F34C
+**F34C**
 ```
 [Ideogram 3] Extreme close-up on the gold voxel butterfly wings — wing texture fills frame.
 Individual voxel cubes of the wing structure visible at extreme proximity.

@@ -1,9 +1,9 @@
-# 04b — Full Video Generation Prompts (68 clips × 5s)
+# 04b — Full Video Generation Prompts (102 clips × 5s)
 # Copy-paste directly into Kling 2.5 Turbo
 
 > **Model**: Kling 2.5 Turbo · **Duration**: 5s · **Ratio**: 16:9 · **Resolution**: 1080p
-> **Start frame**: Upload `F{NN}.png` before pasting prompt
-> **Save**: `media/videos/C{NN}A.mp4` + `C{NN}B.mp4`
+> **Start frame**: Upload `F{NN}A.png` / `F{NN}B.png` / `F{NN}C.png` before pasting prompt
+> **Save**: `media/videos/C{NN}A.mp4` + `C{NN}B.mp4` + `C{NN}C.mp4`
 
 ---
 
@@ -25,11 +25,12 @@ Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 
 
 ---
 
+
 ## BEAT 1 — HOOK (0:00–0:30)
 
----
+### SCENE 01 — Nina addressing Christmas cards
 
-**C01A** | F01 | 5s | DOLLY → PUSH
+**C01A** | F01A | 5s | DOLLY → PUSH
 
 ```
 Isometric voxel art scene of a warm kitchen, late afternoon golden light, 
@@ -44,9 +45,7 @@ Mood: cozy, intimate, domestic warmth — the life she thinks she has.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
----
-
-**C01B** | F01 | 5s | RACK-FOCUS + ECU
+**C01B** | F01B | 5s | RACK-FOCUS + ECU
 
 ```
 Cinematic voxel art close-up. Nina — cube-bodied voxel character, cream cardigan, 
@@ -59,9 +58,25 @@ Mood: the warmth before the crack — ordinary domestic love that is about to be
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
+**C01C** | F01C | 5s | ECU + STATIC
+
+```
+Cinematic voxel art. Extreme close-up on an envelope being sealed by Nina's hands —
+cube-bodied voxel character hands, cream cardigan cuffs visible.
+Nina's gold voxel wedding ring catches the warm lamp light as she presses the seal closed.
+The tradition of Christmas cards. The ring still on. The warmth still intact — for now.
+Camera holds static extreme close-up on hands and ring for full 5 seconds.
+Color palette: warm cream #F3E9D2, gold ring accent, warm honey table surface.
+Mood: the warmth before the crack — an ordinary domestic ritual about to be made ironic.
+Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
+```
+
 ---
 
-**C02A** | F02 | 5s | PUSH → CU
+
+### SCENE 02 — The family Christmas card photo
+
+**C02A** | F02A | 5s | PUSH → CU
 
 ```
 Isometric voxel art. Christmas card photograph lying flat on warm kitchen table — 
@@ -74,9 +89,7 @@ Mood: the lie in full display — perfect on the surface, rotten underneath.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
----
-
-**C02B** | F02 | 5s | RACK-FOCUS + ECU
+**C02B** | F02B | 5s | RACK-FOCUS + ECU
 
 ```
 Cinematic voxel art. Christmas card on table, slightly angled. Camera holds tight 
@@ -89,13 +102,27 @@ Mood: the audience doesn't know what we know yet — but they will.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
+**C02C** | F02C | 5s | ORBIT-L + CU
+
+```
+Cinematic voxel art. Camera orbits left slowly around the Christmas card photo on the table.
+Four voxel figures on the card face: Nina (cream), Daniel (charcoal), Sophie (small cream), 
+and a fourth figure — the child nobody at this table was asked about.
+Orbit reveals different angles of the card over 5 seconds. Still warm light throughout.
+As the orbit completes, the fourth figure is front and center in the frame. 
+Who is that boy? The warmth is the same. The question is not.
+Color palette: warm cream and gold on card, warm kitchen ambient.
+Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
+```
+
 ---
+
 
 ## BEAT 2 — INTRO (0:30–1:00)
 
----
+### SCENE 03 — Thanksgiving table reveal
 
-**C03A** | F03 | 5s | CRANE-UP
+**C03A** | F03A | 5s | CRANE-UP
 
 ```
 Isometric voxel art Thanksgiving dinner scene. Camera starts at floor level — 
@@ -109,9 +136,7 @@ Mood: abundant family warmth — the life Nina believed she was living.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
----
-
-**C03B** | F03 | 5s | PAN-R + CU
+**C03B** | F03B | 5s | PAN-R + CU
 
 ```
 Cinematic voxel art. Camera starts on the main Thanksgiving table with adult voxel characters, 
@@ -125,9 +150,24 @@ Mood: the first thread — Lucas exists in Nina's world and she notices, but not
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
+**C03C** | F03C | 5s | DOLLY + CU
+
+```
+Cinematic voxel art. Thanksgiving table scene. Camera slow dolly toward Lucas at the kids table.
+Lucas — small cube-bodied voxel child, sage green shirt, 6yo — laughing at something Sophie said.
+In the background, Nina's cream cardigan hands freeze mid-gesture — both hands stopped in air.
+Camera arrives at close-up on Lucas's laughing face. The cold has entered at the far edges of frame.
+Color palette: warm amber-orange Thanksgiving center, cold beginning at the periphery.
+Mood: the first thread — Lucas exists in her world. Her hands know before she does.
+Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
+```
+
 ---
 
-**C04A** | F04 | 5s | PUSH → MS
+
+### SCENE 04 — Lucas at kids table, jaw match
+
+**C04A** | F04A | 5s | PUSH → MS
 
 ```
 Isometric voxel art. Thanksgiving table setting, camera positioned at Nina's 
@@ -140,9 +180,7 @@ Mood: innocent, open — he doesn't know who he is to anyone in this room. Nina 
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
----
-
-**C04B** | F04 | 5s | RACK-FOCUS + ECU
+**C04B** | F04B | 5s | RACK-FOCUS + ECU
 
 ```
 Cinematic voxel art. Camera positioned to show Lucas in the foreground 
@@ -156,9 +194,25 @@ Mood: the involuntary realization — Nina's POV. The thread pulling.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
+**C04C** | F04C | 5s | PULL + ELS
+
+```
+Cinematic voxel art. Camera positioned at eye level — Daniel (charcoal blazer) and Lucas (sage green)
+visible in the same frame, their jawlines in matching profile. DUTCH tilt applied.
+Camera pulls back over 5 seconds to extreme long shot — Nina visible as a tiny cream figure 
+in the far background, watching both of them from across the room.
+Daniel and Lucas in the foreground, together without knowing it. Nina far behind. The DUTCH holds.
+Color palette: warm amber Thanksgiving, DUTCH angle making warmth feel unstable.
+Mood: the involuntary realization arriving. Nina sees what the world does not.
+Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
+```
+
 ---
 
-**C05A** | F05 | 5s | ELS + PAN-L
+
+### SCENE 05 — Airport goodbye to Daniel
+
+**C05A** | F05A | 5s | ELS + PAN-L
 
 ```
 Isometric voxel art airport departure area. Warm interior terminal light. 
@@ -172,9 +226,7 @@ Mood: ordinary departure — hundreds of people, one ordinary goodbye.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
----
-
-**C05B** | F05 | 5s | PUSH + CU
+**C05B** | F05B | 5s | PUSH + CU
 
 ```
 Cinematic voxel art. Camera at medium-wide on Daniel and Nina in airport departure zone. 
@@ -188,13 +240,27 @@ Mood: the trust she has in this man — the trust that is about to be burned.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
+**C05C** | F05C | 5s | CU + STATIC
+
+```
+Cinematic voxel art. Close-up on Nina's face at the airport. 
+Behind her, the departure board reads "ATLANTA" clearly in voxel text.
+Daniel has just kissed her goodbye. Her face: surface warmth, eyes soft — but beneath,
+the faintest unease, the kind the body registers before the mind names it.
+Camera holds close-up static for 5 seconds. Nina watching Daniel go. Not alarmed. Just... slightly.
+Color palette: warm airport interior amber on cream Nina tones.
+Mood: the goodbye she has given a hundred times. This one will be the last.
+Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
+```
+
 ---
+
 
 ## BEAT 3 — THE CRACK (1:00–2:30)
 
----
+### SCENE 06 — Nina finds Daniel's laptop
 
-**C06A** | F06 | 5s | LS + PUSH
+**C06A** | F06A | 5s | LS + PUSH
 
 ```
 Isometric voxel art home office scene. Evening, warm lamp light. 
@@ -208,9 +274,7 @@ Mood: a normal Tuesday evening, before everything.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
----
-
-**C06B** | F06 | 5s | RACK-FOCUS + CU
+**C06B** | F06B | 5s | RACK-FOCUS + CU
 
 ```
 Cinematic voxel art. Daniel's laptop open, Nina (cream cardigan, dark hair) at the desk.
@@ -224,9 +288,24 @@ Mood: the moment the normal Tuesday ends. She has found something.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
+**C06C** | F06C | 5s | DOLLY → STATIC
+
+```
+Cinematic voxel art. Camera drifts slowly toward Daniel's closed laptop on the home desk.
+The laptop sits closed, waiting. Cold blue ambient light catches its surface.
+Camera dolly slows and comes to a stop in close-up on the closed lid over 5 seconds.
+It is just a laptop. It knows everything.
+Color palette: cold blue light on the laptop surface, dark home office ambient.
+Mood: the object that contains the life he is hiding. Patient. Closed. Waiting.
+Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
+```
+
 ---
 
-**C07A** | F07 | 5s | PUSH → ECU
+
+### SCENE 07 — The Amber folder
+
+**C07A** | F07A | 5s | PUSH → ECU
 
 ```
 Cinematic voxel art. Laptop screen filling the frame — Daniel's file manager open.
@@ -240,9 +319,7 @@ Mood: the folder that explains everything. Growing. Inescapable.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
----
-
-**C07B** | F07 | 5s | DUTCH + PULL
+**C07B** | F07B | 5s | DUTCH + PULL
 
 ```
 Cinematic voxel art. DUTCH TILT — camera rotated approximately 10 degrees clockwise, 
@@ -257,9 +334,25 @@ DUTCH TILT — camera slightly rotated clockwise, sense of wrongness/unease.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
+**C07C** | F07C | 5s | PUSH + ECU
+
+```
+Cinematic voxel art. Camera pushes to extreme close-up on the laptop folder label:
+"Family — Amber 💙"
+Just the folder name. Seven characters and an emoji. The cold blue screen light fills the frame.
+Camera holds on the text at extreme close-up for final 2 seconds. DUTCH tilt applied.
+The whole secret. Right there. In seven characters.
+Color palette: cold blue screen glow — nothing else. DUTCH angle.
+Mood: the moment of understanding. The folder that contains another life.
+Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
+```
+
 ---
 
-**C08A** | F08 | 5s | ECU + STATIC
+
+### SCENE 08 — Hospital baby photo
+
+**C08A** | F08A | 5s | ECU + STATIC
 
 ```
 Cinematic voxel art. Extreme close-up on laptop screen showing a hospital photograph.
@@ -273,9 +366,7 @@ Mood: the proof. The second life. The child that exists because of Daniel.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
----
-
-**C08B** | F08 | 5s | RACK-FOCUS + DUTCH
+**C08B** | F08B | 5s | RACK-FOCUS + DUTCH
 
 ```
 Cinematic voxel art. DUTCH TILT — camera rotated approximately 8 degrees clockwise.
@@ -290,9 +381,25 @@ DUTCH TILT — camera slightly rotated clockwise, sense of wrongness/unease.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
+**C08C** | F08C | 5s | RACK-FOCUS + ECU
+
+```
+Cinematic voxel art. Hospital baby photo on the laptop screen.
+Camera rack-focuses to a date stamp visible in the corner of the photo: "6 years ago."
+The date sharpens into extreme close-up. Hold for 2 seconds.
+Six years. The math hits: Lucas is 6 years old. The dates match. Everything matches.
+Cold blue screen light. No warmth.
+Color palette: cold blue screen glow on date stamp text.
+Mood: the calculation completing itself. Nina's brain doing the math she didn't ask to do.
+Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
+```
+
 ---
 
-**C09A** | F09 | 5s | TILT-DN + CU
+
+### SCENE 09 — Christmas cards contaminated
+
+**C09A** | F09A | 5s | TILT-DN + CU
 
 ```
 Isometric voxel art kitchen. Camera starts at upper-kitchen level (cabinets, ceiling lamp) 
@@ -304,9 +411,7 @@ Mood: the same objects, the same warmth — now irrevocably contaminated by what
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
----
-
-**C09B** | F09 | 5s | DOLLY + DUTCH
+**C09B** | F09B | 5s | DOLLY + DUTCH
 
 ```
 Cinematic voxel art. DUTCH TILT — camera rotated approximately 8 degrees clockwise.
@@ -321,13 +426,27 @@ DUTCH TILT — camera slightly rotated clockwise, sense of wrongness/unease.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
+**C09C** | F09C | 5s | ECU + STATIC
+
+```
+Cinematic voxel art. Single Christmas card held in extreme close-up.
+The card interior visible — printed text inside reading:
+"Peace, Love, and Joy from our family"
+The words now devastatingly ironic in cold room light. DUTCH tilt applied.
+Camera holds static on the open card and its sentiment for 5 seconds.
+Color palette: cold ambient light on warm-colored card. The card's warmth is wrong now.
+Mood: the contamination of the ordinary. Every Christmas card is poisoned.
+Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
+```
+
 ---
+
 
 ## BEAT 4 — THE BETRAYAL (2:30–4:00) ⭐
 
----
+### SCENE 10 — Daniel comes home
 
-**C10A** | F10 | 5s | ELS + STATIC
+**C10A** | F10A | 5s | ELS + STATIC
 
 ```
 Isometric voxel art. Wide shot of the home entryway and connected dining room.
@@ -342,9 +461,7 @@ Mood: the husband who doesn't know his wife knows. The wife who is waiting.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
----
-
-**C10B** | F10 | 5s | RACK-FOCUS + DUTCH
+**C10B** | F10B | 5s | RACK-FOCUS + DUTCH
 
 ```
 Cinematic voxel art. DUTCH TILT — camera rotated approximately 10 degrees clockwise.
@@ -359,9 +476,25 @@ DUTCH TILT — camera slightly rotated clockwise, sense of wrongness/unease.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
+**C10C** | F10C | 5s | ECU + STATIC
+
+```
+Cinematic voxel art. Nina's phone screen in extreme close-up — 
+a photo visible on screen: Daniel's voxel hand on Lucas's shoulder at the zoo.
+Simple family photo. A man and a child. His hand on the boy's shoulder.
+Camera holds static for 5 seconds. The photo just there.
+Cold ambient light from above. No warmth.
+Color palette: cold ambient. Phone screen light. The photo's warm colors wrong in context.
+Mood: the proof that is not criminal but is everything. This is what everything.
+Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
+```
+
 ---
 
-**C11A** | F11 | 5s | MS + STATIC
+
+### SCENE 11 — Phone on table confrontation
+
+**C11A** | F11A | 5s | MS + STATIC
 
 ```
 Isometric voxel art. Medium shot across the dining table. 
@@ -375,9 +508,7 @@ Mood: the confrontation with evidence. Silence louder than any argument.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
----
-
-**C11B** | F11 | 5s | PUSH + ECU
+**C11B** | F11B | 5s | PUSH + ECU
 
 ```
 Cinematic voxel art. Camera positioned on Daniel's side of table facing his face.
@@ -390,9 +521,24 @@ Mood: the man revealed — not his worst fear, but his first instinct to manage.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
+**C11C** | F11C | 5s | PULL + ELS
+
+```
+Cinematic voxel art. Camera pulls back slowly from the confrontation table over 5 seconds
+to reveal the entire room: large voxel living room, Daniel (charcoal blazer) across from Nina (cream).
+Daniel has no defense. The room grows large around them both as the camera retreats.
+By the end: two small figures in a large cold space. No words that can fill it.
+Color palette: cold ambient room, both figures small in the expanding frame.
+Mood: the space that opens up when the story collapses. Too much room now.
+Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
+```
+
 ---
 
-**C12A** | F12 | 5s | DESCENT
+
+### SCENE 12 — Nina in guest room
+
+**C12A** | F12A | 5s | DESCENT
 
 ```
 Isometric voxel art. Bird's eye camera positioned at ceiling level directly above the guest room.
@@ -406,9 +552,7 @@ Mood: the night of the confrontation. She is in the guest room now. She is alone
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
----
-
-**C12B** | F12 | 5s | PULL + CU
+**C12B** | F12B | 5s | PULL + CU
 
 ```
 Cinematic voxel art. Starts in close-up on Nina's voxel face — 
@@ -422,13 +566,27 @@ Mood: she is not destroyed. She is deciding. The survival mode activating.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
+**C12C** | F12C | 5s | DESCENT
+
+```
+Cinematic voxel art. Bird's eye camera descends from ceiling of the guest room —
+starting at ceiling height, descending slowly over 5 seconds to land above Nina.
+Nina — cream cardigan, warm brown hair — a small figure on the guest bed edge,
+shoulders curved inward. Dark room. Cold window light from one side.
+The descent lands directly above her. She does not look up.
+Color palette: DARK — deep shadow, cold blue window light, Nina's cream muted.
+Mood: three days of silence after. The guest room she retreated to.
+Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
+```
+
 ---
+
 
 ## BEAT 5 — THE FALL (4:00–5:30)
 
----
+### SCENE 13 — 5am two lists
 
-**C13A** | F13 | 5s | ELS + PUSH
+**C13A** | F13A | 5s | ELS + PUSH
 
 ```
 Isometric voxel art kitchen scene, 5:00 AM. Pre-dawn darkness outside the kitchen window, 
@@ -443,9 +601,7 @@ Mood: 5am clarity. She has moved past grief into action.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
----
-
-**C13B** | F13 | 5s | RACK-FOCUS + CU
+**C13B** | F13B | 5s | RACK-FOCUS + CU
 
 ```
 Cinematic voxel art. Nina (cream cardigan, dark hair) at kitchen table with notepad.
@@ -458,9 +614,25 @@ Mood: the pivot is beginning. She is not a victim. She is becoming the architect
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
+**C13C** | F13C | 5s | TILT-UP
+
+```
+Cinematic voxel art. Pre-dawn kitchen. Camera starts on legal notepad on the table —
+two-column lists in Nina's handwriting. Close on the lists. Then tilts up slowly over 5 seconds
+to arrive at Nina's face in the warm lamp circle above. 
+Her eyes: clear. Decided. The lists are done. The thinking is done.
+Warm lamp light on her face. Dark kitchen surrounding. The warmth is returning — to her.
+Color palette: TURNING WARM — single warm lamp on Nina's face in dark kitchen surrounding.
+Mood: the 5am decision. She has done what needed thinking. Now she acts.
+Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
+```
+
 ---
 
-**C14A** | F14 | 5s | CU + STATIC
+
+### SCENE 14 — Nina calls Amber
+
+**C14A** | F14A | 5s | CU + STATIC
 
 ```
 Cinematic voxel art. Extreme close-up on Nina's phone screen — 
@@ -473,9 +645,7 @@ Mood: the decision. One tap changes everything for two women.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
----
-
-**C14B** | F14 | 5s | PUSH + ECU
+**C14B** | F14B | 5s | PUSH + ECU
 
 ```
 Cinematic voxel art. Nina — cube-bodied voxel character, cream cardigan, dark hair — 
@@ -488,9 +658,25 @@ Mood: the action taken with full clarity. She is not performing emotion. She is 
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
+**C14C** | F14C | 5s | ECU + STATIC
+
+```
+Cinematic voxel art. Phone screen extreme close-up:
+"CALLING AMBER... 00:00:01"
+The duration counter ticking. 00:00:01 → 00:00:02. The call has connected.
+Cold ambient around the phone. The warm lamp from kitchen entering at the left edge.
+Camera holds static as the counter ticks for 5 seconds.
+Color palette: TURNING — cold phone screen blue with warm lamp edge entering left.
+Mood: two women about to share the same truth. The call that changes both their lives.
+Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
+```
+
 ---
 
-**C15A** | F15 | 5s | MS + STATIC
+
+### SCENE 15 — Amber answers phone
+
+**C15A** | F15A | 5s | MS + STATIC
 
 ```
 Isometric voxel art modest apartment interior, morning light. 
@@ -504,9 +690,7 @@ Mood: Amber does not know her world is about to shift as well.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
----
-
-**C15B** | F15 | 5s | PUSH + CU
+**C15B** | F15B | 5s | PUSH + CU
 
 ```
 Cinematic voxel art. Amber — voxel character, navy top, blonde hair — 
@@ -521,9 +705,24 @@ Mood: the other woman is also a victim. She is hearing this for the first time.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
+**C15C** | F15C | 5s | PULL + LS
+
+```
+Cinematic voxel art. Camera pulls back slowly over 5 seconds from Amber's face
+to reveal the full apartment around her — Amber (navy top, auburn hair) alone,
+phone to ear. The apartment warm but now somehow rearranging itself around what she is hearing.
+By the end: Amber a mid-size figure in her apartment space. Everything she knew, recalibrating.
+Color palette: warm apartment starting to feel complicated — warm tones with cool entering.
+Mood: Amber discovering the full picture. The world she thought she lived in, revising.
+Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
+```
+
 ---
 
-**C16A** | F16 | 5s | ELS + PUSH
+
+### SCENE 16 — Lawyer's office
+
+**C16A** | F16A | 5s | ELS + PUSH
 
 ```
 Isometric voxel art professional law office interior. Cool professional tones — 
@@ -537,9 +736,7 @@ Mood: the machinery of justice beginning. This is not drama. This is procedure.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
----
-
-**C16B** | F16 | 5s | TILT-DN + CU
+**C16B** | F16B | 5s | TILT-DN + CU
 
 ```
 Cinematic voxel art. Camera starts on lawyer's face (lawyer voxel character, navy suit, grey hair), 
@@ -552,13 +749,27 @@ Mood: the moment just before the paperwork that ends a marriage. Deliberate. Ear
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
+**C16C** | F16C | 5s | CU + STATIC
+
+```
+Cinematic voxel art. Close-up on Nina's hand — cream-toned voxel cube hand — 
+signing the legal documents on the lawyer's desk. Calm. Precise.
+Each pen movement deliberate. No hesitation. The signature is a choice toward herself.
+Camera holds close-up static on hand and pen and signature line for 5 seconds.
+Cool professional light on the documents. Warm on Nina's hand.
+Color palette: cool professional ambient, warm on Nina's signing hand.
+Mood: not drama. Just procedure. This is what choosing yourself looks like on paper.
+Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
+```
+
 ---
+
 
 ## BEAT 6 — THE PIVOT (5:30–7:00) ⭐
 
----
+### SCENE 17 — Court document $92,000
 
-**C17A** | F17 | 5s | PUSH → ECU
+**C17A** | F17A | 5s | PUSH → ECU
 
 ```
 Cinematic voxel art. Court document lying flat on lawyer's desk surface. 
@@ -572,9 +783,7 @@ Mood: the financial reckoning. Numbers made the consequences real.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
----
-
-**C17B** | F17 | 5s | RACK-FOCUS + CU
+**C17B** | F17B | 5s | RACK-FOCUS + CU
 
 ```
 Cinematic voxel art. Court document in background. Nina's hand — 
@@ -589,9 +798,25 @@ Mood: the pivot complete. She has done what needed doing. Now the world acts.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
+**C17C** | F17C | 5s | ORBIT-R + ECU
+
+```
+Cinematic voxel art. Camera orbits right around the court document over 5 seconds —
+"$92,000" text rotating into prominence from a new direction as the camera circles.
+The number from multiple angles. It does not change with the perspective.
+Camera arrives at extreme close-up on the number from the new position.
+Cold steel-blue professional light throughout the orbit.
+Color palette: cold steel-blue, document cream, "$92,000" text dark and unavoidable.
+Mood: the number from every angle. It means what it means. There is no better angle.
+Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
+```
+
 ---
 
-**C18A** | F18 | 5s | CU + PAN-R
+
+### SCENE 18 — Bank app draining
+
+**C18A** | F18A | 5s | CU + PAN-R
 
 ```
 Cinematic voxel art. Close-up on Daniel's phone screen — banking app open.
@@ -604,9 +829,7 @@ Mood: the financial consequence arriving in real time. He is watching it happen.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
----
-
-**C18B** | F18 | 5s | PULL + LS
+**C18B** | F18B | 5s | PULL + LS
 
 ```
 Isometric voxel art. Medium shot on Daniel — charcoal blazer, dark hair — 
@@ -619,9 +842,25 @@ Mood: the man whose choices have compounded into loss. He stands in it.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
+**C18C** | F18C | 5s | ECU + STATIC
+
+```
+Cinematic voxel art. Extreme close-up on Daniel's bank app — the last transaction row.
+Balance near zero. Final installment row visible:
+"CHILD SUPPORT INSTALLMENT — $3,066.67"
+Below it: the balance. Near empty. The savings account of a man who thought he was untouchable.
+Camera holds static on the screen for 5 seconds. Cold blue screen light only.
+Color palette: COLD — cold blue screen light only, no warmth.
+Mood: the account that reflects the choices. Final installment. Savings gone.
+Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
+```
+
 ---
 
-**C19A** | F19 | 5s | TILT-UP + LS
+
+### SCENE 19 — For sale sign
+
+**C19A** | F19A | 5s | TILT-UP + LS
 
 ```
 Isometric voxel art exterior house scene. 
@@ -635,9 +874,7 @@ Mood: the dissolution made physical. The house for sale is the marriage for sale
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
----
-
-**C19B** | F19 | 5s | DOLLY + CU
+**C19B** | F19B | 5s | DOLLY + CU
 
 ```
 Cinematic voxel art exterior. Camera positioned at street level facing the FOR SALE sign 
@@ -649,13 +886,27 @@ Mood: the concrete end of the chapter. The house sign as punctuation.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
+**C19C** | F19C | 5s | CRANE-UP
+
+```
+Cinematic voxel art. Camera cranes up from the FOR SALE sign close — 
+starting at snow-level with the sign post in frame, craning up over 5 seconds 
+to reveal the full street view: the house, the neighborhood, the cold winter sky.
+The house that was the life is now a listing. A small FOR SALE sign on a street like any other.
+Dawn light — cold and early and indifferent.
+Color palette: COLD GRAY — cold dawn light, muted house tones, white snow, FOR SALE sign.
+Mood: the end of the chapter as viewed from street level, then from above.
+Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
+```
+
 ---
+
 
 ## BEAT 7 — KARMA STRIKES (7:00–9:30)
 
----
+### SCENE 20 — Daniel packing office box
 
-**C20A** | F20 | 5s | ELS + PUSH
+**C20A** | F20A | 5s | ELS + PUSH
 
 ```
 Isometric voxel art corporate office floor, cold fluorescent lighting, 
@@ -669,9 +920,7 @@ Mood: the downfall in a corporate setting. Witnessed but not helped. Alone in pu
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
----
-
-**C20B** | F20 | 5s | DOLLY + CU
+**C20B** | F20B | 5s | DOLLY + CU
 
 ```
 Cinematic voxel art. Daniel — charcoal blazer, dark hair — 
@@ -685,9 +934,25 @@ Mood: not sympathy. Consequence. This is exactly what he built.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
+**C20C** | F20C | 5s | DOLLY + CU
+
+```
+Cinematic voxel art. Camera dollies toward Daniel's face as he walks out of the corporate office 
+with his cardboard box, over 5 seconds, arriving at close-up on his face.
+Eyes down. Not looking at anyone. The specific gait of a man who understands 
+that being seen would make it worse, so he has chosen not to see back.
+Cold fluorescent office light as he passes through the final corridor.
+Color palette: COLD — cold institutional fluorescent on charcoal Daniel tones.
+Mood: this is what the choices became. Not dramatic. Just Tuesday. Just walking out.
+Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
+```
+
 ---
 
-**C21A** | F21 | 5s | DESCENT
+
+### SCENE 21 — Termination letter
+
+**C21A** | F21A | 5s | DESCENT
 
 ```
 Isometric voxel art. Bird's eye camera positioned directly above Daniel's now-empty desk.
@@ -700,9 +965,7 @@ Mood: the vacancy. The desk that held a career now holds only the document endin
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
----
-
-**C21B** | F21 | 5s | PUSH → ECU
+**C21B** | F21B | 5s | PUSH → ECU
 
 ```
 Cinematic voxel art. Termination letter lying flat on the empty desk. 
@@ -715,9 +978,25 @@ Mood: the word. The career reduced to a single line.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
+**C21C** | F21C | 5s | ECU + STATIC
+
+```
+Cinematic voxel art. Extreme close-up on a specific phrase from the termination letter —
+the text filling the frame:
+"four years of falsified travel reports"
+Cold gray institutional light. The phrase just sitting there in voxel document font.
+Camera holds static for 5 seconds on this phrase alone.
+Color palette: COLD GRAY — cold steel-blue ambient, document cream, dark ink.
+Mood: the Atlanta trips were never Atlanta. Four years. The phrase makes it concrete.
+Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
+```
+
 ---
 
-**C22A** | F22 | 5s | ELS + STATIC
+
+### SCENE 22 — Daniel in furniture showroom
+
+**C22A** | F22A | 5s | ELS + STATIC
 
 ```
 Isometric voxel art furniture showroom interior. 
@@ -732,9 +1011,7 @@ Mood: the scale of the fall. From sales manager to retail floor. From suit to na
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
----
-
-**C22B** | F22 | 5s | PULL + LS
+**C22B** | F22B | 5s | PULL + LS
 
 ```
 Cinematic voxel art. Camera starts at medium on Daniel in furniture store uniform, 
@@ -747,9 +1024,26 @@ Mood: the daily reality of consequence. Not a dramatic moment. Just Tuesday, ind
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
+**C22C** | F22C | 5s | RACK-FOCUS + LS
+
+```
+Cinematic voxel art. Daniel (navy retail uniform) in foreground — 
+close enough to blur at the rack-focus shallow depth. 
+Camera rack-focuses from Daniel (foreground, soft and blurred) to the vast cold showroom 
+stretching behind him (background, now sharp and enormous).
+The showroom in focus. Daniel out of focus. He is the blurry part now.
+Camera holds this focus split for the remaining 3 seconds.
+Color palette: COLD GRAY — institutional fluorescent on the sharp background, Daniel muted blurred.
+Mood: he is no longer the subject. The space he inhabits is larger than he is.
+Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
+```
+
 ---
 
-**C23A** | F23 | 5s | CRANE-UP
+
+### SCENE 23 — Amber's new apartment
+
+**C23A** | F23A | 5s | CRANE-UP
 
 ```
 Isometric voxel art. Amber's new apartment interior — warm, smaller than before, but hers.
@@ -762,9 +1056,7 @@ Mood: the beginning of a life without Daniel in it. This is relief, not tragedy.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
----
-
-**C23B** | F23 | 5s | PUSH + CU
+**C23B** | F23B | 5s | PUSH + CU
 
 ```
 Cinematic voxel art. Amber — voxel character, navy top, blonde hair — 
@@ -777,9 +1069,25 @@ Mood: the other woman who was also deceived, choosing her next chapter.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
+**C23C** | F23C | 5s | ECU + STATIC
+
+```
+Cinematic voxel art. Extreme close-up on Lucas's child crayon drawing pinned to Amber's fridge.
+Crayon-style voxel art on the drawing: a sun, a house, two stick figures — one large, one small.
+Amber and Lucas. Her new life in a child's drawing.
+Warm kitchen light catches the drawing. Warmth reclaimed from the ruins.
+Camera holds static on the drawing for 5 seconds.
+Color palette: WARMING — warm cream kitchen, bright crayon colors on the drawing, amber lamp.
+Mood: the child drew what he sees. Safety. Home. The two of them. It is enough.
+Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
+```
+
 ---
 
-**C24A** | F24 | 5s | ELS + PUSH
+
+### SCENE 24 — Park bench, Sophie and Lucas
+
+**C24A** | F24A | 5s | ELS + PUSH
 
 ```
 Isometric voxel art. Outdoor park scene, warm afternoon gold light, 
@@ -794,9 +1102,7 @@ Mood: the innocent awkwardness. Two kids who didn't ask for any of this.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
----
-
-**C24B** | F24 | 5s | RACK-FOCUS + MS
+**C24B** | F24B | 5s | RACK-FOCUS + MS
 
 ```
 Cinematic voxel art. Camera close on Sophie and Lucas on the park bench.
@@ -810,9 +1116,25 @@ Mood: the start of something between two kids who share a half-sibling. Unscript
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
+**C24C** | F24C | 5s | PULL + LS
+
+```
+Cinematic voxel art. Wide park shot — camera pulls back slowly over 5 seconds
+to show the full park frame. Sophie (cream, 8yo) and Lucas (sage green, 6yo) on the bench —
+a small gap between them still, but both facing the same direction now.
+Adult figures (Nina and Amber) visible at the far edges of frame — watching from a distance.
+The children finding their footing. Not forced together. Just on the same bench.
+Color palette: WARM — warm gold afternoon park, cream and sage green on the children.
+Mood: two kids who didn't ask for any of this, and are going to be fine anyway.
+Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
+```
+
 ---
 
-**C25A** | F25 | 5s | ORBIT-L + MS
+
+### SCENE 25 — Two kids laughing
+
+**C25A** | F25A | 5s | ORBIT-L + MS
 
 ```
 Cinematic voxel art. Park bench, warm afternoon light.
@@ -825,9 +1147,7 @@ Mood: kids being kids. Two people who didn't choose this situation, finding each
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
----
-
-**C25B** | F25 | 5s | CU + PAN-R
+**C25B** | F25B | 5s | CU + PAN-R
 
 ```
 Cinematic voxel art. Close-up on Sophie's voxel face (8yo, cream top, dark hair) — 
@@ -840,13 +1160,27 @@ Mood: the epilogue truth — these two are going to be okay. The children always
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
+**C25C** | F25C | 5s | CU + STATIC
+
+```
+Cinematic voxel art. Close-up on both children's faces — Sophie (dark hair, cream) 
+and Lucas (sage green) — side by side on the bench, both mid-laugh at the same moment.
+The gap between them is closing. The word "siblings" will come eventually.
+But right now: just two kids, same laugh, same bench.
+Warm afternoon gold light on both faces. Camera holds static for 5 seconds.
+Color palette: WARM — warm gold on cream and sage green. Full warm. No cold.
+Mood: the specific joy of children who have decided the other person is fine, actually.
+Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
+```
+
 ---
+
 
 ## BEAT 8 — THE DOWNFALL (9:30–10:30)
 
----
+### SCENE 26 — Nina's design studio award
 
-**C26A** | F26 | 5s | TILT-UP + LS
+**C26A** | F26A | 5s | TILT-UP + LS
 
 ```
 Isometric voxel art. Nina's graphic design studio, warm cream walls, work pinned on boards.
@@ -859,9 +1193,7 @@ Mood: the career she rebuilt on her own terms. The award she earned alone.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
----
-
-**C26B** | F26 | 5s | PUSH + CU
+**C26B** | F26B | 5s | PUSH + CU
 
 ```
 Cinematic voxel art. Nina — cream cardigan, dark hair — 
@@ -875,9 +1207,25 @@ Mood: the life she built after. This is better. This is real.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
+**C26C** | F26C | 5s | TILT-UP
+
+```
+Cinematic voxel art. Camera starts at the award plaque text on Nina's studio wall —
+close on the plaque surface — then tilts up slowly over 5 seconds to arrive at Nina's face
+in warm afternoon studio light. Her face full in the warm light.
+The tilt reveals: she is already past the award. The award is behind her. She is forward.
+Warm afternoon light from windows to the left. Studio full and warm.
+Color palette: FULL WARM — warm afternoon gold, cream studio, Nina warm-toned.
+Mood: the woman who earned this without anyone's help. The tilt reveals the fullness of it.
+Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
+```
+
 ---
 
-**C27A** | F27 | 5s | ELS + PUSH
+
+### SCENE 27 — Nina meets photographer
+
+**C27A** | F27A | 5s | ELS + PUSH
 
 ```
 Isometric voxel art conference hall interior. Warm amber networking light — 
@@ -891,9 +1239,7 @@ Mood: the world opening back up. New people. New possibilities. She is present, 
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
----
-
-**C27B** | F27 | 5s | ORBIT-R + CU
+**C27B** | F27B | 5s | ORBIT-R + CU
 
 ```
 Cinematic voxel art. Camera orbits right around Nina and the photographer voxel character — 
@@ -905,9 +1251,25 @@ Mood: the first person she has let be close since Daniel. This is not rushing. T
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
+**C27C** | F27C | 5s | ECU + STATIC
+
+```
+Cinematic voxel art. Extreme close-up on two voxel coffee cups at the conference table —
+Nina's and the photographer's — resting naturally close together on the surface.
+The proximity is not arranged. Just two cups where two people have been talking.
+Warm event amber light from above. Steam faint. Easy start.
+Camera holds static for 5 seconds on the two cups.
+Color palette: FULL WARM — warm honey amber on cream cup surfaces. Warm ambient.
+Mood: a conversation worth continuing. The small ordinary detail of something beginning.
+Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
+```
+
 ---
 
-**C28A** | F28 | 5s | CRANE-UP
+
+### SCENE 28 — Nina and Sophie morning apartment
+
+**C28A** | F28A | 5s | CRANE-UP
 
 ```
 Isometric voxel art. Nina's new cream apartment interior — smaller than the house, 
@@ -921,9 +1283,7 @@ Mood: the apartment that is not the house. Smaller. Better.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
----
-
-**C28B** | F28 | 5s | PUSH + CU
+**C28B** | F28B | 5s | PUSH + CU
 
 ```
 Cinematic voxel art. Sophie — small voxel character, cream dress, dark hair — 
@@ -936,13 +1296,27 @@ Mood: the specific peace of a child who feels safe in her home. This is what mat
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
+**C28C** | F28C | 5s | PAN-R + CU
+
+```
+Cinematic voxel art. Camera starts in close-up on Sophie's horse figurines on the windowsill —
+warm morning gold light on each figurine. Then pans right slowly over 5 seconds 
+to arrive at Nina's face in the same warm morning light.
+Her face: calm. Present. The apartment is hers. The light is hers. The morning is hers.
+Camera holds on Nina's face for final 2 seconds.
+Color palette: FULL WARM — morning gold #D4A547, cream windowsill, Nina warm-toned.
+Mood: the apartment and everything in it — chosen, earned, hers.
+Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
+```
+
 ---
+
 
 ## EPILOGUE (10:30–11:30)
 
----
+### SCENE 29 — New two-person Christmas card
 
-**C29A** | F29 | 5s | PUSH → ECU
+**C29A** | F29A | 5s | PUSH → ECU
 
 ```
 Isometric voxel art. Nina's warm kitchen table. 
@@ -956,9 +1330,7 @@ Mood: the year in one image. Two is enough. Two is better. This is the whole sto
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
----
-
-**C29B** | F29 | 5s | RACK-FOCUS + CU
+**C29B** | F29B | 5s | RACK-FOCUS + CU
 
 ```
 Cinematic voxel art. New Christmas card on kitchen table (foreground). 
@@ -972,9 +1344,26 @@ Mood: the emotional payoff. The Christmas card this year is honest.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
+**C29C** | F29C | 5s | ECU + STATIC
+
+```
+Cinematic voxel art. Extreme close-up on the Christmas card interior.
+"Nina & Sophie" in elegant voxel card font, center of frame.
+Gold snowflake border framing the two-name line. Cream card background.
+Warm kitchen light from above. 
+Two names. Not four. Not a lie. Just two names, honest and complete.
+Camera holds static for 5 seconds.
+Color palette: FULL WARM — cream card, gold #D4A547 snowflake border, warm ambient.
+Mood: the Christmas card this year is honest. Two is enough. Two is better.
+Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
+```
+
 ---
 
-**C30A** | F30 | 5s | TILT-UP + LS
+
+### SCENE 30 — Sophie's horse figurines
+
+**C30A** | F30A | 5s | TILT-UP + LS
 
 ```
 Isometric voxel art. Nina's cream apartment. Camera starts at baseboard level 
@@ -987,9 +1376,7 @@ Mood: the small ordinary things of a child's life. Sophie has her horses. She is
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
----
-
-**C30B** | F30 | 5s | CU + PAN-L
+**C30B** | F30B | 5s | CU + PAN-L
 
 ```
 Cinematic voxel art. Close-up on a single horse figurine on the windowsill — 
@@ -1002,9 +1389,25 @@ Mood: a child arranging her world. This is what safety looks like from the insid
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
+**C30C** | F30C | 5s | PUSH + ECU
+
+```
+Cinematic voxel art. Camera pushes toward Sophie's face — 
+Sophie (small voxel child, cream dress, dark hair) holding a horse figurine at eye level.
+Her expression: pure child happiness, uncomplicated and real. Simple dot eyes bright.
+Camera arrives at extreme close-up on her face holding the figurine for final 2 seconds.
+Warm morning gold from the window behind her.
+Color palette: FULL WARM — morning gold on cream Sophie tones.
+Mood: a child who has her horses and her morning and her mom. This is what she needs.
+Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
+```
+
 ---
 
-**C31A** | F31 | 5s | ELS + STATIC
+
+### SCENE 31 — Daniel alone in showroom
+
+**C31A** | F31A | 5s | ELS + STATIC
 
 ```
 Isometric voxel art furniture showroom, end of business day. 
@@ -1018,9 +1421,7 @@ Mood: this is not a dramatic moment. It is just his life now. Ordinary diminishm
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
----
-
-**C31B** | F31 | 5s | PULL + ELS
+**C31B** | F31B | 5s | PULL + ELS
 
 ```
 Cinematic voxel art. Starts at medium shot on Daniel (retail uniform, dark hair) 
@@ -1034,9 +1435,25 @@ Mood: the distance between what he had and what he has. Earned. Irreversible.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
+**C31C** | F31C | 5s | DESCENT
+
+```
+Cinematic voxel art. Bird's eye camera descends from high above the furniture showroom ceiling —
+starting above the fluorescent light grid, descending slowly over 5 seconds
+until landing in overhead close view of Daniel — tiny figure on the vast showroom floor.
+He does not look up. The camera descends toward him and he does not notice.
+Harsh institutional fluorescent light grid visible in frame as camera passes through it.
+Color palette: COLD GRAY — institutional fluorescent, Daniel tiny below.
+Mood: this is the ceiling of his world now. And he is the smallest thing in it.
+Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
+```
+
 ---
 
-**C32A** | F32 | 5s | MS + PUSH
+
+### SCENE 32 — Amber with new partner
+
+**C32A** | F32A | 5s | MS + PUSH
 
 ```
 Isometric voxel art. Amber's warm living room, evening. 
@@ -1050,9 +1467,7 @@ Mood: a life that works. Amber chose this. Lucas has stability.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
----
-
-**C32B** | F32 | 5s | ORBIT-L + CU
+**C32B** | F32B | 5s | ORBIT-L + CU
 
 ```
 Cinematic voxel art. Camera orbits left around Amber and her new partner on the couch over 5 seconds,
@@ -1063,9 +1478,25 @@ Mood: Amber's epilogue. She was deceived too. She chose forward. She is fine.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
+**C32C** | F32C | 5s | ECU + STATIC
+
+```
+Cinematic voxel art. Extreme close-up on Amber's hand and her partner's hand —
+resting naturally close on the warm couch cushion. Not posed. Not reaching.
+Just the natural proximity of two people who have found comfort that was earned, not performed.
+Warm amber lamp light from above catches both hands.
+Camera holds static for 5 seconds.
+Color palette: FULL WARM — warm amber lamp on hands, cream fabric surface.
+Mood: no drama. Just comfort. The quiet kind that takes time to find.
+Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
+```
+
 ---
 
-**C33A** | F33 | 5s | CRANE-UP ⭐ HERO SCENE
+
+### SCENE 33 — Nina and Sophie morning coffee
+
+**C33A** | F33A | 5s | CRANE-UP ⭐ HERO SCENE
 
 ```
 Isometric voxel art. Nina's cream kitchen, morning — the warmest, fullest the palette gets.
@@ -1080,9 +1511,7 @@ Mood: the specific quality of a morning that is entirely your own. She built thi
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
----
-
-**C33B** | F33 | 5s | PUSH + ECU ⭐ HERO SCENE
+**C33B** | F33B | 5s | PUSH + ECU ⭐ HERO SCENE
 
 ```
 Cinematic voxel art. Camera starts at medium on Nina — cream cardigan, dark hair — 
@@ -1097,13 +1526,28 @@ Mood: the full emotional payoff. The whole episode distilled to this face in thi
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
+**C33C** | F33C | 5s | ORBIT-R + CU
+
+```
+Cinematic voxel art. Camera orbits right slowly around Nina's face over 5 seconds —
+starting slightly left of center, arcing around to arrive at a direct close-up.
+Nina (cream cardigan, warm brown hair) in the warm morning kitchen.
+Her eyes through the orbit: settled, warm, real. Not relief — something quieter.
+The face of a woman who chose well and knows it, caught mid-morning, not performing anything.
+Hold on direct close-up for final 2 seconds.
+Color palette: FULL WARM — peak morning gold on Nina's cream tones throughout orbit.
+Mood: this is what she chose. This is what she has. The orbit confirms it from every angle.
+Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
+```
+
 ---
+
 
 ## CTA (11:30–11:40)
 
----
+### SCENE 34 — Butterfly channel card
 
-**C34A** | F34 | 5s | PUSH + ORBIT-R ⭐ HERO SCENE
+**C34A** | F34A | 5s | PUSH + ORBIT-R ⭐ HERO SCENE
 
 ```
 Cinematic voxel art. Deep navy background — dark, dramatic, brand-matching.
@@ -1118,9 +1562,7 @@ Mood: brand identity. The channel card that ends every episode.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
----
-
-**C34B** | F34 | 5s | PULL + ELS
+**C34B** | F34B | 5s | PULL + ELS
 
 ```
 Cinematic voxel art. Gold voxel butterfly logo center-frame on deep navy background.
@@ -1134,48 +1576,23 @@ Mood: the close. The invitation. The brand that brought them through the story.
 Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
 ```
 
----
+**C34C** | F34C | 5s | STATIC
 
-## Quick Reference Table — All 68 Clips
-
-| Scene | Frame | A Camera Move | B Camera Move |
-|---|---|---|---|
-| C01 | F01 | DOLLY → PUSH (warm kitchen wide) | RACK-FOCUS + ECU (hands + ring) |
-| C02 | F02 | PUSH → CU (family card photo) | RACK-FOCUS + ECU (Daniel's face on card) |
-| C03 | F03 | CRANE-UP (Thanksgiving table reveal) | PAN-R + CU (Lucas at kids table) |
-| C04 | F04 | PUSH → MS (Lucas face forward) | RACK-FOCUS + ECU (Lucas/Daniel jaw match) |
-| C05 | F05 | ELS + PAN-L (airport wide) | PUSH + CU (goodbye kiss/Nina trusting) |
-| C06 | F06 | LS + PUSH (Nina at laptop, normal) | RACK-FOCUS + CU (fingers stop/eyes widen) |
-| C07 | F07 | PUSH → ECU (folder label growing) | DUTCH + PULL (world tilting + Nina frozen) |
-| C08 | F08 | ECU + STATIC (hospital baby photo) | RACK-FOCUS + DUTCH (Nina face, world wrong) |
-| C09 | F09 | TILT-DN + CU (cards on table) | DOLLY + DUTCH (retreat from cards, Nina far) |
-| C10 | F10 | ELS + STATIC (Daniel walks in/Nina waiting) | RACK-FOCUS + DUTCH (Nina knowing) |
-| C11 | F11 | MS + STATIC (phone between them) | PUSH + ECU (Daniel's mask slipping) |
-| C12 | F12 | DESCENT (bird's eye to guest room) | PULL + CU (Nina alone, then back to face) |
-| C13 | F13 | ELS + PUSH (5am lamp in dark) | RACK-FOCUS + CU (lists/Nina's clear eyes) |
-| C14 | F14 | CU + STATIC (thumb over call button) | PUSH + ECU (Nina pressing call, calm) |
-| C15 | F15 | MS + STATIC (Amber answers phone) | PUSH + CU (Amber's face shifting/realizing) |
-| C16 | F16 | ELS + PUSH (lawyer's office wide) | TILT-DN + CU (documents/pen/ready to sign) |
-| C17 | F17 | PUSH → ECU ($92,000 growing) | RACK-FOCUS + CU (hand signing/Nina face) |
-| C18 | F18 | CU + PAN-R (bank app draining → Daniel face) | PULL + LS (Daniel small in large house) |
-| C19 | F19 | TILT-UP + LS (for sale sign reveal) | DOLLY + CU (sign fills frame) |
-| C20 | F20 | ELS + PUSH (office floor, Daniel packing) | DOLLY + CU (Daniel face, understanding) |
-| C21 | F21 | DESCENT (bird's eye to empty desk/letter) | PUSH → ECU ("TERMINATED" fills frame) |
-| C22 | F22 | ELS + STATIC (Daniel tiny in showroom) | PULL + LS (Daniel even smaller, alone) |
-| C23 | F23 | CRANE-UP (Amber + Lucas new warm apartment) | PUSH + CU (Amber face: relief/new start) |
-| C24 | F24 | ELS + PUSH (park bench/two kids awkward) | RACK-FOCUS + MS (two children studying each other) |
-| C25 | F25 | ORBIT-L + MS (two kids laughing together) | CU + PAN-R (Sophie laugh → Lucas laugh) |
-| C26 | F26 | TILT-UP + LS (desk → award on wall) | PUSH + CU (Nina at desk, in the zone) |
-| C27 | F27 | ELS + PUSH (conference hall/Nina meets photographer) | ORBIT-R + CU (Nina laughing, unguarded) |
-| C28 | F28 | CRANE-UP (cream apartment/two of them morning) | PUSH + CU (Sophie reading, at ease) |
-| C29 | F29 | PUSH → ECU (new 2-person card growing) | RACK-FOCUS + CU (Nina sealing/settled smile) |
-| C30 | F30 | TILT-UP + LS (wall to horse figurines) | CU + PAN-L (figurines in gold light/Sophie's hands) |
-| C31 | F31 | ELS + STATIC (Daniel tiny far in showroom) | PULL + ELS (Daniel even further, receding) |
-| C32 | F32 | MS + PUSH (Amber + partner + Lucas warm) | ORBIT-L + CU (Amber face: happy, relaxed) |
-| C33 | F33 | CRANE-UP (feet to faces, morning gold) ⭐ | PUSH + ECU (Nina's eyes, fully present) ⭐ |
-| C34 | F34 | PUSH + ORBIT-R (butterfly logo glowing) ⭐ | PULL + ELS (full end card layout) ⭐ |
+```
+Cinematic voxel art. Full end card. Static hold for 5 seconds.
+Deep navy background #1B2A4A fills frame.
+Center: gold voxel butterfly logo — geometric cube-based wings fully spread,
+gold #D4A547 warm glow catching every voxel edge.
+Below: "KARMA CAUGHT UP" in clean voxel channel font, gold.
+Subscribe prompt visible below channel name. All elements fully composed and readable.
+This is the last image. Hold it.
+Color palette: deep navy #1B2A4A background, gold butterfly #D4A547, gold text. Brand precise.
+Mood: the close. The invitation. The channel that brought them through the story.
+Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
+```
 
 ---
+
 
 ## DUTCH Angle — Approved Scene List (Beat 3-5 ONLY)
 
@@ -1205,560 +1622,41 @@ Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 
 
 ---
 
-## C-CLIP PROMPTS (F{NN}C → C{NN}C) — 34 clips × 5s
-
-> **Model**: Kling 2.5 Turbo · **Duration**: 5s · **Ratio**: 16:9 · **Resolution**: 1080p
-> **Start frame**: Upload `F{NN}C.png` before pasting prompt
-> **Save**: `media/videos/C{NN}C.mp4`
-
----
-
-**C01C** | F01C | 5s | ECU + STATIC
-
-```
-Cinematic voxel art. Extreme close-up on an envelope being sealed by Nina's hands —
-cube-bodied voxel character hands, cream cardigan cuffs visible.
-Nina's gold voxel wedding ring catches the warm lamp light as she presses the seal closed.
-The tradition of Christmas cards. The ring still on. The warmth still intact — for now.
-Camera holds static extreme close-up on hands and ring for full 5 seconds.
-Color palette: warm cream #F3E9D2, gold ring accent, warm honey table surface.
-Mood: the warmth before the crack — an ordinary domestic ritual about to be made ironic.
-Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
-```
-
----
-
-**C02C** | F02C | 5s | ORBIT-L + CU
-
-```
-Cinematic voxel art. Camera orbits left slowly around the Christmas card photo on the table.
-Four voxel figures on the card face: Nina (cream), Daniel (charcoal), Sophie (small cream), 
-and a fourth figure — the child nobody at this table was asked about.
-Orbit reveals different angles of the card over 5 seconds. Still warm light throughout.
-As the orbit completes, the fourth figure is front and center in the frame. 
-Who is that boy? The warmth is the same. The question is not.
-Color palette: warm cream and gold on card, warm kitchen ambient.
-Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
-```
-
----
-
-**C03C** | F03C | 5s | DOLLY + CU
-
-```
-Cinematic voxel art. Thanksgiving table scene. Camera slow dolly toward Lucas at the kids table.
-Lucas — small cube-bodied voxel child, sage green shirt, 6yo — laughing at something Sophie said.
-In the background, Nina's cream cardigan hands freeze mid-gesture — both hands stopped in air.
-Camera arrives at close-up on Lucas's laughing face. The cold has entered at the far edges of frame.
-Color palette: warm amber-orange Thanksgiving center, cold beginning at the periphery.
-Mood: the first thread — Lucas exists in her world. Her hands know before she does.
-Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
-```
-
----
-
-**C04C** | F04C | 5s | PULL + ELS
-
-```
-Cinematic voxel art. Camera positioned at eye level — Daniel (charcoal blazer) and Lucas (sage green)
-visible in the same frame, their jawlines in matching profile. DUTCH tilt applied.
-Camera pulls back over 5 seconds to extreme long shot — Nina visible as a tiny cream figure 
-in the far background, watching both of them from across the room.
-Daniel and Lucas in the foreground, together without knowing it. Nina far behind. The DUTCH holds.
-Color palette: warm amber Thanksgiving, DUTCH angle making warmth feel unstable.
-Mood: the involuntary realization arriving. Nina sees what the world does not.
-Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
-```
-
----
-
-**C05C** | F05C | 5s | CU + STATIC
-
-```
-Cinematic voxel art. Close-up on Nina's face at the airport. 
-Behind her, the departure board reads "ATLANTA" clearly in voxel text.
-Daniel has just kissed her goodbye. Her face: surface warmth, eyes soft — but beneath,
-the faintest unease, the kind the body registers before the mind names it.
-Camera holds close-up static for 5 seconds. Nina watching Daniel go. Not alarmed. Just... slightly.
-Color palette: warm airport interior amber on cream Nina tones.
-Mood: the goodbye she has given a hundred times. This one will be the last.
-Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
-```
-
----
-
-**C06C** | F06C | 5s | DOLLY → STATIC
-
-```
-Cinematic voxel art. Camera drifts slowly toward Daniel's closed laptop on the home desk.
-The laptop sits closed, waiting. Cold blue ambient light catches its surface.
-Camera dolly slows and comes to a stop in close-up on the closed lid over 5 seconds.
-It is just a laptop. It knows everything.
-Color palette: cold blue light on the laptop surface, dark home office ambient.
-Mood: the object that contains the life he is hiding. Patient. Closed. Waiting.
-Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
-```
-
----
-
-**C07C** | F07C | 5s | PUSH + ECU
-
-```
-Cinematic voxel art. Camera pushes to extreme close-up on the laptop folder label:
-"Family — Amber 💙"
-Just the folder name. Seven characters and an emoji. The cold blue screen light fills the frame.
-Camera holds on the text at extreme close-up for final 2 seconds. DUTCH tilt applied.
-The whole secret. Right there. In seven characters.
-Color palette: cold blue screen glow — nothing else. DUTCH angle.
-Mood: the moment of understanding. The folder that contains another life.
-Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
-```
-
----
-
-**C08C** | F08C | 5s | RACK-FOCUS + ECU
-
-```
-Cinematic voxel art. Hospital baby photo on the laptop screen.
-Camera rack-focuses to a date stamp visible in the corner of the photo: "6 years ago."
-The date sharpens into extreme close-up. Hold for 2 seconds.
-Six years. The math hits: Lucas is 6 years old. The dates match. Everything matches.
-Cold blue screen light. No warmth.
-Color palette: cold blue screen glow on date stamp text.
-Mood: the calculation completing itself. Nina's brain doing the math she didn't ask to do.
-Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
-```
-
----
-
-**C09C** | F09C | 5s | ECU + STATIC
-
-```
-Cinematic voxel art. Single Christmas card held in extreme close-up.
-The card interior visible — printed text inside reading:
-"Peace, Love, and Joy from our family"
-The words now devastatingly ironic in cold room light. DUTCH tilt applied.
-Camera holds static on the open card and its sentiment for 5 seconds.
-Color palette: cold ambient light on warm-colored card. The card's warmth is wrong now.
-Mood: the contamination of the ordinary. Every Christmas card is poisoned.
-Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
-```
-
----
-
-**C10C** | F10C | 5s | ECU + STATIC
-
-```
-Cinematic voxel art. Nina's phone screen in extreme close-up — 
-a photo visible on screen: Daniel's voxel hand on Lucas's shoulder at the zoo.
-Simple family photo. A man and a child. His hand on the boy's shoulder.
-Camera holds static for 5 seconds. The photo just there.
-Cold ambient light from above. No warmth.
-Color palette: cold ambient. Phone screen light. The photo's warm colors wrong in context.
-Mood: the proof that is not criminal but is everything. This is what everything.
-Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
-```
-
----
-
-**C11C** | F11C | 5s | PULL + ELS
-
-```
-Cinematic voxel art. Camera pulls back slowly from the confrontation table over 5 seconds
-to reveal the entire room: large voxel living room, Daniel (charcoal blazer) across from Nina (cream).
-Daniel has no defense. The room grows large around them both as the camera retreats.
-By the end: two small figures in a large cold space. No words that can fill it.
-Color palette: cold ambient room, both figures small in the expanding frame.
-Mood: the space that opens up when the story collapses. Too much room now.
-Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
-```
-
----
-
-**C12C** | F12C | 5s | DESCENT
-
-```
-Cinematic voxel art. Bird's eye camera descends from ceiling of the guest room —
-starting at ceiling height, descending slowly over 5 seconds to land above Nina.
-Nina — cream cardigan, warm brown hair — a small figure on the guest bed edge,
-shoulders curved inward. Dark room. Cold window light from one side.
-The descent lands directly above her. She does not look up.
-Color palette: DARK — deep shadow, cold blue window light, Nina's cream muted.
-Mood: three days of silence after. The guest room she retreated to.
-Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
-```
-
----
-
-**C13C** | F13C | 5s | TILT-UP
-
-```
-Cinematic voxel art. Pre-dawn kitchen. Camera starts on legal notepad on the table —
-two-column lists in Nina's handwriting. Close on the lists. Then tilts up slowly over 5 seconds
-to arrive at Nina's face in the warm lamp circle above. 
-Her eyes: clear. Decided. The lists are done. The thinking is done.
-Warm lamp light on her face. Dark kitchen surrounding. The warmth is returning — to her.
-Color palette: TURNING WARM — single warm lamp on Nina's face in dark kitchen surrounding.
-Mood: the 5am decision. She has done what needed thinking. Now she acts.
-Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
-```
-
----
-
-**C14C** | F14C | 5s | ECU + STATIC
-
-```
-Cinematic voxel art. Phone screen extreme close-up:
-"CALLING AMBER... 00:00:01"
-The duration counter ticking. 00:00:01 → 00:00:02. The call has connected.
-Cold ambient around the phone. The warm lamp from kitchen entering at the left edge.
-Camera holds static as the counter ticks for 5 seconds.
-Color palette: TURNING — cold phone screen blue with warm lamp edge entering left.
-Mood: two women about to share the same truth. The call that changes both their lives.
-Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
-```
-
----
-
-**C15C** | F15C | 5s | PULL + LS
-
-```
-Cinematic voxel art. Camera pulls back slowly over 5 seconds from Amber's face
-to reveal the full apartment around her — Amber (navy top, auburn hair) alone,
-phone to ear. The apartment warm but now somehow rearranging itself around what she is hearing.
-By the end: Amber a mid-size figure in her apartment space. Everything she knew, recalibrating.
-Color palette: warm apartment starting to feel complicated — warm tones with cool entering.
-Mood: Amber discovering the full picture. The world she thought she lived in, revising.
-Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
-```
-
----
-
-**C16C** | F16C | 5s | CU + STATIC
-
-```
-Cinematic voxel art. Close-up on Nina's hand — cream-toned voxel cube hand — 
-signing the legal documents on the lawyer's desk. Calm. Precise.
-Each pen movement deliberate. No hesitation. The signature is a choice toward herself.
-Camera holds close-up static on hand and pen and signature line for 5 seconds.
-Cool professional light on the documents. Warm on Nina's hand.
-Color palette: cool professional ambient, warm on Nina's signing hand.
-Mood: not drama. Just procedure. This is what choosing yourself looks like on paper.
-Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
-```
-
----
-
-**C17C** | F17C | 5s | ORBIT-R + ECU
-
-```
-Cinematic voxel art. Camera orbits right around the court document over 5 seconds —
-"$92,000" text rotating into prominence from a new direction as the camera circles.
-The number from multiple angles. It does not change with the perspective.
-Camera arrives at extreme close-up on the number from the new position.
-Cold steel-blue professional light throughout the orbit.
-Color palette: cold steel-blue, document cream, "$92,000" text dark and unavoidable.
-Mood: the number from every angle. It means what it means. There is no better angle.
-Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
-```
-
----
-
-**C18C** | F18C | 5s | ECU + STATIC
-
-```
-Cinematic voxel art. Extreme close-up on Daniel's bank app — the last transaction row.
-Balance near zero. Final installment row visible:
-"CHILD SUPPORT INSTALLMENT — $3,066.67"
-Below it: the balance. Near empty. The savings account of a man who thought he was untouchable.
-Camera holds static on the screen for 5 seconds. Cold blue screen light only.
-Color palette: COLD — cold blue screen light only, no warmth.
-Mood: the account that reflects the choices. Final installment. Savings gone.
-Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
-```
-
----
-
-**C19C** | F19C | 5s | CRANE-UP
-
-```
-Cinematic voxel art. Camera cranes up from the FOR SALE sign close — 
-starting at snow-level with the sign post in frame, craning up over 5 seconds 
-to reveal the full street view: the house, the neighborhood, the cold winter sky.
-The house that was the life is now a listing. A small FOR SALE sign on a street like any other.
-Dawn light — cold and early and indifferent.
-Color palette: COLD GRAY — cold dawn light, muted house tones, white snow, FOR SALE sign.
-Mood: the end of the chapter as viewed from street level, then from above.
-Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
-```
-
----
-
-**C20C** | F20C | 5s | DOLLY + CU
-
-```
-Cinematic voxel art. Camera dollies toward Daniel's face as he walks out of the corporate office 
-with his cardboard box, over 5 seconds, arriving at close-up on his face.
-Eyes down. Not looking at anyone. The specific gait of a man who understands 
-that being seen would make it worse, so he has chosen not to see back.
-Cold fluorescent office light as he passes through the final corridor.
-Color palette: COLD — cold institutional fluorescent on charcoal Daniel tones.
-Mood: this is what the choices became. Not dramatic. Just Tuesday. Just walking out.
-Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
-```
-
----
-
-**C21C** | F21C | 5s | ECU + STATIC
-
-```
-Cinematic voxel art. Extreme close-up on a specific phrase from the termination letter —
-the text filling the frame:
-"four years of falsified travel reports"
-Cold gray institutional light. The phrase just sitting there in voxel document font.
-Camera holds static for 5 seconds on this phrase alone.
-Color palette: COLD GRAY — cold steel-blue ambient, document cream, dark ink.
-Mood: the Atlanta trips were never Atlanta. Four years. The phrase makes it concrete.
-Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
-```
-
----
-
-**C22C** | F22C | 5s | RACK-FOCUS + LS
-
-```
-Cinematic voxel art. Daniel (navy retail uniform) in foreground — 
-close enough to blur at the rack-focus shallow depth. 
-Camera rack-focuses from Daniel (foreground, soft and blurred) to the vast cold showroom 
-stretching behind him (background, now sharp and enormous).
-The showroom in focus. Daniel out of focus. He is the blurry part now.
-Camera holds this focus split for the remaining 3 seconds.
-Color palette: COLD GRAY — institutional fluorescent on the sharp background, Daniel muted blurred.
-Mood: he is no longer the subject. The space he inhabits is larger than he is.
-Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
-```
-
----
-
-**C23C** | F23C | 5s | ECU + STATIC
-
-```
-Cinematic voxel art. Extreme close-up on Lucas's child crayon drawing pinned to Amber's fridge.
-Crayon-style voxel art on the drawing: a sun, a house, two stick figures — one large, one small.
-Amber and Lucas. Her new life in a child's drawing.
-Warm kitchen light catches the drawing. Warmth reclaimed from the ruins.
-Camera holds static on the drawing for 5 seconds.
-Color palette: WARMING — warm cream kitchen, bright crayon colors on the drawing, amber lamp.
-Mood: the child drew what he sees. Safety. Home. The two of them. It is enough.
-Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
-```
-
----
-
-**C24C** | F24C | 5s | PULL + LS
-
-```
-Cinematic voxel art. Wide park shot — camera pulls back slowly over 5 seconds
-to show the full park frame. Sophie (cream, 8yo) and Lucas (sage green, 6yo) on the bench —
-a small gap between them still, but both facing the same direction now.
-Adult figures (Nina and Amber) visible at the far edges of frame — watching from a distance.
-The children finding their footing. Not forced together. Just on the same bench.
-Color palette: WARM — warm gold afternoon park, cream and sage green on the children.
-Mood: two kids who didn't ask for any of this, and are going to be fine anyway.
-Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
-```
-
----
-
-**C25C** | F25C | 5s | CU + STATIC
-
-```
-Cinematic voxel art. Close-up on both children's faces — Sophie (dark hair, cream) 
-and Lucas (sage green) — side by side on the bench, both mid-laugh at the same moment.
-The gap between them is closing. The word "siblings" will come eventually.
-But right now: just two kids, same laugh, same bench.
-Warm afternoon gold light on both faces. Camera holds static for 5 seconds.
-Color palette: WARM — warm gold on cream and sage green. Full warm. No cold.
-Mood: the specific joy of children who have decided the other person is fine, actually.
-Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
-```
-
----
-
-**C26C** | F26C | 5s | TILT-UP
-
-```
-Cinematic voxel art. Camera starts at the award plaque text on Nina's studio wall —
-close on the plaque surface — then tilts up slowly over 5 seconds to arrive at Nina's face
-in warm afternoon studio light. Her face full in the warm light.
-The tilt reveals: she is already past the award. The award is behind her. She is forward.
-Warm afternoon light from windows to the left. Studio full and warm.
-Color palette: FULL WARM — warm afternoon gold, cream studio, Nina warm-toned.
-Mood: the woman who earned this without anyone's help. The tilt reveals the fullness of it.
-Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
-```
-
----
-
-**C27C** | F27C | 5s | ECU + STATIC
-
-```
-Cinematic voxel art. Extreme close-up on two voxel coffee cups at the conference table —
-Nina's and the photographer's — resting naturally close together on the surface.
-The proximity is not arranged. Just two cups where two people have been talking.
-Warm event amber light from above. Steam faint. Easy start.
-Camera holds static for 5 seconds on the two cups.
-Color palette: FULL WARM — warm honey amber on cream cup surfaces. Warm ambient.
-Mood: a conversation worth continuing. The small ordinary detail of something beginning.
-Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
-```
-
----
-
-**C28C** | F28C | 5s | PAN-R + CU
-
-```
-Cinematic voxel art. Camera starts in close-up on Sophie's horse figurines on the windowsill —
-warm morning gold light on each figurine. Then pans right slowly over 5 seconds 
-to arrive at Nina's face in the same warm morning light.
-Her face: calm. Present. The apartment is hers. The light is hers. The morning is hers.
-Camera holds on Nina's face for final 2 seconds.
-Color palette: FULL WARM — morning gold #D4A547, cream windowsill, Nina warm-toned.
-Mood: the apartment and everything in it — chosen, earned, hers.
-Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
-```
-
----
-
-**C29C** | F29C | 5s | ECU + STATIC
-
-```
-Cinematic voxel art. Extreme close-up on the Christmas card interior.
-"Nina & Sophie" in elegant voxel card font, center of frame.
-Gold snowflake border framing the two-name line. Cream card background.
-Warm kitchen light from above. 
-Two names. Not four. Not a lie. Just two names, honest and complete.
-Camera holds static for 5 seconds.
-Color palette: FULL WARM — cream card, gold #D4A547 snowflake border, warm ambient.
-Mood: the Christmas card this year is honest. Two is enough. Two is better.
-Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
-```
-
----
-
-**C30C** | F30C | 5s | PUSH + ECU
-
-```
-Cinematic voxel art. Camera pushes toward Sophie's face — 
-Sophie (small voxel child, cream dress, dark hair) holding a horse figurine at eye level.
-Her expression: pure child happiness, uncomplicated and real. Simple dot eyes bright.
-Camera arrives at extreme close-up on her face holding the figurine for final 2 seconds.
-Warm morning gold from the window behind her.
-Color palette: FULL WARM — morning gold on cream Sophie tones.
-Mood: a child who has her horses and her morning and her mom. This is what she needs.
-Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
-```
-
----
-
-**C31C** | F31C | 5s | DESCENT
-
-```
-Cinematic voxel art. Bird's eye camera descends from high above the furniture showroom ceiling —
-starting above the fluorescent light grid, descending slowly over 5 seconds
-until landing in overhead close view of Daniel — tiny figure on the vast showroom floor.
-He does not look up. The camera descends toward him and he does not notice.
-Harsh institutional fluorescent light grid visible in frame as camera passes through it.
-Color palette: COLD GRAY — institutional fluorescent, Daniel tiny below.
-Mood: this is the ceiling of his world now. And he is the smallest thing in it.
-Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
-```
-
----
-
-**C32C** | F32C | 5s | ECU + STATIC
-
-```
-Cinematic voxel art. Extreme close-up on Amber's hand and her partner's hand —
-resting naturally close on the warm couch cushion. Not posed. Not reaching.
-Just the natural proximity of two people who have found comfort that was earned, not performed.
-Warm amber lamp light from above catches both hands.
-Camera holds static for 5 seconds.
-Color palette: FULL WARM — warm amber lamp on hands, cream fabric surface.
-Mood: no drama. Just comfort. The quiet kind that takes time to find.
-Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
-```
-
----
-
-**C33C** | F33C | 5s | ORBIT-R + CU
-
-```
-Cinematic voxel art. Camera orbits right slowly around Nina's face over 5 seconds —
-starting slightly left of center, arcing around to arrive at a direct close-up.
-Nina (cream cardigan, warm brown hair) in the warm morning kitchen.
-Her eyes through the orbit: settled, warm, real. Not relief — something quieter.
-The face of a woman who chose well and knows it, caught mid-morning, not performing anything.
-Hold on direct close-up for final 2 seconds.
-Color palette: FULL WARM — peak morning gold on Nina's cream tones throughout orbit.
-Mood: this is what she chose. This is what she has. The orbit confirms it from every angle.
-Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
-```
-
----
-
-**C34C** | F34C | 5s | STATIC
-
-```
-Cinematic voxel art. Full end card. Static hold for 5 seconds.
-Deep navy background #1B2A4A fills frame.
-Center: gold voxel butterfly logo — geometric cube-based wings fully spread,
-gold #D4A547 warm glow catching every voxel edge.
-Below: "KARMA CAUGHT UP" in clean voxel channel font, gold.
-Subscribe prompt visible below channel name. All elements fully composed and readable.
-This is the last image. Hold it.
-Color palette: deep navy #1B2A4A background, gold butterfly #D4A547, gold text. Brand precise.
-Mood: the close. The invitation. The channel that brought them through the story.
-Smooth premium voxel art, NOT raw Minecraft. Astroneer/Crossy Road aesthetic. 5 seconds.
-```
-
----
-
 ## Quick Reference Table — All 102 Clips (A + B + C)
 
-| Scene | Frame | A Camera Move | B Camera Move | C Camera Move |
-|---|---|---|---|---|
-| C01 | F01 | DOLLY → PUSH (warm kitchen wide) | RACK-FOCUS + ECU (hands + ring) | ECU + STATIC (ring catches light) |
-| C02 | F02 | PUSH → CU (family card photo) | RACK-FOCUS + ECU (Daniel's face on card) | ORBIT-L + CU (fourth figure revealed) |
-| C03 | F03 | CRANE-UP (Thanksgiving table reveal) | PAN-R + CU (Lucas at kids table) | DOLLY + CU (Lucas laughs / Nina's hands freeze) |
-| C04 | F04 | PUSH → MS (Lucas face forward) | RACK-FOCUS + ECU (Lucas/Daniel jaw match) | PULL + ELS (Nina watches both / DUTCH) |
-| C05 | F05 | ELS + PAN-L (airport wide) | PUSH + CU (goodbye kiss/Nina trusting) | CU + STATIC (Nina face / ATLANTA board) |
-| C06 | F06 | LS + PUSH (Nina at laptop, normal) | RACK-FOCUS + CU (fingers stop/eyes widen) | DOLLY → STATIC (toward closed laptop) |
-| C07 | F07 | PUSH → ECU (folder label growing) | DUTCH + PULL (world tilting + Nina frozen) | PUSH + ECU (folder name / DUTCH) |
-| C08 | F08 | ECU + STATIC (hospital baby photo) | RACK-FOCUS + DUTCH (Nina face, world wrong) | RACK-FOCUS + ECU (date stamp "6 years ago") |
-| C09 | F09 | TILT-DN + CU (cards on table) | DOLLY + DUTCH (retreat from cards, Nina far) | ECU + STATIC (card text ironic / DUTCH) |
-| C10 | F10 | ELS + STATIC (Daniel walks in/Nina waiting) | RACK-FOCUS + DUTCH (Nina knowing) | ECU + STATIC (Daniel's hand on Lucas in photo) |
-| C11 | F11 | MS + STATIC (phone between them) | PUSH + ECU (Daniel's mask slipping) | PULL + ELS (room expanding, no defense) |
-| C12 | F12 | DESCENT (bird's eye to guest room) | PULL + CU (Nina alone, then back to face) | DESCENT (ceiling to Nina, shoulders inward) |
-| C13 | F13 | ELS + PUSH (5am lamp in dark) | RACK-FOCUS + CU (lists/Nina's clear eyes) | TILT-UP (lists → Nina's face, decided) |
-| C14 | F14 | CU + STATIC (thumb over call button) | PUSH + ECU (Nina pressing call, calm) | ECU + STATIC (screen: CALLING AMBER 00:00:01) |
-| C15 | F15 | MS + STATIC (Amber answers phone) | PUSH + CU (Amber's face shifting/realizing) | PULL + LS (Amber alone, world recalibrating) |
-| C16 | F16 | ELS + PUSH (lawyer's office wide) | TILT-DN + CU (documents/pen/ready to sign) | CU + STATIC (Nina's hand signing, calm) |
-| C17 | F17 | PUSH → ECU ($92,000 growing) | RACK-FOCUS + CU (hand signing/Nina face) | ORBIT-R + ECU ($92,000 from new angle) |
-| C18 | F18 | CU + PAN-R (bank app draining → Daniel face) | PULL + LS (Daniel small in large house) | ECU + STATIC (final balance / last installment) |
-| C19 | F19 | TILT-UP + LS (for sale sign reveal) | DOLLY + CU (sign fills frame) | CRANE-UP (sign → full street cold view) |
-| C20 | F20 | ELS + PUSH (office floor, Daniel packing) | DOLLY + CU (Daniel face, understanding) | DOLLY + CU (Daniel face walking out, eyes down) |
-| C21 | F21 | DESCENT (bird's eye to empty desk/letter) | PUSH → ECU ("TERMINATED" fills frame) | ECU + STATIC ("four years of falsified...") |
-| C22 | F22 | ELS + STATIC (Daniel tiny in showroom) | PULL + LS (Daniel even smaller, alone) | RACK-FOCUS + LS (Daniel blurred / showroom sharp) |
-| C23 | F23 | CRANE-UP (Amber + Lucas new warm apartment) | PUSH + CU (Amber face: relief/new start) | ECU + STATIC (Lucas's crayon drawing on fridge) |
-| C24 | F24 | ELS + PUSH (park bench/two kids awkward) | RACK-FOCUS + MS (two children studying each other) | PULL + LS (full park / Nina + Amber at edges) |
-| C25 | F25 | ORBIT-L + MS (two kids laughing together) | CU + PAN-R (Sophie laugh → Lucas laugh) | CU + STATIC (both faces mid-laugh together) |
-| C26 | F26 | TILT-UP + LS (desk → award on wall) | PUSH + CU (Nina at desk, in the zone) | TILT-UP (award plaque → Nina's face in warm light) |
-| C27 | F27 | ELS + PUSH (conference hall/Nina meets photographer) | ORBIT-R + CU (Nina laughing, unguarded) | ECU + STATIC (two coffee cups, easy proximity) |
-| C28 | F28 | CRANE-UP (cream apartment/two of them morning) | PUSH + CU (Sophie reading, at ease) | PAN-R + CU (horse figurines → Nina's face) |
-| C29 | F29 | PUSH → ECU (new 2-person card growing) | RACK-FOCUS + CU (Nina sealing/settled smile) | ECU + STATIC ("Nina & Sophie" / snowflake border) |
-| C30 | F30 | TILT-UP + LS (wall to horse figurines) | CU + PAN-L (figurines in gold light/Sophie's hands) | PUSH + ECU (Sophie's face / horse figurine) |
-| C31 | F31 | ELS + STATIC (Daniel tiny far in showroom) | PULL + ELS (Daniel even further, receding) | DESCENT (ceiling to Daniel tiny below) |
-| C32 | F32 | MS + PUSH (Amber + partner + Lucas warm) | ORBIT-L + CU (Amber face: happy, relaxed) | ECU + STATIC (two hands, natural warmth) |
-| C33 | F33 | CRANE-UP (feet to faces, morning gold) ⭐ | PUSH + ECU (Nina's eyes, fully present) ⭐ | ORBIT-R + CU (Nina's face from every angle) ⭐ |
-| C34 | F34 | PUSH + ORBIT-R (butterfly logo glowing) ⭐ | PULL + ELS (full end card layout) ⭐ | STATIC (full end card — hold for subscribe) ⭐ |
+| Scene | Frame A | Frame B | Frame C | A Camera Move | B Camera Move | C Camera Move |
+|---|---|---|---|---|---|---|
+| C01 | F01A | F01B | F01C | DOLLY → PUSH (warm kitchen wide) | RACK-FOCUS + ECU (hands + ring) | ECU + STATIC (ring catches light) |
+| C02 | F02A | F02B | F02C | PUSH → CU (family card photo) | RACK-FOCUS + ECU (Daniel's face on card) | ORBIT-L + CU (fourth figure revealed) |
+| C03 | F03A | F03B | F03C | CRANE-UP (Thanksgiving table reveal) | PAN-R + CU (Lucas at kids table) | DOLLY + CU (Lucas laughs / Nina's hands freeze) |
+| C04 | F04A | F04B | F04C | PUSH → MS (Lucas face forward) | RACK-FOCUS + ECU (Lucas/Daniel jaw match) | PULL + ELS (Nina watches both / DUTCH) |
+| C05 | F05A | F05B | F05C | ELS + PAN-L (airport wide) | PUSH + CU (goodbye kiss/Nina trusting) | CU + STATIC (Nina face / ATLANTA board) |
+| C06 | F06A | F06B | F06C | LS + PUSH (Nina at laptop, normal) | RACK-FOCUS + CU (fingers stop/eyes widen) | DOLLY → STATIC (toward closed laptop) |
+| C07 | F07A | F07B | F07C | PUSH → ECU (folder label growing) | DUTCH + PULL (world tilting + Nina frozen) | PUSH + ECU (folder name / DUTCH) |
+| C08 | F08A | F08B | F08C | ECU + STATIC (hospital baby photo) | RACK-FOCUS + DUTCH (Nina face, world wrong) | RACK-FOCUS + ECU (date stamp "6 years ago") |
+| C09 | F09A | F09B | F09C | TILT-DN + CU (cards on table) | DOLLY + DUTCH (retreat from cards, Nina far) | ECU + STATIC (card text ironic / DUTCH) |
+| C10 | F10A | F10B | F10C | ELS + STATIC (Daniel walks in/Nina waiting) | RACK-FOCUS + DUTCH (Nina knowing) | ECU + STATIC (Daniel's hand on Lucas in photo) |
+| C11 | F11A | F11B | F11C | MS + STATIC (phone between them) | PUSH + ECU (Daniel's mask slipping) | PULL + ELS (room expanding, no defense) |
+| C12 | F12A | F12B | F12C | DESCENT (bird's eye to guest room) | PULL + CU (Nina alone, then back to face) | DESCENT (ceiling to Nina, shoulders inward) |
+| C13 | F13A | F13B | F13C | ELS + PUSH (5am lamp in dark) | RACK-FOCUS + CU (lists/Nina's clear eyes) | TILT-UP (lists → Nina's face, decided) |
+| C14 | F14A | F14B | F14C | CU + STATIC (thumb over call button) | PUSH + ECU (Nina pressing call, calm) | ECU + STATIC (screen: CALLING AMBER 00:00:01) |
+| C15 | F15A | F15B | F15C | MS + STATIC (Amber answers phone) | PUSH + CU (Amber's face shifting/realizing) | PULL + LS (Amber alone, world recalibrating) |
+| C16 | F16A | F16B | F16C | ELS + PUSH (lawyer's office wide) | TILT-DN + CU (documents/pen/ready to sign) | CU + STATIC (Nina's hand signing, calm) |
+| C17 | F17A | F17B | F17C | PUSH → ECU ($92,000 growing) | RACK-FOCUS + CU (hand signing/Nina face) | ORBIT-R + ECU ($92,000 from new angle) |
+| C18 | F18A | F18B | F18C | CU + PAN-R (bank app draining → Daniel face) | PULL + LS (Daniel small in large house) | ECU + STATIC (final balance / last installment) |
+| C19 | F19A | F19B | F19C | TILT-UP + LS (for sale sign reveal) | DOLLY + CU (sign fills frame) | CRANE-UP (sign → full street cold view) |
+| C20 | F20A | F20B | F20C | ELS + PUSH (office floor, Daniel packing) | DOLLY + CU (Daniel face, understanding) | DOLLY + CU (Daniel face walking out, eyes down) |
+| C21 | F21A | F21B | F21C | DESCENT (bird's eye to empty desk/letter) | PUSH → ECU ("TERMINATED" fills frame) | ECU + STATIC ("four years of falsified...") |
+| C22 | F22A | F22B | F22C | ELS + STATIC (Daniel tiny in showroom) | PULL + LS (Daniel even smaller, alone) | RACK-FOCUS + LS (Daniel blurred / showroom sharp) |
+| C23 | F23A | F23B | F23C | CRANE-UP (Amber + Lucas new warm apartment) | PUSH + CU (Amber face: relief/new start) | ECU + STATIC (Lucas's crayon drawing on fridge) |
+| C24 | F24A | F24B | F24C | ELS + PUSH (park bench/two kids awkward) | RACK-FOCUS + MS (two children studying each other) | PULL + LS (full park / Nina + Amber at edges) |
+| C25 | F25A | F25B | F25C | ORBIT-L + MS (two kids laughing together) | CU + PAN-R (Sophie laugh → Lucas laugh) | CU + STATIC (both faces mid-laugh together) |
+| C26 | F26A | F26B | F26C | TILT-UP + LS (desk → award on wall) | PUSH + CU (Nina at desk, in the zone) | TILT-UP (award plaque → Nina's face in warm light) |
+| C27 | F27A | F27B | F27C | ELS + PUSH (conference hall/Nina meets photographer) | ORBIT-R + CU (Nina laughing, unguarded) | ECU + STATIC (two coffee cups, easy proximity) |
+| C28 | F28A | F28B | F28C | CRANE-UP (cream apartment/two of them morning) | PUSH + CU (Sophie reading, at ease) | PAN-R + CU (horse figurines → Nina's face) |
+| C29 | F29A | F29B | F29C | PUSH → ECU (new 2-person card growing) | RACK-FOCUS + CU (Nina sealing/settled smile) | ECU + STATIC ("Nina & Sophie" / snowflake border) |
+| C30 | F30A | F30B | F30C | TILT-UP + LS (wall to horse figurines) | CU + PAN-L (figurines in gold light/Sophie's hands) | PUSH + ECU (Sophie's face / horse figurine) |
+| C31 | F31A | F31B | F31C | ELS + STATIC (Daniel tiny far in showroom) | PULL + ELS (Daniel even further, receding) | DESCENT (ceiling to Daniel tiny below) |
+| C32 | F32A | F32B | F32C | MS + PUSH (Amber + partner + Lucas warm) | ORBIT-L + CU (Amber face: happy, relaxed) | ECU + STATIC (two hands, natural warmth) |
+| C33 | F33A | F33B | F33C | CRANE-UP (feet to faces, morning gold) ⭐ | PUSH + ECU (Nina's eyes, fully present) ⭐ | ORBIT-R + CU (Nina's face from every angle) ⭐ |
+| C34 | F34A | F34B | F34C | PUSH + ORBIT-R (butterfly logo glowing) ⭐ | PULL + ELS (full end card layout) ⭐ | STATIC (full end card — hold for subscribe) ⭐ |
