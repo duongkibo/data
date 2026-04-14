@@ -1,10 +1,10 @@
-# 03b — Full Image Generation Prompts — PART 1
-# EP01 "The Baby Registry" — F01A through F17C (51 prompts)
+# 03b — Full Image Generation Prompts
+# EP01 "The Baby Registry" — F01A through F34C (102 prompts + 15 Ken Burns stills = 117 total)
 # Copy-paste trực tiếp vào Freepik — self-contained, no external reference needed
 
 > **System**: Each scene = 3 start frames (A = Wide/Establishing, B = Medium, C = Close-Up/ECU)
 > **Setup**: Ratio 16:9 · Resolution 2K · AI enhance OFF
-> **Save**: media/images/F01A.png, F01B.png, F01C.png ... F17A.png, F17B.png, F17C.png
+> **Save**: media/images/F01A.png, F01B.png, F01C.png ... F34A.png, F34B.png, F34C.png
 
 ---
 
@@ -24,6 +24,10 @@
 | F03–F06 | Beat 2 Intro | WARM — cream #F3E9D2 + gold #D4A547 |
 | F07–F10 | Beat 3 Crack | COOL ENTERING — #3B5E8A, gray undertones |
 | F11–F17 | Beat 4–5 Betrayal/Fall | DARK COLD — navy #0B1426 + blue #3B82F6 |
+| F18–F21 | Beat 6 Pivot | TURNING WARM — first gold returning #D4A547 |
+| F22–F27 | Beat 7 Karma | COLD GRAY — #1F2937, institutional cold |
+| F28–F29 | Beat 8 Downfall | NEUTRAL-WARM / COLD GRAY split |
+| F30–F34 | Epilogue + CTA | FULL WARM GOLD — #D4A547 + sage #6B7F5A |
 
 ---
 
@@ -32,7 +36,7 @@
 
 ---
 
-## 51 START FRAMES — F01 through F17
+## 102 START FRAMES — F01 through F34
 
 ---
 
@@ -458,22 +462,6 @@ Medium cinematic voxel shot of Maya — cube-bodied voxel character from referen
 ```
 Extreme close-up ECU voxel portrait of Maya's face — cube-bodied voxel character from reference, cream cardigan, warm brown hair — phone pressed to ear, sitting on kitchen floor. Her face fills the frame. Expression: completely dry-eyed, past the point of crying. Not broken — hardening. In her dot eyes: not grief, not sadness — something quiet and resolute is forming. This is the face of someone who has just decided something. Cold dark ambient light on her face. No warmth. Just clarity. Color palette: deep dark navy #0B1426 background, cold blue-gray ambient light on face. Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
 ```
-
----
-
-<!-- CONTINUES IN PART 2: F18-F34 + Ken Burns S01-S15 -->
-# 03b PART 2 — Full Image Prompts F18-F34 + Ken Burns S01-S15
-# EP01 "The Baby Registry" — 3-Shot Per Scene Format
-# Copy-paste trực tiếp vào Freepik · Ratio 16:9 · 2K · AI enhance OFF
-
-> Format: F{NN}A = Wide/Establishing · F{NN}B = Medium/3-4 angle · F{NN}C = Close-up/Detail
-> Characters: Maya (cream cardigan, warm brown hair) · Ryan (charcoal dark gray shirt)
->             Caleb (sage green cardigan) · Kayla (navy blue top)
-> Style tag mọi prompt: "Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K"
-
----
-
-## 34 START FRAMES — PART 2 (F18–F34)
 
 ---
 
@@ -1024,7 +1012,7 @@ Isometric voxel art backyard birthday party, maximum warmth establishing wide sh
 
 ---
 
-## Quality Gate — Part 2
+## Quality Gate
 
 Before generating, verify each prompt:
 - [ ] Voxel cube aesthetic visible and specified (NOT raw Minecraft)
@@ -1033,13 +1021,13 @@ Before generating, verify each prompt:
 - [ ] Character ref cited inline where model = Nano Banana 2
 - [ ] NOT realistic, NOT cartoon stated
 - [ ] 16:9 1920x1080 2K stated
-- [ ] DUTCH TILT only on F22C and F23C — not elsewhere
-- [ ] F20C, F22C, F26C, F27C, F34A-C: Ideogram 3 with TEXT MUST BE READABLE note
+- [ ] DUTCH TILT only on F07C, F08B, F08C, F13C, F22C, F23C — not elsewhere
+- [ ] F02C, F12C, F20C, F22C, F26C, F27C, F34A-C: Ideogram 3 with TEXT MUST BE READABLE note
 - [ ] Ken Burns: CapCut keyframe instruction + drift direction stated
-- [ ] Filename correct (F18A–F34C, S01–S15)
+- [ ] Filename correct (F01A–F34C, S01–S15)
 
 Fail any item → gen 2-3 variations, pick best.
 
 ---
 
-*End of Part 2 — F18-F34 (51 images) + S01-S15 (15 stills) = 66 total assets*
+End of 03b — F01-F34 (102 images) + S01-S15 (15 Ken Burns stills) = 117 total assets
