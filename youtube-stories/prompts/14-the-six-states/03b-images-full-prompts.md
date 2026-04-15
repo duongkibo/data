@@ -1,331 +1,849 @@
-# 03b — Full Ready-to-Paste Prompts (Episode 14)
+# 03b — Full Ready-to-Paste Image Prompts (Episode 14) — V4
+# EP14 "The Six States"
 
-> **Series**: True Karma — The Six States
-> **Bo sung cho `03-images.md`**: Toan bo 55 prompts expand san, copy-paste thang vao Freepik.
-> **Order**: Lam tu Phase 1 (chars) -> F01 -> F40 -> S01 -> S15
-> **Save**: `media/images/{ID}.png`
-
----
-
-## Setup Freepik
-
-- Ratio **16:9** (tru character refs dung 1:1)
-- Resolution **2K**
-- AI Enhance **OFF**
-- Upload character base ref khi prompt can (Nano Banana 2)
+> **V4 FORMAT**: 40 scenes × 3 angles (A/B/C) = 120 start frames + 15 Ken Burns stills = **135 total images**
+> Gen order: Characters first (02-characters.md) → F01A/B/C → F40A/B/C → KB01–KB15
+> Save: `media/images/{ID}.png`
+> Upload matching character ref for every Nano Banana 2 prompt.
 
 ---
 
-# 40 START FRAMES (cho Kling 2.5 video)
+## Characters in this episode
 
-## BEAT 1 — HOOK (0:00-0:15)
+| Character | File | Role |
+|---|---|---|
+| Grace | `grace-voxel-base.png` | Protagonist |
+| Robert | `robert-voxel-base.png` | Antagonist / husband |
+| Vanessa | `vanessa-voxel-base.png` | Antagonist / dental hygienist |
+| Diane | `diane-voxel-base.png` | Divorce attorney / pivot |
+| Carl | `carl-voxel-base.png` | Private investigator |
+| Howard | `howard-voxel-base.png` | New partner (epilogue) |
 
-### F01 — Courthouse exterior dramatic (Seedream 4.5)
-```
-Isometric voxel art courthouse exterior establishing shot, dramatic low angle view of stone pillars and wide steps, American flag waving against deep navy dramatic sky, warm gold accent light on building facade from upper-left, deep navy and single gold accent with Tiffany blue hint palette, justice institution gravity, clean premium voxel art NOT raw Minecraft NOT realistic, Astroneer aesthetic, 1920x1080 isometric, 2K
-```
+## Model routing
 
-## BEAT 2 — INTRO (0:15-1:00)
+| Scene type | Model |
+|---|---|
+| Any scene with Grace / Robert / Vanessa / Diane / Carl / Howard | **Nano Banana 2** + ref |
+| Objects, receipts, documents, evidence | **Flux 2 Pro** |
+| Wide environments, courthouse, suburban exteriors | **Flux 2 Pro** |
+| Text / logos / legal documents / verdict papers | **Ideogram 3** |
 
-### F02 — Grace making blueberry pancakes kitchen (Nano Banana 2 + grace-voxel-base.png)
-```
-Isometric voxel art cozy kitchen morning scene, the voxel character from reference (Grace) in cream cardigan making blueberry pancakes at stove, golden retriever voxel dog lying under kitchen table, warm golden morning light streaming through window, voxel blueberry bowl on counter, warm cream and brown domestic morning palette, loving domestic routine, clean premium voxel art aesthetic NOT raw Minecraft NOT realistic NOT cartoon, Astroneer meets Crossy Road style, 1920x1080 isometric 45 degrees, 2K
-```
+## Color arc
 
-### F03 — Grace + Robert Sunday morning kitchen (Nano Banana 2 + Grace + robert-voxel-base.png)
-```
-Isometric voxel art kitchen table scene, the voxel characters from reference (Grace and Robert) sitting together at kitchen table, voxel newspaper and coffee cups between them, Sunday morning warm domestic light, warm cream and brown domestic morning palette, routine married life, clean premium voxel art aesthetic NOT raw Minecraft NOT realistic NOT cartoon, Astroneer meets Crossy Road style, 1920x1080 isometric 45 degrees, 2K
-```
+| Beat | Palette |
+|---|---|
+| B1 Hook | Deep navy + single gold accent (Tiffany blue hint) |
+| B2 Intro | Warm cream + brown domestic morning |
+| B3 Crack | Cool blue shift + gold receipt glow |
+| B4 Betrayal | Deep navy + cold gray + single warm lamp |
+| B5 Fall | Desaturated cool blue + muted domestic |
+| B6 Pivot | Navy office transitioning to warm gold hope |
+| B7 Karma | Warm courtroom wood + cold fluorescent aftermath |
+| B8 Downfall | Cool isolated gray + morning peach hint |
+| Epilogue | Warm peach + ocean blue + cream + sage |
 
-### F04 — Suburban house white picket fence (Seedream 4.5)
-```
-Isometric voxel art suburban house exterior establishing shot, white picket fence around green voxel lawn, warm afternoon light on house facade, Savannah-style architecture details, warm cream and brown domestic palette, American suburban home, clean premium voxel art NOT raw Minecraft NOT realistic, Astroneer aesthetic, 1920x1080 isometric 45 degrees, 2K
-```
+## DUTCH tilt rule
 
-## BEAT 3 — THE CRACK (1:00-2:30)
+DUTCH tilt: **betrayal reveal B and C clips ONLY** (F13B, F13C, F16B, F16C)
+NEVER apply DUTCH to Epilogue (F38–F40).
 
-### F05 — Hand pulling receipt from jacket (Flux 2 Pro)
-```
-Cinematic voxel art close-up of female voxel hand reaching into dark suit jacket pocket hanging in closet, fingers finding folded paper receipt, pulling it partially out, single dramatic light from closet door ajar, cool blue shift and gold receipt glow palette, discovery moment, clean premium voxel art NOT raw Minecraft NOT realistic, Astroneer aesthetic, 1920x1080 cinematic, 2K
-```
+## Voxel style tag
 
-### F06 — Tiffany receipt closet shelf HERO (Flux 2 Pro)
-```
-Cinematic voxel art extreme close-up of a folded paper receipt on dark closet shelf, "Tiffany & Co" text faintly visible on receipt face, single dramatic voxel light beam from closet door ajar upper-left, voxel suit jackets hanging in background blurred, deep navy blue + warm gold receipt paper accent color palette, discovery moment atmosphere tense quiet, clean premium voxel art NOT raw Minecraft NOT realistic, Astroneer aesthetic, 1920x1080 cinematic, 2K
-```
+`Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.`
 
-### F07 — Grace holding receipt stunned (Nano Banana 2 + Grace)
-```
-Isometric voxel art walk-in closet scene, the voxel character from reference (Grace) standing alone holding unfolded receipt in both hands, stunned expression, single closet light overhead, voxel clothing hanging on racks around her, cool blue shift and gold receipt glow palette, shocking receipt discovery, clean premium voxel art aesthetic NOT raw Minecraft NOT realistic NOT cartoon, Astroneer meets Crossy Road style, 1920x1080 isometric 45 degrees, 2K
-```
+---
 
-### F08 — Carl PI in dark car stakeout (Nano Banana 2 + carl-voxel-base.png)
-```
-Cinematic voxel art dark car interior night, the voxel character from reference (Carl PI) sitting in driver seat with telephoto camera, parking lot visible through windshield, dashboard glow faint, cool blue shift and gold receipt glow palette, PI stakeout surveillance, clean premium voxel art aesthetic NOT raw Minecraft NOT realistic NOT cartoon, Astroneer meets Crossy Road style, 1920x1080 cinematic, 2K
-```
+## BEAT 1 — HOOK (F01)
 
-### F09 — Surveillance photo Robert + Vanessa hotel lobby (Flux 2 Pro)
+### F01A — Wide | Courthouse exterior establishing
+**Model**: Flux 2 Pro
 ```
-Cinematic voxel art close-up of surveillance photograph, two voxel figures entering hotel lobby, timestamp overlay visible in corner, grainy PI photography aesthetic, warm lamp light on photo surface on desk, cool blue shift palette, incriminating surveillance evidence, clean premium voxel art NOT raw Minecraft NOT realistic, Astroneer aesthetic, 1920x1080 cinematic, 2K
-```
-
-### F10 — Corkboard surveillance photos red string (Seedream 4.5)
-```
-Isometric voxel art PI office wall, corkboard with multiple surveillance photographs pinned, red string connections between photos creating web pattern, timeline annotations on sticky notes, warm office lamp light, cool blue shift palette, organized surveillance evidence, clean premium voxel art NOT raw Minecraft NOT realistic, Astroneer aesthetic, 1920x1080 isometric, 2K
+Wide isometric voxel art of an American courthouse exterior, dramatic low-angle view of stone pillars, American flag flying above against deep navy sky, law and justice architecture, deep navy and gold accent palette, the weight of legal consequence made physical, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
 ```
 
-### F11 — Vanessa at Christmas party (Nano Banana 2 + vanessa-voxel-base.png)
+### F01B — Medium | Courthouse entrance
+**Model**: Flux 2 Pro
 ```
-Isometric voxel art living room Christmas party scene, the voxel character from reference (Vanessa) at Grace's dinner table smiling warmly, warm holiday string lights twinkling, voxel Christmas tree in corner, festive table setting, cool blue shift palette with warm holiday accent, hiding in plain sight, clean premium voxel art aesthetic NOT raw Minecraft NOT realistic NOT cartoon, Astroneer meets Crossy Road style, 1920x1080 isometric 45 degrees, 2K
-```
-
-## BEAT 4 — THE BETRAYAL (2:30-4:00)
-
-### F12 — Blue evidence binder kitchen table HERO (Flux 2 Pro)
-```
-Cinematic voxel art top-down view of blue evidence binder open on wooden voxel kitchen table, numbered tabs visible along edge of binder, scattered voxel photographs and hotel receipts inside, single warm kitchen pendant lamp overhead creating circular pool of light, blueberry pancake voxel plate pushed to corner of table, deep navy + cool gray + single warm lamp accent palette, devastating domestic discovery atmosphere, clean premium voxel NOT cartoon NOT Minecraft, 1920x1080 cinematic top-down, 2K
+Medium voxel art of the courthouse entrance steps and pillars, American flag above, stone steps leading up, single gold street lamp at side, deep navy sky, the institution where a 28-year marriage becomes a $3.9 million verdict, deep navy and gold palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
 ```
 
-### F13 — Grace at table binder open devastated (Nano Banana 2 + Grace)
+### F01C — Close-Up | Courthouse pillar with law inscription
+**Model**: Ideogram 3
 ```
-Isometric voxel art kitchen table scene, the voxel character from reference (Grace) sitting at table with blue evidence binder open before her, devastated calm expression studying contents, single kitchen lamp light, deep navy and cool gray and single warm lamp palette, processing evidence calmly, clean premium voxel art aesthetic NOT raw Minecraft NOT realistic NOT cartoon, Astroneer meets Crossy Road style, 1920x1080 isometric 45 degrees, 2K
-```
-
-### F14 — Hotel receipt inside binder close-up (Flux 2 Pro)
-```
-Cinematic voxel art close-up inside blue evidence binder, hotel receipt with room number and dates visible, warm lamp light illuminating paper, binder tab and sleeve edge visible, deep navy and cool gray palette, damning hotel evidence, clean premium voxel art NOT raw Minecraft NOT realistic, Astroneer aesthetic, 1920x1080 cinematic, 2K
-```
-
-### F15 — Photo Vanessa wearing Tiffany necklace (Flux 2 Pro)
-```
-Cinematic voxel art close-up of photograph inside binder showing female voxel figure at restaurant table wearing Tiffany necklace, warm restaurant background in photo, the necklace Grace never received, deep navy and cool gray palette, devastating photo evidence, clean premium voxel art NOT raw Minecraft NOT realistic, Astroneer aesthetic, 1920x1080 cinematic, 2K
-```
-
-### F16 — Text message "counting the days" (Flux 2 Pro)
-```
-Cinematic voxel art close-up of phone screen showing text message "counting the days until I can leave", cool blue screen glow pulsing slightly, deep navy background, deep navy and cool gray palette with cool blue accent, devastating text evidence, clean premium voxel art NOT raw Minecraft NOT realistic, Astroneer aesthetic, 1920x1080 cinematic, 2K
-```
-
-### F17 — Grace closing binder resolute (Nano Banana 2 + Grace)
-```
-Isometric voxel art kitchen table evening, the voxel character from reference (Grace) slowly closing blue binder with steady hands, resolute determined expression, glass of water beside her, warm kitchen lamp light, deep navy and cool gray palette, composed decision moment, clean premium voxel art aesthetic NOT raw Minecraft NOT realistic NOT cartoon, Astroneer meets Crossy Road style, 1920x1080 isometric 45 degrees, 2K
-```
-
-## BEAT 5 — THE FALL (4:00-5:30)
-
-### F18 — Grace + Robert dinner forced smile (Nano Banana 2 + Grace + Robert)
-```
-Isometric voxel art dinner table scene, the voxel characters from reference (Grace and Robert) at evening dinner, Grace smiling with forced composure, plates between them, warm domestic lighting, desaturated cool blue and muted domestic palette, maintaining facade, clean premium voxel art aesthetic NOT raw Minecraft NOT realistic NOT cartoon, Astroneer meets Crossy Road style, 1920x1080 isometric 45 degrees, 2K
-```
-
-### F19 — Grace ceiling stare insomnia (Nano Banana 2 + Grace)
-```
-Isometric voxel art bedroom night, the voxel character from reference (Grace) lying awake staring at ceiling, Robert sleeping beside her, cold moonlight through window, desaturated cool blue and muted domestic palette, insomnia secret-keeping, clean premium voxel art aesthetic NOT raw Minecraft NOT realistic NOT cartoon, Astroneer meets Crossy Road style, 1920x1080 isometric 45 degrees, 2K
-```
-
-### F20 — Empty dinner plates Savannah ceramic (Seedream 4.5)
-```
-Isometric voxel art dinner table still life, Savannah-style voxel ceramic plates empty on wooden table, candle burned low, wine glass half-full, lonely domestic atmosphere, desaturated cool blue and muted palette, domestic loneliness, clean premium voxel art NOT raw Minecraft NOT realistic, Astroneer aesthetic, 1920x1080 isometric, 2K
-```
-
-### F21 — Grace phone decisive morning (Nano Banana 2 + Grace)
-```
-Isometric voxel art kitchen morning, the voxel character from reference (Grace) at counter holding phone to ear, decisive expression shifting from grief to resolution, morning kitchen light strengthening through window, navy office to warm gold hope transition palette, calling lawyer moment, clean premium voxel art aesthetic NOT raw Minecraft NOT realistic NOT cartoon, Astroneer meets Crossy Road style, 1920x1080 isometric 45 degrees, 2K
-```
-
-## BEAT 6 — THE PIVOT (5:30-7:00)
-
-### F22 — Diane's high-rise office (Seedream 4.5)
-```
-Isometric voxel art high-rise attorney office establishing shot, city skyline view through large windows, warm professional interior lighting, voxel bookshelves and leather chairs, navy office to warm gold hope palette, prestigious law office, clean premium voxel art NOT raw Minecraft NOT realistic, Astroneer aesthetic, 1920x1080 isometric 45 degrees, 2K
-```
-
-### F23 — Diane examining blue binder (Nano Banana 2 + diane-voxel-base.png)
-```
-Isometric voxel art law office desk, the voxel character from reference (Diane) with gray bob hair and reading glasses carefully examining blue evidence binder, analytical sharp expression, warm authoritative desk lamp light, navy office to warm gold hope palette, attorney evidence review, clean premium voxel art aesthetic NOT raw Minecraft NOT realistic NOT cartoon, Astroneer meets Crossy Road style, 1920x1080 isometric 45 degrees, 2K
-```
-
-### F24 — Map USA 6 states highlighted (Flux 2 Pro)
-```
-Cinematic voxel art infographic of United States map, six states highlighted in warm gold (Hawaii, Mississippi, New Mexico, North Carolina, South Dakota, Utah), dark navy background, legal document educational style, navy office and warm gold palette, alienation of affection states visual, clean premium voxel art NOT raw Minecraft NOT realistic, Astroneer aesthetic, 1920x1080 cinematic, 2K
-```
-
-### F25 — Legal filing "Alienation of Affection" HERO (Flux 2 Pro)
-```
-Cinematic voxel art close-up of official legal document on dark wooden desk, header text "ALIENATION OF AFFECTION" in serif font clearly visible, official courthouse stamp and seal in corner, voxel pen lying beside document, Diane's hand with reading glasses resting on desk edge, warm professional office lighting from desk lamp upper-right, navy + warm gold hope palette transition, clean premium voxel art NOT realistic, 1920x1080 cinematic, 2K
-```
-
-### F26 — Grace + Diane shaking hands (Nano Banana 2 + Grace + Diane)
-```
-Isometric voxel art law office, the voxel characters from reference (Grace and Diane) shaking hands across desk, both with slight hopeful smiles, warm professional office lighting, navy office to warm gold hope palette, legal partnership formed, clean premium voxel art aesthetic NOT raw Minecraft NOT realistic NOT cartoon, Astroneer meets Crossy Road style, 1920x1080 isometric 45 degrees, 2K
-```
-
-## BEAT 7 — KARMA STRIKES (7:00-9:30)
-
-### F27 — Courtroom wide establishing (Seedream 4.5)
-```
-Isometric voxel art courtroom interior wide establishing shot, jury box with seated voxel jurors, judge bench elevated with American flag, plaintiff and defense tables, warm wooden courtroom paneling and furniture, warm courtroom wood and cold fluorescent aftermath palette, solemn trial atmosphere, clean premium voxel art NOT raw Minecraft NOT realistic, Astroneer aesthetic, 1920x1080 isometric 45 degrees, 2K
-```
-
-### F28 — Grace on witness stand HERO (Nano Banana 2 + Grace)
-```
-Cinematic voxel art close-up of female voxel character from reference (Grace) on courtroom witness stand, composed dignified expression, simple voxel face calm, wearing cream voxel cardigan and reading glasses, wooden voxel witness box and microphone visible, warm courtroom wood tones background blurred jury box, single overhead courtroom light creating gentle shadow, warm wood + cream + gold accent palette, dignified testimony moment, clean premium voxel NOT Minecraft NOT cartoon, 1920x1080 cinematic, 2K
-```
-
-### F29 — Robert defeated defense table (Nano Banana 2 + Robert)
-```
-Isometric voxel art courtroom defense table, the voxel character from reference (Robert) with head down, lawyer beside whispering, defeated slumped posture, harsh courtroom overhead light, warm courtroom wood palette, defendant under pressure, clean premium voxel art aesthetic NOT raw Minecraft NOT realistic NOT cartoon, Astroneer meets Crossy Road style, 1920x1080 isometric 45 degrees, 2K
-```
-
-### F30 — Vanessa crying defense table (Nano Banana 2 + Vanessa)
-```
-Isometric voxel art courtroom separate defense table, the voxel character from reference (Vanessa) crying with tissue in hand, head down, courtroom overhead lighting, warm courtroom wood palette, co-defendant emotional collapse, clean premium voxel art aesthetic NOT raw Minecraft NOT realistic NOT cartoon, Astroneer meets Crossy Road style, 1920x1080 isometric 45 degrees, 2K
-```
-
-### F31 — Jury foreperson standing verdict (Seedream 4.5)
-```
-Isometric voxel art courtroom scene at verdict moment, voxel jury foreperson standing in jury box holding paper, entire courtroom paused in anticipation, judge watching from bench, warm wooden courtroom furniture, warm courtroom wood palette, climactic verdict moment, clean premium voxel art NOT raw Minecraft NOT realistic, Astroneer aesthetic, 1920x1080 isometric 45 degrees, 2K
-```
-
-### F32 — Verdict $3,900,000 close-up HERO (Flux 2 Pro)
-```
-Cinematic voxel art extreme close-up of official court verdict document, amount "$3,900,000" clearly visible in bold serif text, official seal and judge signature below, wooden courtroom table surface, dramatic single light from above creating sharp shadow on document edges, warm gold + navy official palette, justice delivered finality atmosphere, clean premium voxel art NOT realistic, 1920x1080 cinematic, 2K
-```
-
-### F33 — Dental practice FOR SALE sign (Seedream 4.5)
-```
-Isometric voxel art dental practice building exterior, large "FOR SALE" sign on front lawn, empty parking lot, overcast flat daylight, cool gray aftermath palette, career and business collapse, clean premium voxel art NOT raw Minecraft NOT realistic, Astroneer aesthetic, 1920x1080 isometric 45 degrees, 2K
-```
-
-### F34 — Vanessa restaurant uniform serving (Nano Banana 2 + Vanessa)
-```
-Isometric voxel art restaurant interior, the voxel character from reference (Vanessa) in waitress uniform carrying tray through dining area, tired defeated expression, fluorescent overhead restaurant lighting, warm courtroom palette transitioning to cold aftermath, humbling career reversal, clean premium voxel art aesthetic NOT raw Minecraft NOT realistic NOT cartoon, Astroneer meets Crossy Road style, 1920x1080 isometric 45 degrees, 2K
-```
-
-### F35 — Robert corporate dental cubicle (Nano Banana 2 + Robert)
-```
-Isometric voxel art small corporate dental office cubicle, the voxel character from reference (Robert) sitting at desk, strip mall parking lot visible through small window, cramped space, fluorescent overhead lighting, warm courtroom palette to cold aftermath, career downgrade, clean premium voxel art aesthetic NOT raw Minecraft NOT realistic NOT cartoon, Astroneer meets Crossy Road style, 1920x1080 isometric 45 degrees, 2K
-```
-
-## BEAT 8 — DOWNFALL (9:30-10:30)
-
-### F36 — Laptop email notification morning (Flux 2 Pro)
-```
-Cinematic voxel art close-up of laptop screen showing email notification with empty subject line from Robert, morning light on keyboard, cursor hovering near email, cool isolated gray and morning peach hint palette, moment of choice, clean premium voxel art NOT raw Minecraft NOT realistic, Astroneer aesthetic, 1920x1080 cinematic, 2K
-```
-
-### F37 — Grace closing laptop calmly (Nano Banana 2 + Grace)
-```
-Isometric voxel art Outer Banks cottage kitchen, the voxel character from reference (Grace) closing laptop gently with one hand, reaching for coffee mug with other, ocean light through kitchen window, warm peach and ocean blue and cream palette, peaceful decisive closure, clean premium voxel art aesthetic NOT raw Minecraft NOT realistic NOT cartoon, Astroneer meets Crossy Road style, 1920x1080 isometric 45 degrees, 2K
-```
-
-## EPILOGUE (10:30-11:30)
-
-### F38 — Outer Banks cottage exterior morning (Seedream 4.5)
-```
-Isometric voxel art Outer Banks coastal cottage exterior, ocean waves gently rolling in background, morning golden light on shingled cottage, small porch with rocking chairs, voxel dune grass and coastal plants, warm peach and ocean blue and cream and sage palette, peaceful new life home, clean premium voxel art NOT raw Minecraft NOT realistic, Astroneer aesthetic, 1920x1080 isometric 45 degrees, 2K
-```
-
-### F39 — Grace teaching women financial class (Nano Banana 2 + Grace)
-```
-Isometric voxel art classroom scene, the voxel character from reference (Grace) at whiteboard pointing to financial charts, women voxel figures at desks taking notes, warm encouraging classroom lighting, warm peach and cream palette, empowerment teaching, clean premium voxel art aesthetic NOT raw Minecraft NOT realistic NOT cartoon, Astroneer meets Crossy Road style, 1920x1080 isometric 45 degrees, 2K
-```
-
-### F40 — Grace + Howard porch morning HERO (Nano Banana 2 + Grace + howard-voxel-base.png)
-```
-Isometric voxel art cozy cottage porch scene overlooking ocean, two voxel characters from reference sitting on voxel porch chairs, female character (Grace) cream cardigan holding voxel coffee mug smiling, male character (Howard) sage green polo holding matching voxel mug, voxel ocean waves in background, morning golden light streaming, small voxel coastal cottage with shingled roof, warm peach + ocean blue + cream + sage palette, peaceful new chapter morning atmosphere, clean premium voxel Astroneer aesthetic, 1920x1080 isometric 45 degrees, 2K
+Close-up voxel art of a courthouse stone pillar with carved inscription reading "EQUAL JUSTICE UNDER LAW", deep navy sky behind, gold light from street lamps catching the stone lettering, the premise that matters in a state with alienation of affection laws, deep navy and gold palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
 ```
 
 ---
 
-# 15 KEN BURNS STILLS
+## BEAT 2 — PROTAGONIST INTRO (F02–F04)
 
-> Gen image thuong -> CapCut apply scale 100% -> 115% over duration per still
-
-### S01 — Gavel striking close-up (Flux 2 Pro)
+### F02A — Wide | Grace making blueberry pancakes
+**Model**: Nano Banana 2 | Ref: Grace
 ```
-Cinematic voxel art extreme close-up of wooden courtroom gavel striking sound block, dramatic single shaft of warm gold light from upper-left, voxel wood grain texture, dust particles, deep navy and single gold accent palette, justice power, clean premium voxel art NOT raw Minecraft, Astroneer aesthetic, 1920x1080 cinematic, 2K
-```
-
-### S02 — Golden retriever kitchen table morning (Seedream 4.5)
-```
-Isometric voxel art cozy kitchen scene, golden retriever voxel dog sleeping peacefully under wooden kitchen table, warm morning light through window, voxel floor tiles, warm cream and brown domestic palette, domestic warmth detail, clean premium voxel art NOT raw Minecraft NOT realistic, Astroneer aesthetic, 1920x1080 isometric, 2K
+Wide isometric voxel art of a warm suburban kitchen on a Sunday morning, the female voxel character from reference in cream cardigan at the stove making blueberry pancakes, golden retriever voxel figure sleeping under the kitchen table, warm morning sunlight through windows, domestic bliss atmosphere, warm cream and brown morning palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
 ```
 
-### S03 — Valentine card wine bottle no necklace (Flux 2 Pro)
+### F02B — Medium | Grace at stove with pancakes
+**Model**: Nano Banana 2 | Ref: Grace
 ```
-Cinematic voxel art close-up of Valentine's Day card and wine bottle on kitchen counter, no jewelry box present, warm domestic kitchen light, cool blue shift palette with warm accent, conspicuous absence detail, clean premium voxel art NOT raw Minecraft, Astroneer aesthetic, 1920x1080 cinematic, 2K
-```
-
-### S04 — PI notebook tally marks 47 meetings (Flux 2 Pro)
-```
-Cinematic voxel art close-up of PI detective notebook open on desk, tally marks showing 47 logged meetings, handwritten notes beside, warm desk lamp light, cool blue shift palette, systematic surveillance record, clean premium voxel art NOT raw Minecraft, Astroneer aesthetic, 1920x1080 cinematic, 2K
+Medium voxel art of the female voxel character from reference at the stove, cream cardigan, spatula in hand, blueberry pancake stack forming on the pan, warm kitchen morning light, golden retriever visible at table behind, the quiet ritual of a Sunday morning life, warm cream and brown palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
 ```
 
-### S05 — Christmas party wide holiday lights Vanessa (Seedream 4.5)
+### F02C — Close-Up | Grace's warm domestic expression
+**Model**: Nano Banana 2 | Ref: Grace
 ```
-Isometric voxel art wide shot of living room Christmas party, holiday string lights twinkling, voxel Christmas tree decorated, gathered voxel guests at table, Vanessa voxel figure blending in naturally, deep navy and cool gray palette with warm holiday accent, hiding in plain sight, clean premium voxel art NOT raw Minecraft NOT realistic, Astroneer aesthetic, 1920x1080 isometric wide, 2K
-```
-
-### S06 — Phone text "counting the days" zoomed (Flux 2 Pro)
-```
-Cinematic voxel art extreme close-up of phone screen text message "counting the days until I can leave" clearly readable, cool blue screen glow, deep navy background, deep navy and cool gray palette, devastating text evidence, clean premium voxel art NOT raw Minecraft, Astroneer aesthetic, 1920x1080 extreme close-up, 2K
+Close-up voxel art of the female voxel character from reference at the stove, warm content expression, cream cardigan, morning kitchen light on her face, the expression of someone who has the exact life she always wanted — before she finds out what's hiding in it, warm cream palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
 ```
 
-### S07 — Empty bedroom moonlight two pillows (Seedream 4.5)
+### F03A — Wide | Grace and Robert Sunday morning table
+**Model**: Nano Banana 2 | Ref: Grace + Robert
 ```
-Isometric voxel art wide bedroom shot at night, moonlight through window casting across bed, two pillows one used one untouched, lonely marital bedroom, desaturated cool blue and muted domestic palette, emotional distance, clean premium voxel art NOT raw Minecraft NOT realistic, Astroneer aesthetic, 1920x1080 isometric wide, 2K
-```
-
-### S08 — Savannah ceramic plates dinner for two (Seedream 4.5)
-```
-Isometric voxel art dinner table still life, Savannah-style ceramic plates set for two, candle low, wine glass, lonely domestic evening atmosphere, desaturated cool blue and muted palette, domestic facade, clean premium voxel art NOT raw Minecraft NOT realistic, Astroneer aesthetic, 1920x1080 isometric, 2K
+Wide isometric voxel art of the suburban kitchen table on a Sunday morning, female voxel character from reference and male voxel character from reference seated across from each other, newspaper and coffee cups between them, golden retriever under the table, warm sunlight through windows, the perfect domestic morning that is hiding something, warm cream and brown palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
 ```
 
-### S09 — Six states map infographic (Flux 2 Pro)
+### F03B — Medium | Couple at Sunday breakfast
+**Model**: Nano Banana 2 | Ref: Grace + Robert
 ```
-Cinematic voxel art educational infographic of US map, six states (HI, MS, NM, NC, SD, UT) highlighted in warm gold on dark navy background, labels beside each state, clean infographic layout, navy and warm gold palette, legal education visual, clean premium voxel art NOT raw Minecraft, Astroneer aesthetic, 1920x1080 cinematic, 2K
-```
-
-### S10 — Historical heart balm law book scales (Flux 2 Pro)
-```
-Cinematic voxel art close-up of old leather-bound law book opened on desk, scales of justice voxel ornament beside it, warm antique desk lamp light, navy and warm gold palette, historical legal context, clean premium voxel art NOT raw Minecraft, Astroneer aesthetic, 1920x1080 cinematic, 2K
+Medium voxel art of the female and male voxel characters from reference at the kitchen table, coffee cups, Robert with newspaper, Grace calm and present, morning kitchen warm behind them, the Sunday ritual that disguises what Robert is hiding, warm cream palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
 ```
 
-### S11 — Courtroom gallery audience reaction (Seedream 4.5)
+### F03C — Close-Up | Robert reading paper at table
+**Model**: Nano Banana 2 | Ref: Robert
 ```
-Isometric voxel art courtroom gallery section, rows of seated voxel audience members with mixed emotional reactions, warm wooden courtroom paneling, overhead courtroom lighting, warm courtroom wood palette, trial spectators, clean premium voxel art NOT raw Minecraft NOT realistic, Astroneer aesthetic, 1920x1080 isometric, 2K
-```
-
-### S12 — FOR SALE dental practice empty lot (Seedream 4.5)
-```
-Isometric voxel art dental practice building exterior, prominent "FOR SALE" sign on lawn, empty parking spaces, overcast flat daylight, warm courtroom palette to cold aftermath, business forced sale, clean premium voxel art NOT raw Minecraft NOT realistic, Astroneer aesthetic, 1920x1080 isometric, 2K
+Close-up voxel art of the male voxel character from reference at the breakfast table, newspaper in hand, relaxed professional expression, morning light, the face of a man reading the Sunday paper while conducting a fourteen-month affair with his dental hygienist, warm cream palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
 ```
 
-### S13 — Robert one-bedroom above dry cleaner (Seedream 4.5)
+### F04A — Wide | Suburban house exterior
+**Model**: Flux 2 Pro
 ```
-Isometric voxel art small apartment building exterior, Robert's one-bedroom above dry cleaner storefront, exterior stairs visible, modest neighborhood, cool isolated gray palette, dramatic life downgrade, clean premium voxel art NOT raw Minecraft NOT realistic, Astroneer aesthetic, 1920x1080 isometric, 2K
-```
-
-### S14 — Laptop email "I don't know how we got here" (Flux 2 Pro)
-```
-Cinematic voxel art close-up of laptop screen showing email with text visible, morning light on keyboard surface, cool isolated gray and morning peach hint palette, final communication, clean premium voxel art NOT raw Minecraft, Astroneer aesthetic, 1920x1080 cinematic, 2K
+Wide isometric voxel art of a Charlotte suburban house exterior with white picket fence, green lawn, neat flower beds, warm afternoon light, the appearance of a perfect life from the outside, warm cream and green domestic palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
 ```
 
-### S15 — Outer Banks ocean sunrise kitchen window (Seedream 4.5)
+### F04B — Medium | Front porch of house
+**Model**: Flux 2 Pro
 ```
-Isometric voxel art view from cottage kitchen through window, ocean sunrise visible with warm golden and peach light over calm waves, voxel coffee cup on windowsill, warm peach ocean blue cream sage palette, peaceful new beginning morning, clean premium voxel art NOT raw Minecraft NOT realistic, Astroneer aesthetic, 1920x1080 isometric, 2K
+Medium voxel art of the suburban house front porch, white railing, potted flowers, welcome mat, warm afternoon light, the kind of house that looks like everything is fine from outside, warm cream and green palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F04C — Close-Up | House number with flowers
+**Model**: Flux 2 Pro
+```
+Close-up voxel art of a suburban house number plaque with a flower pot beside it on the porch, warm afternoon light, neat domestic detail, the quiet external sign of a life built carefully over 28 years, warm cream and garden green palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
 ```
 
 ---
 
-## After gen — verify
+## BEAT 3 — THE CRACK (F05–F11)
 
-- [ ] Du 40 PNG F01-F40 trong `media/images/`
-- [ ] Du 15 PNG S01-S15 trong `media/images/`
-- [ ] Character consistent (Grace/Robert/Vanessa/Diane/Howard/Carl)
-- [ ] Color palette dung beat (hook=navy gold Tiffany / intro=cream brown / crack=cool blue gold / betrayal=navy gray lamp / fall=desaturated muted / pivot=navy to gold / karma=courtroom wood / downfall=cool gray peach / epilogue=peach ocean sage)
-- [ ] Cube edges clear (NOT raw Minecraft)
-- [ ] NOT realistic NOT cartoon
+### F05A — Wide | Walk-in closet with suit jackets
+**Model**: Flux 2 Pro
+```
+Wide isometric voxel art of a walk-in closet, a row of men's suit jackets hanging neatly, a hand reaching into the inside breast pocket of one jacket, a folded slip of paper beginning to fall from the pocket, warm closet light, the quiet moment before everything changes, warm cream and brown palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
 
-**Fail** -> Gen Variations 2-3 lan pick best. Unlimited Freepik.
+### F05B — Medium | Hand pulling receipt from pocket
+**Model**: Flux 2 Pro
+```
+Medium voxel art of a suit jacket hanging in a closet, a hand reaching in to pull out a folded receipt from the inside breast pocket, closet light casting warm shadow, the incidental discovery that begins everything, warm cream palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F05C — Close-Up | Folded receipt falling from pocket
+**Model**: Flux 2 Pro
+```
+Close-up voxel art of a folded white receipt slipping from a suit jacket inner pocket, the paper in mid-fall, closet warm light catching it, the small piece of paper that changes everything, warm cream with cool shift beginning, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F06A — Wide | Receipt on closet shelf
+**Model**: Ideogram 3
+```
+Wide voxel art of a closet shelf with a folded receipt unfolded and lying flat, "TIFFANY & CO." visible at top, "$4,200.00" amount visible, single warm lamp light from above creating dramatic single-shadow, cool blue shift beginning, the receipt that started it all, cool blue and gold receipt palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F06B — Medium | Receipt laid flat
+**Model**: Ideogram 3
+```
+Medium voxel art of the Tiffany & Co. receipt laid flat on a surface, "$4,200.00 — NECKLACE" text visible, February date stamp, harsh single lamp light, the document of a purchase Grace never received, cool blue and gold palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F06C — Close-Up | "TIFFANY & CO. $4,200" ECU
+**Model**: Ideogram 3
+```
+Extreme close-up voxel art of the Tiffany & Co. receipt, "TIFFANY & CO." heading and "$4,200.00 — NECKLACE — FEB 12" clearly visible, single harsh light, the specific number that proves a specific lie, cool blue and Tiffany gold palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F07A — Wide | Grace standing in closet with receipt
+**Model**: Nano Banana 2 | Ref: Grace
+```
+Wide isometric voxel art of the walk-in closet, the female voxel character from reference standing among the hanging suits, receipt in hand, expression of stunned stillness, closet warm light, the moment of discovery before the rational decision, cool blue shift in palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F07B — Medium | Grace holding receipt
+**Model**: Nano Banana 2 | Ref: Grace
+```
+Medium voxel art of the female voxel character from reference in the walk-in closet, receipt in both hands, expression of someone absorbing the meaning of what she's holding — not screaming, just processing, cool blue and gold palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F07C — Close-Up | Grace's expression of discovery
+**Model**: Nano Banana 2 | Ref: Grace
+```
+Close-up voxel art of the female voxel character from reference in the closet, expression of someone making a rational decision in the face of devastating information — not rage, not tears, just the stillness of a teacher who is already thinking about what happens next, cool blue palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F08A — Wide | Carl in car on stakeout
+**Model**: Nano Banana 2 | Ref: Carl
+```
+Wide isometric voxel art of a dark car interior at night, the male PI voxel character from reference in the driver's seat, telephoto camera raised toward the windshield, parking lot visible outside in dark blue, the patient professional at work, deep navy and dark car interior palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F08B — Medium | Carl with camera in car
+**Model**: Nano Banana 2 | Ref: Carl
+```
+Medium voxel art of the PI voxel character from reference in the car, camera at eye level aimed through windshield, patient focused expression, dark car interior, parking lot in night blue outside, nine hours of surveillance in a single image, deep navy palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F08C — Close-Up | Carl's patient focused face
+**Model**: Nano Banana 2 | Ref: Carl
+```
+Close-up voxel art of the PI voxel character from reference's face, patient focused expression behind the camera, dark car interior, the face of someone who can sit in a parking lot for nine hours and not get bored, deep navy palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F09A — Wide | Surveillance photo of hotel lobby
+**Model**: Flux 2 Pro
+```
+Wide voxel art surveillance-style photograph aesthetic of two voxel figures entering a hotel lobby — one male professional figure and one female figure — with a timestamp overlay in the corner, hotel lobby voxel interior visible, the photographic evidence that matters, desaturated surveillance palette with timestamp white, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F09B — Medium | Surveillance hotel entrance
+**Model**: Flux 2 Pro
+```
+Medium voxel art surveillance-style photograph of two voxel figures at the hotel entrance, slightly grainy surveillance aesthetic, timestamp visible, the documentary evidence that took Carl eleven days to obtain, desaturated surveillance palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F09C — Close-Up | Timestamp on surveillance photo
+**Model**: Ideogram 3
+```
+Close-up voxel art of the timestamp overlay on a surveillance photograph — date, time, location — white text on dark corner of the image, surveillance aesthetic, the precision of documented evidence, desaturated with white timestamp, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F10A — Wide | PI evidence corkboard
+**Model**: Flux 2 Pro
+```
+Wide isometric voxel art of a private investigator's office, a large corkboard covered with surveillance photos, printed records, and red string connecting locations and dates, PI office desk visible below, a single lamp casting investigative light, the visual architecture of documented evidence, cool blue investigation palette with red string, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F10B — Medium | Evidence board detail
+**Model**: Flux 2 Pro
+```
+Medium voxel art of the corkboard section showing clustered surveillance photos, hotel receipts, and connecting red string lines, cool investigative light, the 47 documented meetings made visual, cool blue and red palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F10C — Close-Up | Red string connections ECU
+**Model**: Flux 2 Pro
+```
+Close-up voxel art of evidence photos connected by red string on the corkboard, pin points and string visible, surveillance photo thumbnails at connection points, cool investigative light, the visual proof of a 14-month affair, cool blue and red string palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F11A — Wide | Christmas party scene
+**Model**: Nano Banana 2 | Ref: Vanessa
+```
+Wide isometric voxel art of a warm suburban living room decorated for Christmas, the female antagonist voxel character from reference (Vanessa) seated at a dining table with other voxel guests, holiday warm lights and Christmas decor, the horror of a woman attending the home of the wife she is betraying, warm holiday gold and red palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F11B — Medium | Vanessa smiling at Christmas table
+**Model**: Nano Banana 2 | Ref: Vanessa
+```
+Medium voxel art of the female antagonist voxel character from reference at the Christmas dinner table, warm festive smile, holiday decorations behind, the smile she wore when she called Grace's marriage "beautiful" while conducting an affair with the husband, warm holiday gold, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F11C — Close-Up | Vanessa's deceptive Christmas smile
+**Model**: Nano Banana 2 | Ref: Vanessa
+```
+Close-up voxel art of the female antagonist voxel character from reference at the Christmas table, warm surface smile directed at the hostess, holiday lights catching her face, the face of someone saying "that's beautiful" about a marriage she is actively destroying, warm holiday gold and cold undertone, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+---
+
+## BEAT 4 — THE BETRAYAL (F12–F17)
+
+### F12A — Wide | Blue binder on kitchen table
+**Model**: Flux 2 Pro
+```
+Wide isometric voxel art of the kitchen table, a thick blue evidence binder with numbered tabs lying open on the surface, blueberry pancake plate pushed to the side, single warm lamp, the same table where Sunday mornings happened — now the table where the truth is laid out, deep navy and warm lamp gold palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F12B — Medium | Open binder on kitchen table
+**Model**: Flux 2 Pro
+```
+Medium voxel art of the blue evidence binder open on the kitchen table, numbered divider tabs visible, first pages of surveillance documentation visible, single lamp light from above, the lesson plan format of betrayal documented, deep navy and single warm lamp, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F12C — Close-Up | Binder numbered tabs ECU
+**Model**: Flux 2 Pro
+```
+Close-up voxel art of the blue binder's numbered divider tabs fanning open, each tab numbered and organized, the same organization Grace would use for lesson plans — now used for evidence, deep navy and lamp gold, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F13A — Wide | Grace sitting at table with binder
+**Model**: Nano Banana 2 | Ref: Grace
+```
+Wide isometric voxel art of the kitchen, the female voxel character from reference seated at the kitchen table with the blue binder open before her, single warm lamp, expression of devastated calm, the same kitchen, the same table, the same Grace — but everything different now, deep navy with single warm lamp, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F13B — Medium | Grace reading binder (DUTCH)
+**Model**: Nano Banana 2 | Ref: Grace
+```
+Medium DUTCH TILT voxel art (frame tilted 12 degrees) of the female voxel character from reference leaning over the open binder at the kitchen table, reading the documented evidence, expression of devastating calm in the face of confirmation, lamp light, frame tilted for psychological weight, deep navy and single lamp gold, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F13C — Close-Up | Grace's expression reading evidence (DUTCH)
+**Model**: Nano Banana 2 | Ref: Grace
+```
+Close-up DUTCH TILT voxel art (frame tilted 12 degrees) of the female voxel character from reference's face reading the binder, expression of someone processing forty-seven documented meetings with perfect composure, lamp light from below, the face of a teacher who will deliver the lesson calmly, deep navy with single lamp, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F14A — Wide | Hotel receipt in binder
+**Model**: Ideogram 3
+```
+Wide voxel art top-down of a page in the blue binder showing a hotel receipt with room number, dates, and the name "R. DAVIDSON" visible, numbered binder tab at top, deep navy and lamp gold, a single data point in forty-seven, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F14B — Medium | Hotel receipt detail
+**Model**: Ideogram 3
+```
+Medium voxel art of the hotel receipt page in the binder, "ASHEVILLE GRAND — ROOM 412" heading, dates visible, single lamp light, one documented meeting among many, deep navy and lamp gold, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F14C — Close-Up | Check-in dates ECU
+**Model**: Ideogram 3
+```
+Extreme close-up voxel art of the hotel receipt showing check-in and check-out dates, dates that correspond to supposed dental conference weekends, harsh lamp light, the documented lie, deep navy and lamp gold, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F15A — Wide | Surveillance photo of Vanessa with necklace
+**Model**: Flux 2 Pro
+```
+Wide voxel art of a binder page showing a surveillance photograph of a female voxel figure at a restaurant table wearing a distinctive necklace, Asheville restaurant interior visible behind, the photo that connects the Tiffany receipt to its recipient, cold surveillance palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F15B — Medium | Photo of necklace at restaurant
+**Model**: Flux 2 Pro
+```
+Medium voxel art of the surveillance photo in the binder showing the female figure with the Tiffany necklace catching light at the restaurant, cold documentary palette, the $4,200 receipt made three-dimensional, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F15C — Close-Up | Tiffany necklace on Vanessa ECU
+**Model**: Flux 2 Pro
+```
+Close-up voxel art of the surveillance photo cropped to show the necklace visible on the female figure at the restaurant, the piece of jewelry that Grace didn't receive on Valentine's Day, cold surveillance palette, the evidence that closes the loop, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F16A — Wide | Phone screen with text message
+**Model**: Ideogram 3
+```
+Wide voxel art of a phone screen on a binder page showing a text message exchange where a message reads "I'm counting the days until I can leave", the blue message bubble visible on white screen, deep navy table surface around it, single lamp light, the most devastating line in the binder, deep navy and cold screen blue, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F16B — Medium | Text message close (DUTCH)
+**Model**: Ideogram 3
+```
+Medium DUTCH TILT voxel art (frame tilted 12 degrees) of the phone screenshot on the binder page, "I'm counting the days until I can leave" in blue message bubble clearly visible, cold screen glow, frame tilted for psychological weight, after 28 years — counting the days, deep navy and cold screen blue, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F16C — Close-Up | "Counting the days" text ECU (DUTCH)
+**Model**: Ideogram 3
+```
+Extreme close-up DUTCH TILT voxel art (frame tilted 12 degrees) of the message bubble "I'M COUNTING THE DAYS UNTIL I CAN LEAVE" in blue on white phone screen, cold screen glow, frame tilted 12 degrees, the words that make Grace close the binder and call a lawyer, deep navy and cold blue, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F17A — Wide | Grace closing the binder
+**Model**: Nano Banana 2 | Ref: Grace
+```
+Wide isometric voxel art of the kitchen with the female voxel character from reference closing the blue binder with steady hands, expression of quiet resolve, water glass beside her, single lamp, the teacher who has read the lesson and made her decision, deep navy with lamp gold, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F17B — Medium | Grace's hands on closed binder
+**Model**: Nano Banana 2 | Ref: Grace
+```
+Medium voxel art of the female voxel character from reference with both hands resting on the closed blue binder, expression of resolute calm, lamp light, the moment before she picks up the phone and calls Diane, deep navy with lamp gold, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F17C — Close-Up | Grace's resolute face
+**Model**: Nano Banana 2 | Ref: Grace
+```
+Close-up voxel art of the female voxel character from reference at the kitchen table, expression of quiet determined resolve, lamp light from above, she didn't cry, she didn't scream — she made a decision, the face of someone who knows the most effective lessons are delivered calmly, deep navy palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+---
+
+## BEAT 5 — THE FALL (F18–F21)
+
+### F18A — Wide | Grace and Robert forced dinner
+**Model**: Nano Banana 2 | Ref: Grace + Robert
+```
+Wide isometric voxel art of the suburban kitchen at dinner, female and male voxel characters from reference at the dinner table, Grace smiling a forced smile, plates between them, kitchen evening light, the days of eating dinner across from someone who doesn't know what you know, desaturated cool blue and muted domestic palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F18B — Medium | Forced dinner tension
+**Model**: Nano Banana 2 | Ref: Grace + Robert
+```
+Medium voxel art of the female and male voxel characters at the dinner table, Grace's expression controlled and forced, Robert's expression normal and unaware, the Savannah plates between them, the unbearable normalcy of dining with someone you now know completely, desaturated cool palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F18C — Close-Up | Grace's forced dinner smile
+**Model**: Nano Banana 2 | Ref: Grace
+```
+Close-up voxel art of the female voxel character from reference at the dinner table, the carefully maintained smile of someone whose face isn't reflecting what she knows, evening kitchen light, the discipline it takes to sit across from betrayal and serve dinner on the Savannah plates, desaturated cool palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F19A — Wide | Grace awake in dark bedroom
+**Model**: Nano Banana 2 | Ref: Grace
+```
+Wide isometric voxel art of a dark bedroom, the female voxel character from reference lying awake staring at the ceiling, the male voxel figure visible sleeping beside her, moonlight through the window, the nights of lying beside someone who is counting the days, desaturated cool blue and moonlight palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F19B — Medium | Grace staring at ceiling
+**Model**: Nano Banana 2 | Ref: Grace
+```
+Medium voxel art of the female voxel character from reference lying awake, face upward, moonlight on her face, the sleeping male figure visible at frame edge, the nights of replaying every late night at the office, every dental conference that went an extra day, desaturated cool moonlight palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F19C — Close-Up | Grace's awake expression in dark
+**Model**: Nano Banana 2 | Ref: Grace
+```
+Close-up voxel art of the female voxel character from reference's face in the dark bedroom, eyes open, moonlight from window, the processing expression of someone who is not going to scream — she is going to think, cool moonlight palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F20A — Wide | Empty dinner plates
+**Model**: Flux 2 Pro
+```
+Wide voxel art top-down of two dinner plates on a kitchen table, distinctive Savannah-style voxel ceramic plates, silverware beside them, warm evening lamp, the still life of a dinner served with perfect composure by someone who knows everything, desaturated cool blue and warm lamp, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F20B — Medium | Plates with table detail
+**Model**: Flux 2 Pro
+```
+Medium voxel art of the two dinner plates on the kitchen table, distinctive ceramic detail, one plate slightly more touched than the other, warm lamp light, the material evidence of dinner performed as normal during the worst days, desaturated warm with cool undertone, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F20C — Close-Up | One dinner plate ECU
+**Model**: Flux 2 Pro
+```
+Close-up voxel art of one Savannah-style ceramic dinner plate, warm voxel glaze detail, lamp light catching the edge, the plate they picked out together at a shop eighteen years ago — still here, still being used, still being set with precision by someone who knows what's coming, desaturated warm palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F21A — Wide | Grace at phone about to call lawyer
+**Model**: Nano Banana 2 | Ref: Grace
+```
+Wide isometric voxel art of the kitchen, the female voxel character from reference standing at the counter, phone in hand, decisive expression, morning kitchen light through window, the moment she makes the call that changes everything, cool blue to warm transitional palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F21B — Medium | Grace holding phone decisively
+**Model**: Nano Banana 2 | Ref: Grace
+```
+Medium voxel art of the female voxel character from reference in the kitchen, phone in hand, expression of quiet determined decision, morning light, not anger — purpose, cool to warm transitional palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F21C — Close-Up | Grace's decided expression
+**Model**: Nano Banana 2 | Ref: Grace
+```
+Close-up voxel art of the female voxel character from reference, expression of quiet certain decision, morning kitchen light on her face, the teacher who knows the most effective lessons are delivered calmly — and she is about to deliver the lesson of his life, warm morning palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+---
+
+## BEAT 6 — THE PIVOT (F22–F26)
+
+### F22A — Wide | Diane's high-rise office
+**Model**: Flux 2 Pro
+```
+Wide isometric voxel art of a law office on the 14th floor of a downtown building, large city-view window behind a large desk, bookshelves covering side walls, warm professional desk lamp, the kind of office where cases that matter get built, warm professional navy and gold palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F22B — Medium | Law office desk and window
+**Model**: Flux 2 Pro
+```
+Medium voxel art of the law office, city view through large window behind, desk in foreground, law books and case files visible, warm desk lamp, the professional space where a 28-year marriage becomes a legal strategy, warm professional palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F22C — Close-Up | City view from law office window
+**Model**: Flux 2 Pro
+```
+Close-up voxel art of the city view through a high-rise law office window, Charlotte downtown voxel buildings visible, warm city afternoon light, the view from the 14th floor where Diane works — and where the law becomes Grace's weapon, warm navy and city light palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F23A — Wide | Diane at desk examining binder
+**Model**: Nano Banana 2 | Ref: Diane
+```
+Wide isometric voxel art of the law office, the authoritative female attorney voxel character from reference seated at the large desk, the blue evidence binder open before her, reading glasses on, city view window behind, professional concentrated examination, navy and professional gold palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F23B — Medium | Diane reading the binder
+**Model**: Nano Banana 2 | Ref: Diane
+```
+Medium voxel art of the attorney voxel character from reference with the blue binder open, silver reading glasses, focused expression as she reads twenty minutes of documented evidence, law office behind, professional authority, navy and professional palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F23C — Close-Up | Diane's expression over the binder
+**Model**: Nano Banana 2 | Ref: Diane
+```
+Close-up voxel art of the attorney voxel character from reference reading the binder, reading glasses, expression that shifts from professional to recognizing an exceptional case, the look of a lawyer who has just seen something she can work with, navy and gold palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F24A — Wide | US map with 6 states highlighted
+**Model**: Ideogram 3
+```
+Wide voxel art of a United States map displayed on a legal document or whiteboard surface, six states highlighted in gold — Hawaii, Mississippi, New Mexico, North Carolina, South Dakota, Utah — the six states with heart balm statutes, legal document style, cool official palette with gold highlight, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F24B — Medium | Southeast US with NC highlighted
+**Model**: Ideogram 3
+```
+Medium voxel art of the Southeast section of the US map, North Carolina prominently highlighted in gold, neighboring states in plain palette, legal document framing, the state that matters in this story, cool official palette with gold NC highlight, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F24C — Close-Up | North Carolina highlighted ECU
+**Model**: Ideogram 3
+```
+Close-up voxel art of the North Carolina state shape on the map, bright gold highlight with state name and text "ALIENATION OF AFFECTION STATUTE ACTIVE" below it, official document aesthetic, the one geographic fact that changes everything for Grace, gold on official document white, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F25A — Wide | Legal filing document
+**Model**: Ideogram 3
+```
+Wide voxel art top-down of a legal filing document on a law office desk, "ALIENATION OF AFFECTION — CIVIL COMPLAINT" as the header, official court stamp and case number visible, Diane's law firm letterhead, the document that initiates everything, cool legal document palette with official gold seal, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F25B — Medium | Legal complaint header
+**Model**: Ideogram 3
+```
+Medium voxel art of the legal complaint document showing "ALIENATION OF AFFECTION" header with plaintiff and defendant names, court caption, official stamp, the formal beginning of Grace's legal action, cool official document palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F25C — Close-Up | "ALIENATION OF AFFECTION" text
+**Model**: Ideogram 3
+```
+Extreme close-up voxel art of the legal document header reading "ALIENATION OF AFFECTION — COMPLAINT FOR DAMAGES" in bold legal type, official court formatting, cold official light, the four words that are about to cost Vanessa everything, cool legal document palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F26A — Wide | Grace and Diane handshake
+**Model**: Nano Banana 2 | Ref: Grace + Diane
+```
+Wide isometric voxel art of the law office, the female protagonist voxel character from reference and the attorney voxel character from reference shaking hands across the desk, city view window behind, both expressions determined and hopeful, the agreement that begins the legal pivot, warm professional navy and hope gold palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F26B — Medium | Handshake between Grace and Diane
+**Model**: Nano Banana 2 | Ref: Grace + Diane
+```
+Medium voxel art of the handshake between the two female voxel characters from reference across the law office desk, city view behind, the alliance formed between a teacher and a lawyer, warm professional and hopeful palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F26C — Close-Up | Grace's determined hopeful expression
+**Model**: Nano Banana 2 | Ref: Grace
+```
+Close-up voxel art of the female protagonist voxel character from reference in the law office, expression shifting from the devastation of the past weeks to the quiet hope and determination of someone who now has a strategy — and the law on her side, warm professional gold palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+---
+
+## BEAT 7 — KARMA STRIKES (F27–F35)
+
+### F27A — Wide | Courtroom interior
+**Model**: Flux 2 Pro
+```
+Wide isometric voxel art of a traditional American courtroom interior, jury box at left, judge's bench at center with American flag, warm voxel wood paneling throughout, gallery seats visible behind the bar, courtroom chandelier lighting, the room where justice will be delivered, warm courtroom wood and formal palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F27B — Medium | Jury box and judge bench
+**Model**: Flux 2 Pro
+```
+Medium voxel art of the courtroom showing the jury box with voxel juror figures and the judge's bench beyond, warm wood paneling, formal courtroom atmosphere, the assembly of justice, warm wood and formal palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F27C — Close-Up | Courtroom wood paneling detail
+**Model**: Flux 2 Pro
+```
+Close-up voxel art of the courtroom's warm wood paneling and formal elements — brass railings, wood grain voxel texture, warm overhead chandelier, the institutional permanence of a courtroom that has delivered verdicts for a century, warm wood and formal palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F28A — Wide | Grace on witness stand
+**Model**: Nano Banana 2 | Ref: Grace
+```
+Wide isometric voxel art of the courtroom, the female voxel character from reference seated in the witness box, navy blazer, composed steady expression, microphone before her, jury box visible to the side, a teacher in front of a new kind of classroom, warm courtroom wood and composure, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F28B — Medium | Grace testifying
+**Model**: Nano Banana 2 | Ref: Grace
+```
+Medium voxel art of the female voxel character from reference on the witness stand, navy blazer, speaking with calm composed precision, microphone, courtroom warm wood behind, ninety minutes without raising her voice once, warm courtroom wood palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F28C — Close-Up | Grace's composed testimony expression
+**Model**: Nano Banana 2 | Ref: Grace
+```
+Close-up voxel art of the female voxel character from reference on the witness stand, expression of composed factual testimony — not anger, not tears, just the blueberry pancakes and the Tiffany receipt and the forty-seven meetings, the most effective lesson delivered calmly, warm courtroom light, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F29A — Wide | Robert at defense table
+**Model**: Nano Banana 2 | Ref: Robert
+```
+Wide isometric voxel art of the courtroom, the male voxel character from reference (Robert) at the defense table, lawyer beside him, head slightly bowed, defeated posture, courtroom warm wood around them, a dentist who built a practice for 22 years now sitting at the defense table, warm wood and cold defeat, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F29B — Medium | Robert's defeated posture
+**Model**: Nano Banana 2 | Ref: Robert
+```
+Medium voxel art of the male voxel character from reference at the defense table, gray suit, head down, lawyer visible at his side, courtroom behind, the comfortable entitlement that assumed no consequences now sitting with very large consequences, warm wood and cold defeat, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F29C — Close-Up | Robert's head-down expression
+**Model**: Nano Banana 2 | Ref: Robert
+```
+Close-up voxel art of the male voxel character from reference at the defense table, head slightly bowed, expression of someone beginning to understand the weight of what is happening, warm courtroom light, the Sunday paper man in the worst Monday of his life, warm wood and cold reality, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F30A — Wide | Vanessa at separate defense table
+**Model**: Nano Banana 2 | Ref: Vanessa
+```
+Wide isometric voxel art of the courtroom, the female antagonist voxel character from reference (Vanessa) seated at a separate defense table from Robert, tissue in hand, beginning to cry, separate lawyers visible at each table, the woman who called a marriage "beautiful" now sitting in court because of it, warm wood and cold tears, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F30B — Medium | Vanessa crying in court
+**Model**: Nano Banana 2 | Ref: Vanessa
+```
+Medium voxel art of the female antagonist voxel character from reference at the defense table, tears visible, tissue in hand, lawyer beside, the Christmas smile is gone, warm courtroom wood and cold tears, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F30C — Close-Up | Vanessa's tears in court
+**Model**: Nano Banana 2 | Ref: Vanessa
+```
+Close-up voxel art of the female antagonist voxel character from reference, tears on her face in the courtroom, the composed surface warmth completely gone, warm wood courtroom light, the woman who attended Christmas dinner is now attending her own financial sentencing, warm wood and cold defeat, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F31A — Wide | Jury foreperson standing
+**Model**: Flux 2 Pro
+```
+Wide isometric voxel art of the courtroom at the verdict moment, voxel jury foreperson figure standing in the jury box with verdict paper in hand, rest of jury seated, courtroom audience frozen, dramatic courtroom chandelier, the forty-seven-minute deliberation yielding its result, warm courtroom wood and tense anticipation, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F31B — Medium | Foreperson reading verdict
+**Model**: Flux 2 Pro
+```
+Medium voxel art of the voxel jury foreperson figure standing and reading from the verdict paper, jury box behind, dramatic courtroom light above, the moment justice is spoken, warm wood and tense formal palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F31C — Close-Up | Verdict paper in foreperson's hands
+**Model**: Ideogram 3
+```
+Close-up voxel art of the verdict form being held by the jury foreperson, the paper showing "VERDICT FOR PLAINTIFF — DAMAGES AWARDED" visible, warm courtroom light, voxel paper texture, the forty-seven minutes that answered for twenty-eight years, warm gold and official palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F32A — Wide | Verdict document
+**Model**: Ideogram 3
+```
+Wide voxel art top-down of the official court verdict document on the courtroom bench, "$3,900,000" total damages amount prominently displayed, official court seal, judge's signature line, the dollar figure that answers the question of what twenty-eight years of marriage is worth in one of six states, warm gold and official court palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F32B — Medium | Verdict amount on document
+**Model**: Ideogram 3
+```
+Medium voxel art of the verdict document showing "$2,100,000 — ALIENATION OF AFFECTION" and "$1,800,000 — CRIMINAL CONVERSATION" entries, total "$3,900,000", official court formatting, warm gold and court seal, the mathematical breakdown of karma, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F32C — Close-Up | "$3,900,000" total ECU
+**Model**: Ideogram 3
+```
+Extreme close-up voxel art of the total damages figure "$3,900,000" on the verdict document in bold official type, court seal below, warm courtroom light, the number that Robert never expected and the universe had been building toward for fourteen months, warm gold and official palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F33A — Wide | Dental practice with FOR SALE sign
+**Model**: Flux 2 Pro
+```
+Wide isometric voxel art of a dental practice building exterior in a Charlotte commercial area, a large "FOR SALE" sign visible on the facade, empty parking lot, overcast sky, the practice built over 22 years being liquidated to cover a judgment, cool overcast and empty palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F33B — Medium | FOR SALE sign on practice
+**Model**: Ideogram 3
+```
+Medium voxel art of the dental practice entrance with a "FOR SALE — COMMERCIAL PROPERTY" sign prominently displayed, empty interior visible through window, overcast light, the practice sold to cover the verdict, cool overcast and empty palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F33C — Close-Up | FOR SALE sign ECU
+**Model**: Ideogram 3
+```
+Extreme close-up voxel art of the "FOR SALE" sign on the dental practice building, realtor logo visible, cold overcast light, the end of twenty-two years of practice ownership in a single sign, cool overcast palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F34A — Wide | Vanessa in restaurant uniform serving tables
+**Model**: Nano Banana 2 | Ref: Vanessa
+```
+Wide isometric voxel art of a chain restaurant interior, the female antagonist voxel character from reference in restaurant server uniform carrying plates to tables, chain restaurant decor, tired posture, this is what fifteen years of garnished wages looks like in physical form, desaturated tired palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F34B — Medium | Vanessa serving in uniform
+**Model**: Nano Banana 2 | Ref: Vanessa
+```
+Medium voxel art of the female antagonist voxel character from reference in restaurant uniform at a table, tired expression, no Tiffany necklace, monthly garnishment visible only in the exhaustion on her face, desaturated tired palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F34C — Close-Up | Vanessa's tired expression
+**Model**: Nano Banana 2 | Ref: Vanessa
+```
+Close-up voxel art of the female antagonist voxel character from reference in restaurant uniform, tired subdued expression, no jewelry, the face of someone who will carry this debt until she is forty-nine years old, desaturated tired palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F35A — Wide | Robert in corporate dental cubicle
+**Model**: Nano Banana 2 | Ref: Robert
+```
+Wide isometric voxel art of a corporate dental chain cubicle office, the male voxel character from reference in a shared dental office space, strip mall visible through the window, three other dentist workstations visible, reduced from private practice ownership to employee, cool fluorescent corporate palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F35B — Medium | Robert at corporate dental station
+**Model**: Nano Banana 2 | Ref: Robert
+```
+Medium voxel art of the male voxel character from reference at a corporate dental workstation, fluorescent overhead, strip mall exterior through window, the reduced professional world of a dentist who lost his practice, cool fluorescent corporate palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F35C — Close-Up | Robert's subdued expression
+**Model**: Nano Banana 2 | Ref: Robert
+```
+Close-up voxel art of the male voxel character from reference in the corporate dental cubicle, expression of subdued reduced life, fluorescent light, the comfortable entitlement man now in a strip mall cubicle renting a one-bedroom above a dry cleaner, cool fluorescent palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+---
+
+## BEAT 8 — THE DOWNFALL (F36–F37)
+
+### F36A — Wide | Laptop with Robert's email
+**Model**: Ideogram 3
+```
+Wide voxel art of a laptop screen on a kitchen counter showing an email with empty subject line, body text visible reading "I don't know how we got here.", morning light from Outer Banks kitchen window, the email that answers itself, cool screen and warm morning palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F36B — Medium | Email on screen
+**Model**: Ideogram 3
+```
+Medium voxel art of the laptop screen showing the email with empty subject line and single-sentence body "I don't know how we got here.", morning light, the message of a man who has no answer and knows it, cool screen and warm morning palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F36C — Close-Up | "I don't know how we got here" text
+**Model**: Ideogram 3
+```
+Extreme close-up voxel art of the email body text reading "I don't know how we got here." in a clean email font, empty subject line visible above, cool screen glow, the sentence of a man who does know and won't say it, cool screen blue palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F37A — Wide | Grace closing laptop
+**Model**: Nano Banana 2 | Ref: Grace
+```
+Wide isometric voxel art of the Outer Banks cottage kitchen, the female voxel character from reference standing at the counter closing a laptop, coffee cup beside her, ocean-view window visible, morning warm peach light, the calm finality of someone who doesn't need to reply, warm peach and morning palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F37B — Medium | Grace with coffee at laptop
+**Model**: Nano Banana 2 | Ref: Grace
+```
+Medium voxel art of the female voxel character from reference closing the laptop at the Outer Banks kitchen counter, coffee cup in other hand, expression of calm finality, morning light, the choice not to reply — she knows exactly how they got here, warm morning peach palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F37C — Close-Up | Grace's calm finalizing expression
+**Model**: Nano Banana 2 | Ref: Grace
+```
+Close-up voxel art of the female voxel character from reference closing the laptop, expression of complete calm finality — not anger, not sadness, just the quiet closure of someone who doesn't need that conversation anymore, warm morning peach light, the teacher who has already moved on, warm peach palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+---
+
+## EPILOGUE (F38–F40) — ABSOLUTELY NO DUTCH
+
+### F38A — Wide | Outer Banks cottage exterior
+**Model**: Flux 2 Pro
+```
+Wide isometric voxel art of a small cottage on the Outer Banks, ocean visible behind through a gap between dunes, small porch with chairs, warm golden morning light, the sound of water from the kitchen, the cottage bought with part of the settlement — hers completely, warm peach and ocean blue palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F38B — Medium | Cottage porch with ocean behind
+**Model**: Flux 2 Pro
+```
+Medium voxel art of the Outer Banks cottage porch, two chairs facing the ocean visible behind, warm morning light, dune grass at porch edge, the quiet mornings that belong entirely to her now, warm peach and ocean blue, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F38C — Close-Up | Ocean view from cottage porch
+**Model**: Flux 2 Pro
+```
+Close-up voxel art of the ocean view from the cottage porch, voxel waves visible between dunes, warm morning golden light on the water, porch railing in foreground, you can hear the ocean from the kitchen, warm peach and ocean blue healing palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F39A — Wide | Grace teaching financial literacy
+**Model**: Nano Banana 2 | Ref: Grace
+```
+Wide isometric voxel art of a community classroom, the female voxel character from reference at a whiteboard with financial literacy charts, small group of female voxel figures as students, warm encouraging classroom light, the teacher back in her element helping others rebuild, warm peach and sage palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F39B — Medium | Grace at financial literacy whiteboard
+**Model**: Nano Banana 2 | Ref: Grace
+```
+Medium voxel art of the female voxel character from reference at the whiteboard showing a bank statement diagram, warm classroom light, engaged expression, the expertise she built from surviving her own financial reset now being given to others, warm peach and sage palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F39C — Close-Up | Grace's encouraging teaching expression
+**Model**: Nano Banana 2 | Ref: Grace
+```
+Close-up voxel art of the female voxel character from reference teaching, warm classroom light, expression of engaged purposeful warmth — the teacher who spent thirty years in a classroom, now teaching a different lesson to the people who need it most, warm peach and sage palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F40A — Wide | Grace and Howard on cottage porch
+**Model**: Nano Banana 2 | Ref: Grace + Howard
+```
+Wide isometric voxel art of the Outer Banks cottage porch at morning, the female voxel character from reference and the male voxel character from reference (Howard) seated together with coffee mugs, ocean visible behind, warm golden morning light, two people in easy unhurried company, warm peach and ocean blue morning palette, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F40B — Medium | Grace and Howard with coffee
+**Model**: Nano Banana 2 | Ref: Grace + Howard
+```
+Medium voxel art of the female and male voxel characters from reference on the cottage porch, coffee mugs in hand, easy comfortable morning together, ocean visible behind, Howard brought the coffee without being asked — the detail that matters, warm peach and ocean blue, Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+### F40C — Close-Up | Two coffee mugs on porch railing
+**Model**: Flux 2 Pro
+```
+Close-up voxel art of two coffee mugs sitting on the cottage porch railing with the Outer Banks ocean behind, warm morning golden light on the mugs, steam rising from both, the ocean in background, two mugs because someone brought one without being asked — warm peach and ocean blue palette, the final image of this episode. Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K.
+```
+
+---
+
+## 15 KEN BURNS STILLS
+
+> Gen as regular image → CapCut: scale 100%→115% over stated duration
+
+| ID | Beat | Scene | Model | Duration |
+|---|---|---|---|---|
+| KB01 | B1 Hook | Tiffany & Co. box with blue ribbon on dark surface, gold light accent | Flux 2 Pro | 5s |
+| KB02 | B2 Intro | Blueberry pancake stack close-up, warm morning light | Flux 2 Pro | 15s |
+| KB03 | B2 Intro | Golden retriever sleeping under kitchen table, domestic warmth | Flux 2 Pro | 15s |
+| KB04 | B3 Crack | Walk-in closet full of suits, Tiffany receipt falling in middle of frame | Flux 2 Pro | 15s |
+| KB05 | B3 Crack | PI surveillance corkboard full of evidence photos and red string | Flux 2 Pro | 15s |
+| KB06 | B4 Betrayal | Blue evidence binder closed on kitchen table, blueberry pancake beside it | Flux 2 Pro | 15s |
+| KB07 | B4 Betrayal | Text message screenshot "counting the days until I can leave" on phone | Ideogram 3 | 15s |
+| KB08 | B5 Fall | Dark bedroom ceiling view at night, moonlight shadows | Flux 2 Pro | 20s |
+| KB09 | B5 Fall | Savannah ceramic plates on dinner table, evening lamp, two place settings | Flux 2 Pro | 20s |
+| KB10 | B6 Pivot | Six-state alienation of affection map with North Carolina highlighted | Ideogram 3 | 20s |
+| KB11 | B7 Karma | "$3,900,000" verdict document close-up, gold seal | Ideogram 3 | 25s |
+| KB12 | B7 Karma | Dental practice "FOR SALE" sign, empty parking lot | Ideogram 3 | 20s |
+| KB13 | B7 Karma | Wage garnishment notice document, official legal format | Ideogram 3 | 25s |
+| KB14 | B8 Downfall | Laptop closed on Outer Banks kitchen counter, coffee cup beside it | Flux 2 Pro | 30s |
+| KB15 | Epilogue | Two coffee mugs on porch railing with ocean at dawn | Flux 2 Pro | 40s |
+
+---
+
+## Quality gate
+
+- [ ] Voxel cube aesthetic (NOT raw Minecraft)
+- [ ] Color palette matches beat
+- [ ] Single main light source
+- [ ] Character consistent — same face, same hair, same body
+- [ ] NOT realistic, NOT cartoon
+- [ ] 16:9 correct frame
+- [ ] Filename correct (F01A–F40C, KB01–KB15)
+- [ ] DUTCH tilt: F13B/C and F16B/C ONLY
+- [ ] NO DUTCH on Epilogue (F38–F40)
+- [ ] Grace courtroom: navy blazer (not cream cardigan) — same face
+- [ ] Robert late scenes: diminished gray suit, same face
+- [ ] Vanessa late scenes: restaurant uniform, no necklace, same face

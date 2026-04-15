@@ -1,108 +1,200 @@
 # story-visuals — Image + Video Prompts (Multi-model)
 
 ## Input
-$ARGUMENTS (slug)
+$ARGUMENTS (slug — e.g. 07-she-packed-his-lunch)
 
 ## Mục đích
-Generate Freepik prompts cho 55 images + 40 Kling clips per 11:30 episode (hybrid animated + Ken Burns stills).
+Generate đầy đủ 11 production files theo V4 format cho 1 episode Karma Caught Up.
+Visual style: **Voxel art** (Astroneer / Crossy Road aesthetic — NOT realistic, NOT raw Minecraft).
 
-## Multi-model stack
+---
+
+## V4 Format chuẩn (BẮT BUỘC)
 
 ### Images
-| Use case | Model |
-|---|---|
-| Hero protagonist portraits | **Flux 2 Pro** |
-| Cross-scene character consistency | **Nano Banana 2** (with persona ref) |
-| Environment + B-roll | **Seedream 4.5** |
-| Thumbnail with text | **Ideogram 3** |
+- **34 scenes × 3 angles (A/B/C) = 102 start frames** + **15 Ken Burns stills = 117 total**
+- A = Wide / Establishing · B = Medium / 3-4 angle · C = Close-Up / ECU / Detail
+- Save: `media/images/F01A.png` … `F34C.png` + `S01.png`…`S15.png`
+
+### Videos
+- **34 scenes × 3 clips (A/B/C) = 102 clips** × 5s gen → CapCut trim 3s → 9s/scene
+- A-clip starts from F{NN}A · B-clip from F{NN}B · C-clip from F{NN}C
+- Save: `media/videos/C01A.mp4` … `C34C.mp4`
+- **BẮT BUỘC**: A+B+C groupés CÙNG nhau per scene — KHÔNG để C clips riêng cuối file
+
+---
+
+## Multi-model stack (Voxel)
+
+### Images
+| Scene type | Model | Ref |
+|---|---|---|
+| Character scenes | **Nano Banana 2** | {name}-voxel-base.png |
+| Environment / objects / B-roll | **Flux 2 Pro** | — |
+| Text on screen (laptop/phone/docs) | **Ideogram 3** | — |
+| Wide atmospheric (optional) | **Seedream 4.5** | — |
 
 ### Videos
 | Use case | Model |
 |---|---|
-| Hero animated scenes | **Kling 2.5 Turbo** |
-| Talking close-ups (optional) | **Veo 3** |
-| Atmospheric B-roll cheap | **Minimax Hailuo** |
-| Slow zoom on stills | Kling 2.5 |
+| All animated scenes | **Kling 2.5 Turbo** · 5s/clip |
 
-## Anti-CGI realism (xem REALISM-PROMPTS.md)
-Mỗi prompt có:
-- `imperfect realistic skin with visible pores`
-- `documentary cinematography feel`
-- `single source lighting natural`
-- `not Pixar not stylized`
-- `handheld subtle movement`
-- `physics accurate`
+---
+
+## Voxel style tag (thêm vào MỌI prompt)
+> "Clean premium voxel art, NOT raw Minecraft, NOT realistic. Astroneer meets Crossy Road aesthetic. 1920x1080, 2K."
+
+## Camera moves V4
+PUSH · PULL · PAN-L/R · TILT-UP/DN · ORBIT-L/R · RACK-FOCUS · DOLLY · CRANE-UP · DUTCH · DESCENT · STATIC
+
+**DUTCH**: Beat 3-5 ONLY (B/C clips của betrayal/crack scenes) — TUYỆT ĐỐI KHÔNG dùng ở Epilogue.
+
+## Color arc (BẮT BUỘC)
+- Beat 1-2: Warm cream `#F3E9D2` + gold `#D4A547`
+- Beat 3-5: Cold navy `#0B1426` + cool blue `#3B82F6`
+- Beat 6 Pivot: Pre-dawn returning warm `#D4A547`
+- Epilogue: Full warm gold + sage `#6B7F5A` + cream
+
+---
 
 ## Quy trình
 
-### 1. Đọc script + storyboard
-- `youtube-stories/scripts/{slug}.md`
-- `youtube-stories/VOICE-VISUAL-GUIDE.md`
+### 1. Đọc input files
+- `youtube-stories/scripts/{slug}.md` — full script
+- `youtube-stories/VOXEL-STYLE-GUIDE.md` — voxel visual bible
+- `youtube-stories/STORY-FORMULA.md` — 8-beat timing
 
-### 2. Map shots theo 8 beats
-| Beat | Shots | Time | Models |
-|---|---|---|---|
-| 1 Hook | 1-2 hero | 15s | Flux |
-| 2 Intro | 3-4 lifestyle | 45s | Nano Banana 2 |
-| 3 Crack | 4-5 ominous | 90s | Kling slow zoom |
-| 4 Betrayal | 3 dramatic | 90s | Veo 3 + Kling |
-| 5 Fall | 4-5 grief | 90s | Hailuo cheap |
-| 6 Pivot | 5-6 sunrise | 90s | Kling + Flux |
-| 7 Karma | 8-10 events | 150s | Mix all |
-| 8 Downfall | 3-4 final | 60s | Flux + Kling |
-| Epilogue | 4-5 happy | 60s | Flux warm |
-| CTA | 1-2 brand | 30s | Ideogram |
-
-**Total**: 40 animated clips (Kling) + 15 stills (Ken Burns)
-
-### 3. Visual style guide (per `VOICE-VISUAL-GUIDE.md`)
-- Color: Cool blue + deep gray + single warm accent
-- Lighting: Low-key single source
-- Composition: Wide isolation + tight close-ups
-
-### 4. Character consistency
-Gen 1 protagonist base image with Flux 2 Pro → save → use as Nano Banana 2 reference for all subsequent shots.
-
-### 5. Save prompts
-
-Output 2 files:
-
-**`youtube-stories/prompts/{slug}/images.md`**:
-```markdown
-# Image Prompts — {slug}
-
-## Step 0: Protagonist base (Flux 2 Pro)
-{base prompt}
-
-## Beat 1 Hook
-### Frame 1
-Model: Flux
-Prompt: {full prompt}
-
-## Beat 2 Intro
-### Frame 2-5
-Model: Nano Banana 2
-References: protagonist-base.png
-Prompts: {full prompts}
-
-... (all 36 frames)
+### 2. Tạo folder structure
+```
+youtube-stories/prompts/{slug}/
+├── 00-README.md
+├── 02-characters.md
+├── 03-images.md
+├── 03b-images-full-prompts.md    ← 102 A/B/C prompts + 15 Ken Burns
+├── 04-videos.md
+├── 04b-videos-full-prompts.md    ← 102 clips, A+B+C per scene
+├── 05-voice.md
+├── 06-thumbnail.md
+├── 07-title-description.md
+├── 08-upload.md
+├── GEN-CHECKLIST.md
+└── media/
+    ├── images/
+    ├── videos/
+    ├── voice/
+    ├── thumbnails/
+    └── final/
 ```
 
-**`youtube-stories/prompts/{slug}/videos.md`**:
+### 3. Map 34 scenes theo 8 beats
+
+| Beat | Scenes | Timing |
+|---|---|---|
+| 1 Hook | S01-S01 | 0:00-0:15 |
+| 2 Intro | S02-S05 | 0:15-1:00 |
+| 3 Crack | S06-S09 | 1:00-2:30 |
+| 4 Betrayal | S10-S13 | 2:30-4:00 |
+| 5 Fall | S14-S17 | 4:00-5:30 |
+| 6 Pivot | S18-S21 | 5:30-7:00 |
+| 7 Karma | S22-S27 | 7:00-9:30 |
+| 8 Downfall | S28-S29 | 9:30-10:30 |
+| Epilogue | S30-S33 | 10:30-11:30 |
+| CTA | S34 | 11:30+ |
+
+### 4. Viết 02-characters.md
+- 1 entry per character: tên, voxel appearance, màu đặc trưng, model routing
+- Gen 1 voxel base ref per character (Nano Banana 2 · 1:1 · 2K · white bg · full body)
+
+### 5. Viết 03-images.md (overview table)
 ```markdown
-# Video Prompts — {slug}
-
-## Clip 1 — Hook (Kling 2.5, 5s)
-Start image: frame-1.png
-Prompt: {full anti-CGI prompt}
-
-... (all 20 clips)
+| Scene | F{NN}A | F{NN}B | F{NN}C | Model A/B/C | Beat | Color |
+|---|---|---|---|---|---|---|
+| 01 | F01A | F01B | F01C | Flux / NB2+char / NB2+char | 1 Hook | DARK COLD |
+...
 ```
 
-### 6. Cost estimate per episode
-- Images: ~40 credits (~$1)
-- Videos: ~65-125 credits (~$2-3)
-- **Total**: ~$3-4
+### 6. Viết 03b-images-full-prompts.md (BẮT BUỘC đầy đủ)
+- 34 scenes × 3 prompts (A/B/C) = 102 prompts
+- 15 Ken Burns stills (S01-S15)
+- **Tất cả trong 1 file** — KHÔNG split thành part1/part2
+- Format per frame:
+```
+### F{NN} — [Scene description] | Beat N | COLOR
+
+**F{NN}A** — Wide/Establishing
+**Model**: [Model + ref if needed]
+`[full prompt]`
+
+**F{NN}B** — Medium Shot
+**Model**: [Model + ref if needed]
+`[full prompt]`
+
+**F{NN}C** — Close-Up/ECU
+**Model**: [Model + ref if needed]
+`[full prompt]`
+```
+
+### 7. Viết 04-videos.md (overview)
+- Bảng 34 scenes × 3 clips với camera move per clip
+- Timeline math: 34×3×3s = 306s animated + 15×15s Ken Burns = 225s + gaps ≈ 11:30
+
+### 8. Viết 04b-videos-full-prompts.md (BẮT BUỘC đầy đủ)
+- **A+B+C CÙNG NHAU per scene** — TUYỆT ĐỐI KHÔNG để C clips riêng cuối file
+- Format per scene:
+```
+### SCENE {NN} — [Scene name]
+
+**C{NN}A** | F{NN}A | 5s | [CAMERA MOVE]
+`[full Kling prompt]`
+
+**C{NN}B** | F{NN}B | 5s | [CAMERA MOVE]
+`[full Kling prompt]`
+
+**C{NN}C** | F{NN}C | 5s | [CAMERA MOVE]
+`[full Kling prompt]`
+
+---
+```
+- Quick reference table ở cuối (F{NN}A / F{NN}B / F{NN}C per scene)
+
+### 9. Viết 05-voice.md
+- 3 chunks ElevenLabs (max 2500 chars mỗi chunk)
+- Settings: Charlotte BR · Speed 0.92x · Stability 55% · Similarity 80%
+
+### 10. Viết 06-thumbnail.md
+- 3 A/B/C variants (Ideogram 3)
+- Hook text + character + color contrast
+
+### 11. Viết 07-title-description.md
+- 3 title variants (SEO optimized)
+- Full YouTube description + tags
+
+### 12. Viết 08-upload.md
+- Upload checklist + schedule (T3 hoặc T6 21:00 EST)
+
+### 13. Viết GEN-CHECKLIST.md
+- Phase 0: Characters (gen refs)
+- Phase 1: Images (102 start frames + 15 stills)
+- Phase 2: Videos (102 clips)
+- Phase 3: Voice
+- Phase 4: Edit
+- Phase 5: Upload
+
+---
+
+## Quality gate trước khi mark COMPLETE
+
+- [ ] 03b: đúng 102 A/B/C prompts + 15 Ken Burns stills (117 total) trong 1 file
+- [ ] 04b: đúng 102 clips, A+B+C grouped per scene (KHÔNG split)
+- [ ] Color arc đúng per beat
+- [ ] DUTCH chỉ Beat 3-5
+- [ ] Tất cả prompts có voxel style tag
+- [ ] Tất cả character scenes có ref upload notation
+- [ ] 11 files present trong folder
+
+---
 
 ## Sau khi xong
-User gen media trên Freepik → tiếp `/story-edit {slug}`.
+→ Cập nhật `MEMORY.md` episode progress
+→ User gen media: Freepik (images + videos) + ElevenLabs (voice)
+→ Tiếp `/story-edit {slug}`
